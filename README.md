@@ -26,11 +26,11 @@
 
 | Apellidos y Nombres | Código de Alumno |
 |:-------------------:|:----------------:|
-| Bardales Tejada, Luis Alexis | |
-| Caisahuana Osores, Becker Junior | |
-| Huaman Gallardo, Bruno Aldair | |
-| Rioja Nuñez, Franco Diego | |
-| Rocca Mariaca, Angel Mathias | |
+| Bardales Tejada, Luis Alexis |    U201819276    |
+| Caisahuana Osores, Becker Junior |    U202419462    |
+| Huaman Gallardo, Bruno Aldair |    U202117762    |
+| Rioja Nuñez, Franco Diego |    U202221597    |
+| Rocca Mariaca, Angel Mathias |    U20231e515    |
 
 </div>
 
