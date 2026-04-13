@@ -177,6 +177,14 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ### 1.1.1. Descripción de la Startup
 
+ByteCore es una startup de ingeniería de software enfocada en el desarrollo de soluciones digitales orientadas al sector salud. Nuestro propósito es reducir la brecha entre los pacientes vulnerables y el acceso a un monitoreo médico continuo, aprovechando tecnologías web e IoT para brindar tranquilidad tanto a los pacientes como a sus familias.
+
+Nuestro producto principal, **VITAL CARE**, es una plataforma web de monitoreo remoto de signos vitales que integra dispositivos IoT para el seguimiento en tiempo real de pacientes con enfermedades crónicas y adultos mayores, permitiendo la detección temprana de anomalías y la generación de alertas automáticas ante situaciones críticas.
+
+**Misión:** Democratizar el acceso al monitoreo continuo de salud en el hogar, brindando herramientas digitales que permitan una respuesta oportuna ante emergencias médicas.
+
+**Visión:** Ser la plataforma de referencia en monitoreo remoto de salud en Latinoamérica, contribuyendo a mejorar la calidad de vida de los adultos mayores y pacientes con enfermedades crónicas.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 ---
