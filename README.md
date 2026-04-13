@@ -193,6 +193,20 @@ Nuestro producto principal, **VITAL CARE**, es una plataforma web de monitoreo r
 
 ### 1.2.1. Antecedentes y problemática
 
+En el Perú, el envejecimiento poblacional y el incremento de enfermedades crónicas representan uno de los principales desafíos del sistema de salud. Una proporción significativa de adultos mayores y pacientes con condiciones como hipertensión, diabetes o insuficiencia cardíaca reside en sus hogares sin acceso a un monitoreo médico continuo, dependiendo de visitas esporádicas a centros de salud o de la supervisión intermitente de familiares.
+
+Esta situación se ve agravada por tres factores clave. En primer lugar, la falta de acceso constante a servicios médicos, dado que los controles presenciales son periódicos y no permiten detectar variaciones críticas en los signos vitales de forma oportuna. En segundo lugar, la escasa supervisión en tiempo real por parte de familiares, quienes en muchos casos trabajan o no residen con el paciente, lo que limita su capacidad de respuesta ante una emergencia. En tercer lugar, la reacción tardía ante situaciones como fiebre alta o alteraciones cardíacas, que al no ser detectadas a tiempo pueden derivar en complicaciones graves o incluso en la muerte del paciente.
+
+Aplicando la técnica de las 5W y 2H, el problema se puede describir de la siguiente manera:
+
+- **Who (Quién):** Adultos mayores de 60 años con enfermedades crónicas que viven solos o con supervisión parcial, y sus familiares o cuidadores de entre 25 y 50 años residentes en zonas urbanas.
+- **What (Qué):** Ausencia de un sistema de monitoreo continuo de signos vitales en el hogar que permita detectar anomalías en tiempo real y generar alertas oportunas.
+- **Where (Dónde):** Principalmente en zonas urbanas del Perú, donde existe mayor acceso a conectividad digital, aunque la problemática se extiende a nivel nacional.
+- **When (Cuándo):** De manera permanente, dado que las condiciones crónicas requieren seguimiento constante, y de forma crítica en momentos de descompensación del paciente.
+- **Why (Por qué):** Porque el sistema de salud no cuenta con la capacidad para ofrecer monitoreo domiciliario continuo a escala, y las familias no disponen de herramientas accesibles para supervisar remotamente el estado de salud de sus seres queridos.
+- **How (Cómo):** A través de una plataforma web integrada con dispositivos IoT que reciben, procesan y visualizan datos de signos vitales en tiempo real, generando alertas automáticas ante valores críticos.
+- **How Much (Cuánto):** El costo de no contar con este monitoreo se traduce en hospitalizaciones de emergencia, complicaciones evitables y deterioro de la calidad de vida del paciente, con un impacto tanto económico como emocional en las familias.
+
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
