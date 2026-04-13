@@ -211,6 +211,14 @@ Aplicando la técnica de las 5W y 2H, el problema se puede describir de la sigui
 
 #### 1.2.2.1. Lean UX Problem Statements
 
+**Problem Statement 1: Familiares y cuidadores**
+
+Nuestro entorno evidencia que los familiares y cuidadores de adultos mayores con enfermedades crónicas no cuentan con herramientas digitales accesibles que les permitan monitorear remotamente el estado de salud de sus seres queridos en tiempo real. Hemos observado que esto genera angustia, reacción tardía ante emergencias y una carga emocional significativa en el cuidador. ¿Cómo podríamos ofrecer a los familiares y cuidadores una solución que les brinde visibilidad continua del estado de salud del paciente y les permita actuar de forma oportuna ante cualquier anomalía?
+
+**Problem Statement 2: Adultos mayores con enfermedades crónicas**
+
+Nuestro entorno evidencia que los adultos mayores con enfermedades crónicas que viven solos o con supervisión parcial son altamente vulnerables a complicaciones médicas graves, dado que no existe un mecanismo que detecte de forma automática variaciones críticas en sus signos vitales y genere alertas en tiempo real. ¿Cómo podríamos garantizar un monitoreo continuo y no invasivo de los signos vitales de estos pacientes, de modo que tanto ellos como sus familias puedan recibir alertas oportunas ante situaciones de riesgo?
+
 #### 1.2.2.2. Lean UX Assumptions
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
