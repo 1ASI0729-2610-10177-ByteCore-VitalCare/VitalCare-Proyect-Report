@@ -229,6 +229,16 @@ Nuestro entorno evidencia que los adultos mayores con enfermedades crónicas que
 
 ## 1.3. Segmentos objetivo
 
+VITAL CARE está dirigido a dos segmentos objetivos claramente identificados:
+
+**Segmento objetivo 1: Familiares y cuidadores de pacientes**
+
+Adultos de entre 25 y 50 años que tienen a su cargo el cuidado de un familiar mayor o con enfermedad crónica. Residen principalmente en zonas urbanas del Perú, donde cuentan con acceso a conectividad digital que les permite aprovechar las funcionalidades de la plataforma. Este segmento se caracteriza por su preocupación activa por la salud de sus seres queridos y por la necesidad de contar con herramientas que les permitan realizar un monitoreo remoto en tiempo real, así como recibir alertas inmediatas ante situaciones de riesgo, sin requerir su presencia física permanente junto al paciente.
+
+**Segmento objetivo 2: Adultos mayores con enfermedades crónicas**
+
+Personas de 60 años a más que padecen enfermedades crónicas como hipertensión, diabetes o enfermedades cardíacas. Viven solos o con supervisión parcial y requieren un seguimiento constante de sus signos vitales debido a su vulnerabilidad ante emergencias médicas. Este segmento se beneficia directamente del monitoreo continuo proporcionado por el dispositivo IoT asociado a la plataforma, que permite detectar anomalías de forma temprana y activar alertas antes de que una situación derive en una complicación grave.
+
 ---
 
 # Capítulo II: Requirements Elicitation & Analysis
