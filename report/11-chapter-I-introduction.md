@@ -49,10 +49,61 @@ Nuestro entorno evidencia que los adultos mayores con enfermedades crónicas que
 
 #### 1.2.2.2. Lean UX Assumptions
 
+**Business Assumptions**
+
+1. Creemos que nuestros usuarios necesitan una forma accesible y confiable de monitorear los signos vitales de sus familiares mayores o pacientes crónicos desde cualquier lugar, sin requerir presencia física constante.
+2. El valor principal que un cliente quiere obtener de VITAL CARE es la tranquilidad de saber que su familiar está siendo monitoreado en tiempo real y que recibirá una alerta inmediata si algo sale mal.
+3. El cliente también puede obtener como beneficio adicional el acceso a un historial de signos vitales que le permita mostrar información objetiva al médico tratante en sus consultas periódicas.
+4. Vamos a adquirir la mayoría de nuestros clientes a través de redes sociales, principalmente Facebook e Instagram, con contenido orientado a familias que cuidan adultos mayores, dado que es el canal de mayor alcance y menor costo para una startup en etapa inicial.
+5. El mayor riesgo del producto es que los usuarios adultos mayores presenten dificultades para interactuar con la aplicación por falta de familiaridad con la tecnología, que el dispositivo IoT resulte económicamente inaccesible para parte del segmento objetivo, y que los nuevos usuarios desconfíen de la plataforma al tratarse de una empresa recientemente lanzada al mercado.
+6. Resolveremos estos riesgos mediante una interfaz diseñada con principios de usabilidad inclusiva, una estrategia de precios con plan básico gratuito que reduzca la barrera de entrada, y construyendo confianza a través de transparencia en el manejo de datos y testimonios reales de usuarios tempranos.
+7. Generaremos ingresos a través de un modelo freemium: Plan Básico gratuito y Plan Premium a S/. 39 mensuales.
+8. Nuestro principal competidor son las soluciones de monitoreo hospitalario y los dispositivos wearables de marcas establecidas, sin embargo, ninguno ofrece una plataforma web integrada con IoT accesible para el hogar en el contexto peruano.
+9. Nuestra mayor ventaja competitiva es la combinación de monitoreo IoT en tiempo real con alertas automáticas y un modelo de precios accesible, adaptado a la realidad del mercado local.
+
+**User Assumptions**
+
+1. **¿Quién es el usuario?** Existen dos perfiles: familiares o cuidadores de entre 25 y 50 años con acceso a dispositivos digitales y conectividad, y adultos mayores de 60 años con enfermedades crónicas que requieren supervisión continua de sus signos vitales.
+2. **¿Dónde encaja nuestro producto en su vida?** Para los familiares, VITAL CARE se integra en su rutina diaria como una herramienta de monitoreo remoto que les da tranquilidad mientras realizan sus actividades. Para el adulto mayor, el dispositivo IoT convive en su hogar de forma discreta y continua.
+3. **¿Qué problema resuelve nuestro producto?** Elimina la incertidumbre del familiar sobre el estado de salud del paciente y reduce el riesgo de reacción tardía ante emergencias médicas como fiebre alta o alteraciones cardíacas.
+4. **¿Cuándo y cómo es usado?** El familiar accede a la plataforma web desde su celular o computadora en cualquier momento del día. El sistema opera de forma continua en segundo plano, generando alertas automáticas únicamente cuando se detectan valores fuera del rango normal.
+5. **¿Qué características son las más importantes?** La visualización de signos vitales en tiempo real, las alertas automáticas ante valores críticos y el historial de datos para el seguimiento médico son las funcionalidades de mayor valor percibido para ambos segmentos.
+6. **¿Cómo debe verse y comportarse nuestro producto?** La interfaz debe ser simple, clara y con elementos visuales de fácil comprensión, especialmente pensada para usuarios con poca experiencia tecnológica. Las alertas deben ser inmediatas, visibles y comprensibles sin requerir interpretación técnica.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+**Hipótesis 1**
+Creemos que lograr que los familiares y cuidadores reduzcan su tiempo de reacción ante emergencias médicas para el segmento de adultos entre 25 y 50 años usando alertas automáticas en tiempo real. Sabremos que es verdad cuando veamos que al menos el 80% de las alertas críticas generadas son atendidas por el familiar dentro de los primeros 10 minutos.
+
+**Hipótesis 2**
+Creemos que lograr que los adultos mayores con enfermedades crónicas sean monitoreados de forma continua sin intervención activa de su parte para el segmento de pacientes de 60 años a más usando el dispositivo IoT integrado a la plataforma. Sabremos que es verdad cuando veamos que el dispositivo permanece activo y transmitiendo datos de forma ininterrumpida en al menos el 90% del tiempo en los hogares de los usuarios registrados.
+
+**Hipótesis 3**
+Creemos que lograr que nuevos usuarios adopten la plataforma sin barreras económicas iniciales para ambos segmentos usando el Plan Básico gratuito como punto de entrada. Sabremos que es verdad cuando veamos que VITAL CARE alcanza 200 usuarios registrados dentro de los primeros 6 meses desde su lanzamiento.
+
+**Hipótesis 4**
+Creemos que lograr convertir usuarios del plan gratuito en suscriptores de pago para el segmento de familiares y cuidadores usando las funcionalidades exclusivas del Plan Premium como historial completo, alertas avanzadas y notificaciones push o email. Sabremos que es verdad cuando veamos que al menos el 20% de los usuarios del Plan Básico migran al Plan Premium dentro de los primeros 3 meses de uso.
+
+**Hipótesis 5**
+Creemos que lograr generar confianza en la plataforma entre usuarios que desconocen ByteCore como empresa para ambos segmentos usando una estrategia de contenido en redes sociales con testimonios reales y una interfaz transparente sobre el manejo de datos de salud. Sabremos que es verdad cuando veamos una tasa de retención mensual del 70% o más en usuarios activos durante los primeros 6 meses.
+
+**Hipótesis 6**
+Creemos que lograr que los familiares perciban valor adicional en la integración de datos climáticos para el segmento de cuidadores con Plan Premium usando alertas preventivas basadas en condiciones ambientales combinadas con los signos vitales del paciente. Sabremos que es verdad cuando veamos que esta funcionalidad es valorada positivamente por al menos el 65% de los usuarios Premium en encuestas de satisfacción realizadas al tercer mes.
 
 #### 1.2.2.4. Lean UX Canvas
 
+A continuación se presenta el Lean UX Canvas elaborado por el equipo, que resume los elementos clave del proceso Lean UX aplicado al desarrollo de VITAL CARE.
+
+| Bloque | Contenido |
+|--------|-----------|
+| **1. Business Problem** | Los adultos mayores con enfermedades crónicas y sus familias carecen de una herramienta accesible que permita el monitoreo continuo de signos vitales en el hogar, generando reacciones tardías ante emergencias médicas y una carga emocional elevada en los cuidadores. |
+| **2. Business Outcomes** | Alcanzar 200 usuarios registrados en 6 meses. Lograr una tasa de conversión del 20% de plan básico a premium en 3 meses. Mantener una retención mensual del 70% en usuarios activos. |
+| **3. Users & Customers** | Segmento 1: Familiares y cuidadores de 25 a 50 años residentes en zonas urbanas. Segmento 2: Adultos mayores de 60 años con enfermedades crónicas. |
+| **4. User Benefits** | Tranquilidad y visibilidad continua del estado de salud del paciente. Reducción del tiempo de reacción ante emergencias. Acceso a historial de signos vitales para consultas médicas. |
+| **5. Solution Ideas** | Plataforma web con visualización de signos vitales en tiempo real. Alertas automáticas ante valores críticos. Historial de datos. Integración con datos climáticos para alertas preventivas. Plan básico gratuito y plan premium a S/. 39 mensuales. |
+| **6. Hypotheses** | Si ofrecemos alertas en tiempo real, los familiares reaccionarán en menos de 10 minutos ante emergencias. Si el plan básico es gratuito, alcanzaremos 200 registros en 6 meses. Si el plan premium agrega valor real, el 20% de usuarios básicos migrarán en 3 meses. |
+| **7. What's the most important thing we need to learn first?** | Si los usuarios confían en una plataforma de salud de una startup nueva y si el costo del dispositivo IoT representa una barrera de adopción real para nuestros segmentos objetivo. |
+| **8. What's the least amount of work we need to do to learn this?** | Lanzar el plan básico gratuito con las funcionalidades core (monitoreo y alertas básicas) y recolectar feedback de los primeros 50 usuarios sobre usabilidad, confianza y disposición a pagar por el plan premium. |
 ---
 
 ## 1.3. Segmentos objetivo
