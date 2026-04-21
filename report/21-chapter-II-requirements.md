@@ -133,6 +133,18 @@ Segmento objetivo 1: Adultos entre 25 y 50 años que cuidan familiares: El objet
 
 2.2.1. Diseño de entrevista
 
+Estructura de Encuesta: VITAL CARE
+
+Sección 0: Datos Generales (Para ambos segmentos)
+
+Nombre completo: __________________________________
+
+Edad: __________ años
+
+Ocupación actual: __________________________________
+
+Lugar de residencia (Distrito):__________________________________
+
 Segmento objetivo 1: Adultos entre 25 y 50 años que cuidan familiares: El objetivo es medir el nivel de ansiedad por la falta de supervisión y la disposición a pagar por un sistema de alertas automáticas.
 
 1.	¿Qué tan seguido se preocupa por el estado de salud de su familiar cuando no está con él/ella?
