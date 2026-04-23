@@ -160,6 +160,7 @@ Los wireframes de baja fidelidad para la aplicación web se diseñaron para esta
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+<img src="../assets/Web Wireflow Diagram.png" alt="Wireframe Diagram">
 
 ### 4.4.3. Web Applications Mock-ups
 
