@@ -226,6 +226,8 @@ User Goal 5: Como usuario, quiero poder acceder a un historial gráfico de los s
 
 ### 4.7.1. Class Diagrams
 
+<img src="../assets/Class diagram.png" alt="VitalCare-class diagram"/>
+
 ---
 
 ## 4.8. Database Design
