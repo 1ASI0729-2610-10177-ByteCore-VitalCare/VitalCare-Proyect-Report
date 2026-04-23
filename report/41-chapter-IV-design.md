@@ -213,4 +213,4 @@ Los wireframes de baja fidelidad para la aplicación web se diseñaron para esta
 
 ### 4.8.1. Database Diagrams
 
-<img src="assets/VitalCare-database.png" />
+<img src="../assets/VitalCare-database.png" alt="VitalCare-database diagram"/>
