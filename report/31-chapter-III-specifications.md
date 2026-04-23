@@ -60,6 +60,45 @@
 
 ## 3.3. Product Backlog
 
-| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
-|---------|--------------|--------|-------------|----------------------------------|
-| | | | | |
+| Epic ID | Story ID | Title | Description | Priority | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|----------|-------|-------------|----------|-------------------|
+| **EP01** | **US01** | View service benefits | As a Visitor, I want to view the benefits of Vital Care so that I can understand how it helps with health monitoring. | Alta | 2 |
+| **EP01** | **US02** | View subscription plans | As a Visitor, I want to see the available subscription plans so that I can evaluate service costs. | Alta | 2 |
+| **EP01** | **US03** | View problem statement | As a Visitor, I want to view the home care problem statement so that I can identify with the need for the service. | Media | 1 |
+| **EP01** | **US04** | Learn about the Startup | As a Visitor, I want to read ByteCore's mission and vision so that I can understand the purpose behind the platform. | Baja | 1 |
+| **EP01** | **US05** | Consult legal terms | As a Visitor, I want to access the Terms of Service and Privacy Policies so that I can know how my medical data will be handled. | Baja | 1 |
+| **EP01** | **US07** | Identify role-specific benefits | As a Visitor, I want to distinguish the benefits for both caregivers and patients so that I can understand how Vital Care helps each one. | Media | 2 |
+| **EP01** | **US08** | Compare plan features | As a Visitor, I want to see a detailed comparison between the Basic and Premium plans so that I can choose the one that best fits my needs. | Media | 2 |
+| **EP02** | **US06** | Patient registration | As a Visitor, I want to register as a patient so that I can access monitoring tools. | Alta | 3 |
+| **EP02** | **US09** | Login | As a User, I want to log into the platform so that I can access my private data. | Alta | 3 |
+| **EP02** | **US10** | Password recovery | As a User, I want to recover my password so that I can regain access if I forget it. | Media | 3 |
+| **EP02** | **US11** | Update profile | As a User, I want to update my personal information so that my contact data stays current. | Media | 2 |
+| **EP02** | **US14** | Configure accessibility | As a User, I want to configure the language, font size, and background color so that I can adapt the platform to my visual needs. | Media | 3 |
+| **EP02** | **US17** | Submit support ticket | As a User, I want to submit a support form if I have an issue with the app so that the technical team can help me. | Baja | 2 |
+| **EP03** | **US12** | View IoT synced metrics | As a User, I want to view the real-time health metrics synchronized automatically from the IoT patch so that I don't have to enter them manually. | Alta | 8 |
+| **EP03** | **US13** | View patient location | As a Caregiver, I want to view the patient's real-time GPS location on a map so that I can know exactly where they are in case of an anomaly. | Alta | 5 |
+| **EP03** | **US15** | Daily summary view | As a Patient, I want to view a daily summary so that I know if I'm stable. | Alta | 3 |
+| **EP03** | **US21** | View placement tutorial | As a User, I want to see a visual guide on how to place and link the patch so that I can configure the device correctly. | Media | 2 |
+| **EP04** | **US18** | Link patient | As a Doctor, I want to link a patient so that I can monitor them. | Alta | 5 |
+| **EP04** | **US19** | View patient list | As a Doctor, I want to see my patients so that I can manage workload. | Alta | 3 |
+| **EP04** | **US20** | View patient history | As a Doctor, I want to view vital trends so that I can assess progress. | Media | 5 |
+| **EP04** | **US22** | Remove patient | As a Doctor, I want to unlink patients so that I can manage active cases. | Baja | 2 |
+| **EP05** | **US16** | Configure notifications | As a User, I want to toggle email and push notifications on or off so that I can choose how I receive medical alerts. | Media | 3 |
+| **EP05** | **US23** | Automatic alert | As a Doctor, I want alerts for abnormal metrics so that I can act quickly. | Alta | 8 |
+| **EP05** | **US24** | Measurement reminder | As a Patient, I want reminders so that I maintain routine. | Media | 3 |
+| **EP05** | **US25** | Mark notifications read | As a User, I want to mark alerts as read so that I stay organized. | Baja | 2 |
+| **EP06** | **US26** | Monthly report PDF | As a Patient, I want to export my history so that I can share it. | Media | 5 |
+| **EP06** | **US27** | Patient report | As a Doctor, I want consolidated alerts so that I can analyze cases. | Media | 5 |
+| **EP07** | **US28** | Subscription plan selection | As a Patient, I want premium access so that I get full features. | Alta | 5 |
+| **EP07** | **US29** | Update payment method | As a Patient, I want to update my card so that service is uninterrupted. | Media | 3 |
+| **EP07** | **US30** | Cancel subscription | As a Patient, I want to cancel my plan so that I stop service. | Baja | 2 |
+| **EP08** | **US31** | User registration service | As a Developer, I want a service to create users so that data is stored. | Alta | 5 |
+| **EP08** | **US32** | Authentication service | As a Developer, I want authentication so that users are validated. | Alta | 5 |
+| **EP08** | **US33** | Metrics service | As a Developer, I want to store vital signs so that history is tracked. | Alta | 8 |
+| **EP08** | **US34** | Metrics retrieval service | As a Developer, I want to fetch history so that UI can display it. | Alta | 5 |
+| **EP08** | **US35** | Linking service | As a Developer, I want to link users so that relationships exist. | Alta | 5 |
+| **EP08** | **US36** | Patient listing service | As a Developer, I want listing service so that doctors see patients. | Media | 3 |
+| **EP08** | **US37** | Alert service | As a Developer, I want alert engine so that emergencies are handled. | Alta | 8 |
+| **EP08** | **US38** | Profile update service | As a Developer, I want update functionality so that data stays current. | Media | 3 |
+| **EP08** | **US39** | Subscription service | As a Developer, I want payment processing so that plans are activated. | Alta | 5 |
+| **EP08** | **US40** | PDF report service | As a Developer, I want report generation so that documents are created. | Media | 5 |
