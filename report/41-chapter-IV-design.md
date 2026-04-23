@@ -4,7 +4,7 @@
 
 ### 4.1.1. General Style Guidelines
 ### Brand Overview
-Bytecore es una startup enfocada en el desarrollo de soluciones digitales orientadas al sector de la salud. El producto principal, VITALCARE, es una plataforma de monitoreo remoto de signos vitales mediante un parche que se encarga del seguimiento en tiempo real de pacientes con enfermedades crónicas y adultos mayores. El diseño debe transmitir seguridad, confianza y accesibilidad, dado que esta dirigido tanto a familiares que se encargan del cuidado como a adultos mayores que no podrían estar familiarizados con la tecnología.
+Bytecore es una startup enfocada en el desarrollo de soluciones digitales orientadas al sector de la salud. El producto principal, VITALCARE, es una plataforma de monitoreo remoto de signos vitales mediante un parche que se encarga del seguimiento en tiempo real de pacientes con enfermedades crónicas y adultos mayores. El diseño debe transmitir seguridad, confianza y accesibilidad, dado que está dirigido tanto a familiares que se encargan del cuidado como a adultos mayores que no podrían estar familiarizados con la tecnología.
 ### Brand Name
 El nombre "VITALCARE" refleja directamente el propósito de la plataforma: el cuidado ("Care") continuo de los signos vitales ("Vital") de los pacientes, fusionando la eficiencia de la tecnología con la cercanía del cuidado familiar.
 ### Colors
@@ -43,7 +43,7 @@ Se implementó para la interfaz de usuario el patron Z para poder guiar la mirad
 ### 4.2.1. Organization Systems
 Se implementó tres esquemas de organización que permiten la escalabilidad del sistema y la toma rapida de desiciones, las cuales son:
 
-- Hierarchical Organization: Se utliza una estructura de "Top-Down". En el cual el nivel superior esta el dashboard, seguido por la lista de pacientes y finalmente los signos vitales de los pacientes. Esta jerarquia permite que el usuario tenga una visión general del estado de todos los pacientes que registro antes de especificar en las metricas de cada uno.
+- Hierarchical Organization: Se utliza una estructura de "Top-Down". En el cual el nivel superior está el dashboard, seguido por la lista de pacientes y finalmente los signos vitales de los pacientes. Esta jerarquia permite que el usuario tenga una visión general del estado de todos los pacientes que registro antes de especificar en las metricas de cada uno.
 
 
 - Organization by Task: La plataforma separa las funciones administrativas, como el gestor de perfil, plan de suscripción, etc. de las funciones operativas monitoreo en tiempo real, historial de notificaciones, entre otros. Para evitar que el usuario se distraiga con opciones de configuración mientras monitorea a sus pacientes.
@@ -163,6 +163,25 @@ Los wireframes de baja fidelidad para la aplicación web se diseñaron para esta
 <img src="../assets/Web Wireflow Diagram.png" alt="Wireframe Diagram">
 
 ### 4.4.3. Web Applications Mock-ups
+<img src="../assets/Mockup Agregar Paciente.png" alt="Mockup Agregar Paciente">
+<img src="../assets/Mockup Boton accesibilidad.png" alt="Mockup Boton accesibilidad">
+<img src="../assets/Mockup Home.png" alt="Mockup Home">
+<img src="../assets/Mockup Login.png" alt="Mockup Login">
+<img src="../assets/Mockup Mapa.png" alt="Mockup Mapa">
+<img src="../assets/Mockup Notificacion boton.png" alt="Mockup Notificacion boton">
+<img src="../assets/Mockup Notificaciones Configuracion.png" alt="Mockup Notificaciones Configuracion">
+<img src="../assets/Mockup Notificaciones.png" alt="Mockup Notificaciones">
+<img src="../assets/Mockup Pacientes.png" alt="Mockup Pacientes">
+<img src="../assets/Mockup Perfil (editar).png" alt="Mockup Perfil editar">
+<img src="../assets/Mockup Perfil.png" alt="Mockup Perfil">
+<img src="../assets/Mockup Registro Linea de Tiempo.png" alt="Mockup Registro Linea de Tiempo">
+<img src="../assets/Mockup Registro.png" alt="Mockup Registro">
+<img src="../assets/Mockup Restablecer Contraseña.png" alt="Mockup Restablecer Contraseña">
+<img src="../assets/Mockup Soporte.png" alt="Mockup Soporte">
+<img src="../assets/Mockup Ver Plan (Free).png" alt="Mockup Ver Plan Free">
+<img src="../assets/Mockup Ver Plan (Premium).png" alt="Mockup Ver Plan Premium">
+<img src="../assets/Mockup Ver Status (Free).png" alt="Mockup Ver Status Free">
+<img src="../assets/Mockup Ver Status (Premium).png" alt="Mockup Ver Status Premium">
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
