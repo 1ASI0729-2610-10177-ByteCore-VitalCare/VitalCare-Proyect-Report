@@ -20,16 +20,18 @@ El nombre "VITALCARE" refleja directamente el propósito de la plataforma: el cu
 | #666666  | Color secundario de letra                                  |
 | #000000  | Color terciario de letra                                   |
 
-<img src="\assets\Paleta de colores vitalcare.png">
+<img src="../assets/Paleta de colores vitalcare.png" alt="VITALCARE color palette">
 
 ### Typography
 Para la tipografía de VITALCARE se ha elegido fuentes que transmiten profesionalismo, claridad y accesibilidad: Se utilizó la fuente Roboto para los titulos, encabezados y cuerpo, ya que transmite modernidad y es fácil de leer, lo que es crucial para una plataforma de salud. Para los botones se utilizó la fuente Open Sans, que es amigable y legible, lo que ayuda a mejorar la experiencia del usuario al interactuar con la plataforma y para los datos de analisis se utilizó la fuente Montserrat, que es una fuente sans-serif moderna y elegante, que aporta un toque de sofisticación a la presentación de los datos, haciendo que la información sea más atractiva y fácil de interpretar para los usuarios.
 
-<img src="\assets\Tipografia.png">
+<img src="../assets/Tipografia.png" alt="VITALCARE typography">
 
 ### 4.1.2. Web Style Guidelines
 Se han establecido las siguientes pautas de estilo para el diseño web de VITALCARE, con el objetivo de garantizar una experiencia de usuario coherente, accesible y atractiva:
-<img src="\assets\componentes.png">
+
+<img src="../assets/componentes.png alt="VITALCARE components">
+
 Además, contará con un diseño web responsivo, en la cual se podrá adaptar sin problemas a cualquier dispositivo, desde dispositivos moviles hasta monitores de escritorio. Enfocandose en ofrecer una experiencia de usuario intuitiva y consistente, permitiendo a los usuarios desplazarse facilmente por la plataforma.
 
 Se implementó para la interfaz de usuario el patron Z para poder guiar la mirada del usuario desde el logo, pasando por el menú de navegación, luego a la imagen principal y finalmente a los botones de acción, asegurando que los elementos más importantes sean vistos en el orden correcto. Además, se implementó el patrón F para la sección de análisis de datos, permitiendo a los usuarios escanear rápidamente la información más relevante, como los títulos y los datos clave, facilitando la comprensión y la toma de decisiones informadas.
@@ -122,12 +124,12 @@ La navegación múltiple (Global, Local y Contextual) garantiza la "Findability"
 El Wireframe de baja fidelidad se estructuró para establecer una jerarquía de información clara antes de la aplicación de elementos visuales. Se utilizó una disposición de "Single Page Scroll" para permitir una narrativa continua.
 
 
-<img src="\assets\Landing Page Wireframe.png">
+<img src="../assets/Landing Page Wireframe.png" alt="VITALCARE landing page wireframe">
 
 ### 4.3.2. Landing Page Mock-up
 El Mock-up de alta fidelidad (basado en el diseño final) aplica la paleta de colores corporativa y tipografías seleccionadas para transmitir una imagen de "Salud Tecnológica".
 
-<img src="\assets\Landing Page Mockup.png">
+<img src="../assets/Landing Page Mockup.png" alt="VITALCARE landing page mockup">
 
 ---
 
