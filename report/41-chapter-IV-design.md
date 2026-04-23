@@ -102,6 +102,17 @@ El sistema de búsqueda de VITAL CARE está diseñado para la gestión eficiente
 
 A medida que la base de pacientes crece, la búsqueda manual se vuelve ineficiente. Los filtros de estado permiten al cuidador priorizar su atención en aquellos pacientes que realmente presentan anomalías en sus signos vitales.
 ### 4.2.5. Navigation Systems
+Se han implementado sistemas de navegación complementarios para asegurar que el usuario no se pierda dentro de la aplicación.
+
+- Global Navigation: Un menú superior (Header) persistente que contiene el logo (enlace al Home), acceso al perfil y el centro de notificaciones.
+
+
+- Local Navigation: Dentro de la vista de un paciente, existe una barra lateral o "Tabs" que permiten alternar entre: Métricas en Vivo, Historial Gráfico, Ubicación GPS e Información de Contacto Médico.
+
+
+- Contextual Navigation: En cada sección, se incluyen botones de acción relacionados, como "Volver a la lista de pacientes", "Descargar reporte PDF" o "Configurar alertas personalizadas".
+
+La navegación múltiple (Global, Local y Contextual) garantiza la "Findability" de las funciones. El uso de la local navigation y la navegación contextual reduce la ansiedad del usuario al navegar por datos médicos complejos, ofreciendo siempre una salida o una acción lógica siguiente.
 
 ---
 
