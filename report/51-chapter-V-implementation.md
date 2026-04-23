@@ -121,7 +121,27 @@ Esta sección detalla la configuración del despliegue de la solución, permitie
 
 ### 5.2.1. Sprint 1
 
+En este Sprint se desarrolló e implementó la primera versión
+del Landing Page de VitalCare, incluyendo su despliegue
+en un entorno accesible públicamente.
+
 #### 5.2.1.1. Sprint Planning 1
+
+A continuación se presenta el resumen del Sprint Planning Meeting
+realizado para el Sprint 1.
+
+| Sprint # | Sprint 1                                                                                                                                                                                                                                                                                                                       |
+|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                |
+| Date | 2026-04-15                                                                                                                                                                                                                                                                                                                     |
+| Time | 04:30 PM                                                                                                                                                                                                                                                                                                                       |
+| Location | Reunión virtual vía Google Meet                                                                                                                                                                                                                                                                                                |
+| Prepared By | Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                      |
+| Attendees | HBardales Tejada, Luis Alexis / Caisahuana Osores, Becker Junior / Huaman Gallardo, Bruno Aldair / Rioja Nuñez, Franco Diego / Rocca Mariaca, Angel Mathias                                                                                                                                                                  |
+| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                |
+| Sprint 1 Goal |  |
+| Sprint 1 Velocity |                                                                                                                                                                                                                                                                                                                                |
+| Sum of Story Points |                                                                                                                                                                                                                                                                                                                                |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
