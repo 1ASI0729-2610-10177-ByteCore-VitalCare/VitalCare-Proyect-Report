@@ -165,6 +165,79 @@ Segmento objetivo 2: Adultos mayores (60+) con enfermedades crónicas: El objeti
 
 2.2.2. Registro de entrevistas.
 
+| Campo | Detalle |
+| :--- | :--- |
+| **Entrevistada** | Briana Casarreto |
+| **Edad** | 25 años |
+| **Distrito** | Santiago de Surco, Lima |
+| **Perfil y Experiencia** | Cuidadora con 2 años de experiencia en el sector de adultos mayores. Trabaja con pacientes que tienen limitaciones tecnológicas o de salud que les impiden comunicarse de forma autónoma. |
+| **Problemática Identificada** | Dependencia crítica de terceros. Ante la falta de herramientas digitales, Briana depende de llamadas de vecinos del condominio para enterarse de emergencias (caídas o fiebre), lo que genera una brecha de información peligrosa cuando no está presente. |
+| **Dificultades Principales** | Riesgo de reacción tardía ante anomalías en presión arterial y pulso. La falta de un registro constante impide detectar tendencias de salud preventivas, actuando solo cuando la emergencia ya ocurrió. |
+| **Necesidad Tecnológica** | Valida la necesidad de una plataforma de alertas y registro digital. Considera que un historial completo permitiría intervenciones médicas mucho más inmediatas y precisas. |
+| **Perfil Técnico** | Usuario de Android (Smartphone) y Windows (Laptop). Navegador principal: Google Chrome. |
+| **Evidencia visual** | **Imagen / [Link al Video](https://drive.google.com/file/d/1LmHdxIzJqAQxy8f5lF-z4ZjDAaRHQd_p/view?usp=sharing)** |
+| **Pregunta 1: ¿Nivel de preocupación?** | Muy alto. Al no tener el familiar herramientas tecnológicas para comunicarse, la preocupación es constante cuando ella sale de casa. |
+| **Pregunta 2: ¿Cómo se entera de emergencias?** | Por llamadas directas del paciente o, frecuentemente, a través de los vecinos del condominio si ocurre algo grave como una caída. |
+| **Pregunta 3: ¿Signos más críticos?** | Presión arterial y pulso son su enfoque principal. También la temperatura si hay antecedentes recientes de fiebre. |
+| **Pregunta 4: ¿Usaría una plataforma de alertas?** | Sí, lo considera una excelente idea para tener un monitoreo exacto y recibir avisos cuando no está físicamente con el familiar. |
+| **Pregunta 5: ¿Valor del historial médico?** | Muy valioso. Afirma que permitiría al doctor tener un detalle preciso para que la medicación sea inmediata y efectiva. |
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Entrevistado** | Kevin Pacotaipe |
+| **Edad** | 28 años |
+| **Distrito** | San Juan de Lurigancho, Lima |
+| **Perfil y Experiencia** | Técnico en soporte de sistemas. Responsable desde hace 3 años de la salud de su abuela (72 años) con hipertensión y diabetes. Trabaja fuera de casa, lo que genera una preocupación constante por no poder supervisarla presencialmente. |
+| **Problemática Identificada** | "Ceguera de datos" durante la jornada laboral. Kevin depende exclusivamente de que su abuela lo llame por teléfono, lo cual es poco confiable si ella pierde el conocimiento o no puede manipular el celular en una crisis. |
+| **Dificultades Principales** | Monitoreo manual e irregular (solo 2-3 veces por semana). La falta de registros precisos de presión arterial y frecuencia cardíaca dificulta que el médico brinde diagnósticos exactos en las consultas. |
+| **Necesidad Tecnológica** | Valida totalmente una plataforma web con alertas automáticas. Busca "paz mental" mediante un sistema que le avise de anomalías sin depender de una acción manual de su abuela. |
+| **Perfil Técnico** | Usuario avanzado (Soporte de sistemas). Maneja Android y Windows. Navegador principal: Google Chrome. |
+| **Evidencia visual** | **Imagen** |
+| **Pregunta 1: ¿Nivel de preocupación?** | Constante, especialmente en horas de trabajo. A veces le cuesta concentrarse pensando si su abuela tomó sus medicinas o si se siente bien. |
+| **Pregunta 2: ¿Cómo se entera de emergencias?** | Solo si ella lo llama. Reconoce que es un método arriesgado porque en una emergencia real ella podría no estar en condiciones de marcar. |
+| **Pregunta 3: ¿Cómo monitorea la salud?** | Manualmente durante sus visitas (2 o 3 veces por semana) usando un tensiómetro casero. |
+| **Pregunta 4: ¿Signos más críticos?** | Presión arterial y frecuencia cardíaca por la hipertensión. También considera importante la temperatura como indicador preventivo. |
+| **Pregunta 5: ¿Equipos actuales?** | Tensiómetro digital básico y termómetro. No usan ninguna app o plataforma digital actualmente. |
+| **Pregunta 6: ¿Usaría una plataforma de alertas?** | Sí, sin dudarlo. Lo ve como una herramienta esencial para su tranquilidad mientras trabaja. |
+| **Pregunta 7: ¿Valor del historial médico?** | Muy alto. Menciona que la falta de datos precisos en las consultas actuales dificulta el trabajo del médico. |
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Entrevistada** | Nelsida Arnao |
+| **Edad** | 55 años |
+| **Distrito** | Surquillo, Lima |
+| **Perfil y Experiencia** | Ama de casa diagnosticada con diabetes tipo 2 e hipertensión hace 6 años. Pasa la mayor parte del día sola, lo que genera una percepción de inseguridad ante posibles crisis médicas como mareos o taquicardias. |
+| **Problemática Identificada** | Incumplimiento del monitoreo: Debido a las tareas del hogar, olvida medirse la presión. Existe una barrera emocional: prefiere no "alarmar" a su hija, lo que retrasa la petición de ayuda en momentos críticos. |
+| **Dificultades Principales** | Dificultad física para pedir ayuda (temblor en las manos durante crisis). No lleva un registro ordenado de signos vitales entre las consultas mensuales con su médico. |
+| **Necesidad Tecnológica** | Aceptación de dispositivos IoT pasivos. Valora la autonomía y la paz mental que brindaría un sistema que avise automáticamente a su familia si detecta anomalías. |
+| **Perfil Técnico** | Usuario de Android (Gama media). Uso frecuente de WhatsApp y YouTube. Navegador: Chrome (uso esporádico). |
+| **Evidencia visual** | **Imagen** |
+| **Pregunta 1: ¿Se siente segura sola?** | No siempre. Los mareos y taquicardias la hacen dudar si llamar a alguien, prefiriendo no alarmar a su hija pero reconociendo el riesgo. |
+| **Pregunta 2: ¿Olvida sus mediciones?** | Sí, frecuentemente olvida medirse la presión por estar ocupada con las tareas del hogar. |
+| **Pregunta 3: ¿Cómo monitorea su salud?** | Usa un tensiómetro de forma irregular y asiste a controles mensuales, pero no tiene un registro ordenado de sus signos. |
+| **Pregunta 4: ¿Usaría un dispositivo IoT?** | Sí, aunque inicialmente dudó por la privacidad, considera que la tranquilidad de sus hijos es más importante. |
+| **Pregunta 5: ¿Qué es lo que más le asusta?** | No poder pedir ayuda a tiempo. Ya vivió una experiencia donde no podía llamar por teléfono debido al temblor en sus manos. |
+| **Pregunta 6: ¿Qué tecnología usa hoy?** | Solo equipos manuales (tensiómetro y termómetro). No utiliza apps de salud ni otros dispositivos inteligentes. |
+| **Pregunta 7: ¿Le daría tranquilidad un sistema automático?** | Definitivamente sí. Le daría confianza para estar sola y evitaría que su hija tenga que llamarla constantemente por preocupación. |
+
+| Campo                      | Detalle                                                                                                                                                                                                                                                                                          |  
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |  
+| Entrevistada               | Ximena Bardales                                                                                                                                                                                                                                                                                  |  
+| Edad                       | 29 años                                                                                                                                                                                                                                                                                          |  
+| Distrito                   | Lima (Contexto urbano)                                                                                                                                                                                                                                                                             |  
+| Perfil y Experiencia       | Ximena representa al perfil de cuidador joven que equilibra estudios y trabajo. Es la responsable de la supervisión de su abuelo, pero sus responsabilidades externas limitan severamente el tiempo que puede dedicarle presencialmente.                                                              |  
+| Problemática Identificada | Ansiedad por ausencia prolongada: El estado de "preocupación todo el tiempo" se debe a la imposibilidad física de estar en casa. Su método de comunicación (WhatsApp/Llamadas) depende enteramente de que el abuelo esté en condiciones de usar el dispositivo.                                |  
+| Dificultades Principales   | Falta de instrumentación médica: No cuenta con equipos de medición en casa. Identifica el ritmo cardíaco como la métrica más crítica de la cual carece de datos en tiempo real.                                                                                                                      |  
+| Necesidad Tecnológica      | Valida el uso de una plataforma web de monitoreo remoto como una herramienta de ayuda necesaria para mantener la vigilancia mientras se encuentra fuera del hogar.                                                                                                                                |  
+| Importancia del Historial  | Reconoce que el registro de antecedentes es vital para la precisión del diagnóstico médico, alineándose con la propuesta de valor de VitalCare sobre la gestión de datos históricos.                                                                                                                 |  
+| Introducción               | Buenas tardes. Estoy realizando una entrevista para el curso de desarrollo open source, con la finalidad de medir el nivel de ansiedad que genera la falta de supervisión de un familiar.                                                                                                   |  
+| Evidencia visual           | **Imagen**                                                                                                                                                                                                                                                                                       |  
+| Pregunta 1                 | Todo el tiempo, ya que estudio y trabajo, y eso no me permite estar muy pendiente de mi abuelo.                                                                                                                                                                                                |  
+| Pregunta 2                 | Él me lo hace saber por medio de WhatsApp o incluso puede llamarme.                                                                                                                                                                                                                               |  
+| Pregunta 3                 | El corazón, ya que no tengo instrumentos en casa.                                                                                                                                                                                                                                               |  
+| Pregunta 4                 | Sí, sería de mucha ayuda, ya que normalmente no estoy en casa y quisiera estar pendiente de mi abuelo.                                                                                                                                                                                           |  
+| Pregunta 5                 | Es importante conocer los antecedentes de la persona para tener un diagnóstico más preciso.                                                                                                                                                                                                     |  
+
 
 ---
 
