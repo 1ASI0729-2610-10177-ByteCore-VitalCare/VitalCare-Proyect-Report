@@ -184,6 +184,25 @@ Los wireframes de baja fidelidad para la aplicación web se diseñaron para esta
 <img src="../assets/Mockup Ver Status (Premium).png" alt="Mockup Ver Status Premium">
 
 ### 4.4.4. Web Applications User Flow Diagrams
+User Goal 1: Como usuario, quiero poder restablecer mi contraseña para recuperar el acceso a mi cuenta en caso de olvido.
+
+<img src="../assets/User Goal 1.png" alt="User Goal 1">
+
+User Goal 2: Como usuario, quiero poder agregar un nuevo paciente a mi lista para monitorear sus signos vitales.
+
+<img src="../assets/User Goal 2.png" alt="User Goal 2">
+
+User Goal 3: Como usuario, quiero poder configurar mis notificaciones para recibir alertas personalizadas sobre el estado de salud de mis pacientes.
+
+<img src="../assets/User Goal 3.png" alt="User Goal 3">
+
+User Goal 4: Como usuario, quiero poder visualizar la ubicación GPS de mis pacientes para asegurarme de que estén en un lugar seguro.
+
+<img src="../assets/User Goal 4.png" alt="User Goal 4">
+
+User Goal 5: Como usuario, quiero poder acceder a un historial gráfico de los signos vitales de mis pacientes para analizar su evolución a lo largo del tiempo.
+
+<img src="../assets/User Goal 5.png" alt="User Goal 5">
 
 ---
 
