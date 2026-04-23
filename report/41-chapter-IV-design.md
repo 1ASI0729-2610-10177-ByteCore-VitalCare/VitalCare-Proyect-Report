@@ -136,6 +136,28 @@ El Mock-up de alta fidelidad (basado en el diseño final) aplica la paleta de co
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
+Los wireframes de baja fidelidad para la aplicación web se diseñaron para establecer la estructura y funcionalidad básica de las principales vistas: Dashboard, Vista del Paciente, Configuración y Notificaciones.
+
+<img src="../assets/Wireframe Agregar Paciente.png" alt="Wireframe Agregar Paciente">
+<img src="../assets/Wireframe Boton accesibilidad.png" alt="Wireframe Boton accesibilidad">
+<img src="../assets/Wireframe Home.png" alt="Wireframe Home">
+<img src="../assets/Wireframe Login.png" alt="Wireframe Login">
+<img src="../assets/Wireframe Mapa.png" alt="Wireframe Mapa">
+<img src="../assets/Wireframe Notificacion boton.png" alt="Wireframe Notificacion boton">
+<img src="../assets/Wireframe Notificaciones Configuracion.png" alt="Wireframe Notificaciones Configuracion">
+<img src="../assets/Wireframe Notificaciones.png" alt="Wireframe Notificaciones">
+<img src="../assets/Wireframe Pacientes.png" alt="Wireframe Pacientes">
+<img src="../assets/Wireframe Perfil (editar).png" alt="Wireframe Perfil editar">
+<img src="../assets/Wireframe Perfil.png" alt="Wireframe Perfil">
+<img src="../assets/Wireframe Registro Linea de Tiempo.png" alt="Wireframe Registro Linea de Tiempo">
+<img src="../assets/Wireframe Registro.png" alt="Wireframe Registro">
+<img src="../assets/Wireframe Restablecer Contraseña.png" alt="Wireframe Restablecer Contraseña">
+<img src="../assets/Wireframe Soporte.png" alt="Wireframe Soporte">
+<img src="../assets/Wireframe Ver Plan (Free).png" alt="Wireframe Ver Plan Free">
+<img src="../assets/Wireframe Ver Plan (Premium).png" alt="Wireframe Ver Plan Premium">
+<img src="../assets/Wireframe Ver Status (Free).png" alt="Wireframe Ver Status Free">
+<img src="../assets/Wireframe Ver Status (Premium).png" alt="Wireframe Ver Status Premium">
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
