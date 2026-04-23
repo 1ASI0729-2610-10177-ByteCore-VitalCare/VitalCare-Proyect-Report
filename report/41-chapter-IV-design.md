@@ -1,7 +1,11 @@
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
+En esta sección se detallan las pautas de estilo para el diseño de la marca y la interfaz de usuario de VITALCARE, asegurando una identidad visual coherente y una experiencia de usuario intuitiva.
 
+Link de Figma para la Web Application: https://www.figma.com/design/BM5fD06xKLQX4tDp0Ugjmf/WEB-APPLICATION?node-id=0-1&t=SEonOlhotKvAi4LO-1
+
+Link de Figma para la Landing Page: https://www.figma.com/design/xre2T9uJsTrwChd2b2heVb/Landing-Page?node-id=0-1&t=HHYwteE9GrpfzJSf-1
 ### 4.1.1. General Style Guidelines
 ### Brand Overview
 Bytecore es una startup enfocada en el desarrollo de soluciones digitales orientadas al sector de la salud. El producto principal, VITALCARE, es una plataforma de monitoreo remoto de signos vitales mediante un parche que se encarga del seguimiento en tiempo real de pacientes con enfermedades crónicas y adultos mayores. El diseño debe transmitir seguridad, confianza y accesibilidad, dado que está dirigido tanto a familiares que se encargan del cuidado como a adultos mayores que no podrían estar familiarizados con la tecnología.
