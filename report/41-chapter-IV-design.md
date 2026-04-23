@@ -125,6 +125,9 @@ El Wireframe de baja fidelidad se estructuró para establecer una jerarquía de 
 <img src="\assets\Landing Page Wireframe.png">
 
 ### 4.3.2. Landing Page Mock-up
+El Mock-up de alta fidelidad (basado en el diseño final) aplica la paleta de colores corporativa y tipografías seleccionadas para transmitir una imagen de "Salud Tecnológica".
+
+<img src="\assets\Landing Page Mockup.png">
 
 ---
 
