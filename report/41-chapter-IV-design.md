@@ -84,7 +84,23 @@ Aunque VITALCARE sea una plataforma de monitoreo remoto, la Landing Page es cruc
 
 - Meta Author: "ByteCore Team"
 ### 4.2.4. Searching Systems
+El sistema de búsqueda de VITAL CARE está diseñado para la gestión eficiente de múltiples pacientes (especialmente para usuarios del Plan Premium).
 
+- Search Bar Centralizado: Ubicado en el Dashboard de Pacientes. Permite búsquedas por Nombre, Apellido o DNI.
+
+
+- Filtering (Filtros Avanzados): Los usuarios pueden filtrar su lista de pacientes por:
+
+
+- Estado de Salud: Filtrar solo aquellos que tienen una "Alerta Crítica".
+
+
+- Estado de Conexión: Filtrar pacientes cuyo parche tenga "Baja Batería" o esté "Desconectado".
+
+
+- Predictive Search: A medida que el usuario escribe, el sistema sugiere nombres de pacientes para acelerar el acceso a los datos biométricos.
+
+A medida que la base de pacientes crece, la búsqueda manual se vuelve ineficiente. Los filtros de estado permiten al cuidador priorizar su atención en aquellos pacientes que realmente presentan anomalías en sus signos vitales.
 ### 4.2.5. Navigation Systems
 
 ---
