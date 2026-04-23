@@ -28,6 +28,11 @@ Para la tipografía de VITALCARE se ha elegido fuentes que transmiten profesiona
 <img src="\assets\Tipografia.png">
 
 ### 4.1.2. Web Style Guidelines
+Se han establecido las siguientes pautas de estilo para el diseño web de VITALCARE, con el objetivo de garantizar una experiencia de usuario coherente, accesible y atractiva:
+<img src="\assets\componentes.png">
+Además, contará con un diseño web responsivo, en la cual se podrá adaptar sin problemas a cualquier dispositivo, desde dispositivos moviles hasta monitores de escritorio. Enfocandose en ofrecer una experiencia de usuario intuitiva y consistente, permitiendo a los usuarios desplazarse facilmente por la plataforma.
+
+Se implementó para la interfaz de usuario el patron Z para poder guiar la mirada del usuario desde el logo, pasando por el menú de navegación, luego a la imagen principal y finalmente a los botones de acción, asegurando que los elementos más importantes sean vistos en el orden correcto. Además, se implementó el patrón F para la sección de análisis de datos, permitiendo a los usuarios escanear rápidamente la información más relevante, como los títulos y los datos clave, facilitando la comprensión y la toma de decisiones informadas.
 
 ---
 
