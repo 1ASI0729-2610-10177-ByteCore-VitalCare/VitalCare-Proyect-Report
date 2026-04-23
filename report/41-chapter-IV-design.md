@@ -39,7 +39,17 @@ Se implementó para la interfaz de usuario el patron Z para poder guiar la mirad
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
+Se implementó tres esquemas de organización que permiten la escalabilidad del sistema y la toma rapida de desiciones, las cuales son:
 
+- Hierarchical Organization: Se utliza una estructura de "Top-Down". En el cual el nivel superior esta el dashboard, seguido por la lista de pacientes y finalmente los signos vitales de los pacientes. Esta jerarquia permite que el usuario tenga una visión general del estado de todos los pacientes que registro antes de especificar en las metricas de cada uno.
+
+
+- Organization by Task: La plataforma separa las funciones administrativas, como el gestor de perfil, plan de suscripción, etc. de las funciones operativas monitoreo en tiempo real, historial de notificaciones, entre otros. Para evitar que el usuario se distraiga con opciones de configuración mientras monitorea a sus pacientes.
+
+
+- Visual organization: Se aplica el principio de contraste y tamaño para los datos como la frecuencia cardiaca o presión arterial utilizando colores semánticos (Rojo/Amarillo/Verde) para que el estado de salud sea comprensible en el menor tiempo de visualización.
+
+Esta organización garantiza que en una emergencia, el usuario no pierda tiempo navegando por la plataforma. Las estructuras jerárquicas ya mencionadas aseguran que el camino hacia la información fundamental siempre sea el más corto posible.
 ### 4.2.2. Labeling Systems
 
 ### 4.2.3. SEO Tags and Meta Tags
