@@ -62,16 +62,27 @@ Para el sistema de etiquetado se optó por utilizar etiquetas claras y consisten
 - Iconography Labels: Se utilizan la libreria de iconos PrimeNG con una covención estandarizada:
     - Mapa/Pin: Ubicación GPS del paciente
     - Signos: Actualización de las métricas de salud del paciente.
-    - Alerta: Metricas de salud del paciente irregular o que requieren atención inmediata.
+    - Alerta: Métricas de salud del paciente irregular o que requieren atención inmediata.
     - Flecha hacia arriba: Métricas de salud del paciente elevadas.
     - Flecha hacia abajo: Métricas de salud del paciente bajas.
     - Campana: Notificaciones del sistema, como recordatorios de medicación o alertas de salud.
     - Accesibilidad: Icono de accesibilidad para configurar opciones de visualización adaptadas a usuarios con discapacidades visuales.
   
-Utilizando este etiquetado consistente, se garantiza reducir la curva de aprendizaje para los usuarios, al utilizar iconos y terminos familiares, minimizando la posibilidad de cometer errores, lo cual es vital en una aplicación orientada a la salud.
+Utilizando este etiquetado consistente, se garantiza reducir la curva de aprendizaje para los usuarios, al utilizar iconos y términos familiares, minimizando la posibilidad de cometer errores, lo cual es vital en una aplicación orientada a la salud.
 
 ### 4.2.3. SEO Tags and Meta Tags
+Aunque VITALCARE sea una plataforma de monitoreo remoto, la Landing Page es crucial para el apartado de marketing y la adquisición de los clientes. Se aplicarán los siguientes tags en la página de incio para poder optimizar su visibilidad en motores de búsqueda y mejorar su posicionamiento.
 
+- Title: "VITALCARE | Monitoreo Remoto de Signos Vitales y Salud Iot"
+
+
+- Meta Description: "Protege a quienes más quieres con VITAL CARE. Monitoreo de signos vitales en tiempo real para adultos mayores mediante parches IoT. Seguridad y tranquilidad en un solo clic."
+
+
+- Meta Keywords: "monitoreo remoto, signos vitales, salud IoT, cuidado de adultos mayores, parches de salud, seguridad en el hogar, tecnología para la salud, bienestar digital"
+
+
+- Meta Author: "ByteCore Team"
 ### 4.2.4. Searching Systems
 
 ### 4.2.5. Navigation Systems
