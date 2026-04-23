@@ -119,6 +119,10 @@ La navegación múltiple (Global, Local y Contextual) garantiza la "Findability"
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
+El Wireframe de baja fidelidad se estructuró para establecer una jerarquía de información clara antes de la aplicación de elementos visuales. Se utilizó una disposición de "Single Page Scroll" para permitir una narrativa continua.
+
+
+<img src="\assets\Landing Page Wireframe.png">
 
 ### 4.3.2. Landing Page Mock-up
 
