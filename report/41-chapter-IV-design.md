@@ -51,6 +51,24 @@ Se implementó tres esquemas de organización que permiten la escalabilidad del 
 
 Esta organización garantiza que en una emergencia, el usuario no pierda tiempo navegando por la plataforma. Las estructuras jerárquicas ya mencionadas aseguran que el camino hacia la información fundamental siempre sea el más corto posible.
 ### 4.2.2. Labeling Systems
+Para el sistema de etiquetado se optó por utilizar etiquetas claras y consistentes, eliminando tecnicismos medicos complejos por términos de lenguaje más naturales que cualquier usuario pueda entender.
+
+- Navigations Labels: Se ha seleccionado terminos literales para el menú principal de navegación: "Home", "Paciente", "Planes", "Soporte".
+
+
+- Action Labels: Las etiquetas de los botones son bastaste claros indicar el resultado de la acción definida: "Empieza a monitorear ahora", "Ver status", "Descargar reporte".
+
+
+- Iconography Labels: Se utilizan la libreria de iconos PrimeNG con una covención estandarizada:
+    - Mapa/Pin: Ubicación GPS del paciente
+    - Signos: Actualización de las métricas de salud del paciente.
+    - Alerta: Metricas de salud del paciente irregular o que requieren atención inmediata.
+    - Flecha hacia arriba: Métricas de salud del paciente elevadas.
+    - Flecha hacia abajo: Métricas de salud del paciente bajas.
+    - Campana: Notificaciones del sistema, como recordatorios de medicación o alertas de salud.
+    - Accesibilidad: Icono de accesibilidad para configurar opciones de visualización adaptadas a usuarios con discapacidades visuales.
+  
+Utilizando este etiquetado consistente, se garantiza reducir la curva de aprendizaje para los usuarios, al utilizar iconos y terminos familiares, minimizando la posibilidad de cometer errores, lo cual es vital en una aplicación orientada a la salud.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
