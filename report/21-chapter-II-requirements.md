@@ -294,6 +294,14 @@ Esta sección detalla el ciclo completo de experiencia del usuario en la platafo
 
 ### 2.3.4. Empathy Mapping
 
+User Cuidador
+
+![Empathy map.png](../../../Downloads/Empathy%20map.png)
+
+User Paciente
+
+![Empathy map segmento 2.png](../../../Downloads/Empathy%20map%20segmento%202.png)
+
 ---
 
 ## 2.4. Big Picture EventStorming
