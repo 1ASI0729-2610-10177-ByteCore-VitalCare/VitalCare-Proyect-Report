@@ -306,4 +306,8 @@ User Paciente
 
 ## 2.4. Big Picture EventStorming
 
+A continuación, se presenta el Big Picture Event Storming realizado para el sistema VitalCare. Esta representación visual permite identificar los eventos más relevantes del dominio, mostrando de manera colaborativa cómo los segmentos objetivos (cuidador y paciente) interactúan con la plataforma en distintos procesos, como la gestión de dispositivos IoT, el monitoreo de signos vitales, la emisión de alertas de emergencia y la generación de reportes médicos. Este primer nivel de exploración brinda una visión general del negocio, resaltando los procesos clave y posibles áreas de mejora u oportunidad en el cuidado remoto.
+
+![Sin título.jpg](../../../Downloads/Sin%20t%C3%ADtulo.jpg)
+
 ## 2.5. Ubiquitous Language
