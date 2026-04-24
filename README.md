@@ -42,9 +42,18 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-|---------|-------|-------|-----------------------------|
-| 1.0 | 04/04/2026 | Rioja Nuñez, Franco Diego | Creación del reporte en formato Markdown. |
+| Versión | Fecha | Autor(es) | Descripción de cambios |
+| :--- | :--- | :--- | :--- |
+| 1.00 | 04/04/2026 | Rioja Nuñez, Franco Diego | Creación del reporte en formato Markdown y estructura base del informe. |
+| 1.01 | 17/04/2026 | Rioja Nuñez, Franco Diego | Redacción del Capítulo I: Startup Profile, antecedentes, problemática y Lean UX Process completo. |
+| 1.02 | 18/04/2026 | Huaman Gallardo, Bruno Aldair | Elaboración del Needfinding: User Personas, User Task Matrix, Journey Maps y Empathy Maps. |
+| 1.03 | 19/04/2026 | Bardales Tejada, Luis Alexis | Desarrollo de diagramas de arquitectura de software: Context, Container y Component Diagrams. |
+| 1.04 | 20/04/2026 | Caisahuana Osores, Becker Junior | Especificación de User Stories con criterios de aceptación en Gherkin, Impact Mapping y Product Backlog. |
+| 1.05 | 21/04/2026 | Rocca Mariaca, Angel Mathias | Documentación del Capítulo IV: Style Guidelines, Information Architecture y diseño UX/UI en Figma. |
+| 1.06 | 21/04/2026 | Rocca Mariaca, Angel Mathias | Implementación y despliegue de la Landing Page en GitHub Pages. |
+| 1.07 | 22/04/2026 | Bardales Tejada, Luis Alexis | Redacción de entrevistas del Needfinding y sección de diseño móvil. |
+| 1.08 | 23/04/2026 | Rioja Nuñez, Franco Diego | Redacción del Capítulo V: Software Configuration Management y evidencias del Sprint 1. |
+| 1.09 | 23/04/2026 | Rioja Nuñez, Franco Diego | Revisión general del informe y cierre del AV1. |
 
 ---
 
