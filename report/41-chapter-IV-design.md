@@ -219,10 +219,13 @@ User Goal 5: Como usuario, quiero poder acceder a un historial gráfico de los s
 ### 4.6.1. Design-Level EventStorming
 
 ### 4.6.2. Software Architecture Context Diagram
+<img src="../assets/ContextDiagram-dark.png" alt="VITALCARE Context Diagram"/>
 
 ### 4.6.3. Software Architecture Container Diagrams
+<img src="../assets/ContainerDiagram-dark.png" alt="VITALCARE Container Diagram"/>
 
 ### 4.6.4. Software Architecture Components Diagrams
+<img src="../assets/ComponentDiagram-dark.png" alt="VITALCARE Component Diagram"/>
 
 ---
 
