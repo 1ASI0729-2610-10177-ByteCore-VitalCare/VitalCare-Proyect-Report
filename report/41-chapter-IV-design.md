@@ -212,6 +212,26 @@ User Goal 5: Como usuario, quiero poder acceder a un historial gráfico de los s
 
 ## 4.5. Web Applications Prototyping
 
+Para el prototipo de VITAL CARE se adoptaron los siguientes criterios
+de interacción. La navegación principal se centraliza en el navbar
+superior con acceso directo a las secciones de Home, Pacientes,
+Ver Plan y Soporte. Las acciones críticas como ver el estado del
+paciente, agregar un parche y ver la ubicación se presentan mediante
+ventanas modales para no interrumpir el flujo principal. El acceso
+al sistema sigue un flujo lineal de Registro → Login → Home, con
+una ruta alternativa de restablecimiento de contraseña. La
+experiencia es consistente entre la Landing Page y la aplicación web,
+donde los call-to-action de la landing redirigen al registro.
+
+A continuación se presenta el flujo de interacción del prototipo
+elaborado en Figma:
+
+<img src="../assets/Figma-flow.png" alt="Web Applications Prototype Flow" />
+
+**Enlace al prototipo en Figma:** https://www.figma.com/proto/BM5fD06xKLQX4tDp0Ugjmf/WEB-APPLICATION?node-id=41-354&p=f&t=Wytqjk5UsGVr6Ht2-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=41%3A354&show-proto-sidebar=1
+
+**Video de navegación del prototipo:** [2026-04-23 22-12-20.mp4](../../../../Videos/2026-04-23%2022-12-20.mp4)
+
 ---
 
 ## 4.6. Domain-Driven Software Architecture
