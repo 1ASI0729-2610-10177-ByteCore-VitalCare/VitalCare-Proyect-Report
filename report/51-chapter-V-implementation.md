@@ -219,6 +219,17 @@ las actividades realizadas para lograr la publicación exitosa del sitio.
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
+## Desarrollo del reporte
+
+#### AV1:
+
+<img src="assets/collabReport.png"/>
+
+## Desarrollo de Landing Page
+#### AV1:
+
+<img src="assets/collabLanding.png" alt="Collab Landing Page"/>
+
 ---
 
 ## 5.3. Validation Interviews

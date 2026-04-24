@@ -69,7 +69,7 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
 
 #### AV1:
 
-<img src="assets/collabReport.png" alt="Collab Landing Page"/>
+<img src="assets/collabReport.png"/>
 
 ## Desarrollo de Landing Page
 #### AV1:
@@ -180,240 +180,38 @@ Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias.
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
 
+# Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 3**
+Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias.
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Bardales Tejada, Luis Alexis <br> AV1: <br><br> Caisahuana Osores, Becker Junior <br> AV1: <br><br> Huaman Gallardo, Bruno Aldair <br> AV1: <br><br> Rioja Nuñez, Franco Diego <br> AV1: <br><br> Rocca Mariaca, Angel Mathias <br> AV1: | |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | Bardales Tejada, Luis Alexis <br> AV1: <br><br> Caisahuana Osores, Becker Junior <br> AV1: <br><br> Huaman Gallardo, Bruno Aldair <br> AV1: <br><br> Rioja Nuñez, Franco Diego <br> AV1: <br><br> Rocca Mariaca, Angel Mathias <br> AV1: | |
-
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Bardales Tejada, Luis Alexis <br> **AV1:** Participó en la exposición del proyecto explicando los artefactos de arquitectura de software (Context, Container y Component Diagrams) y los hallazgos del proceso de Needfinding ante el equipo y el docente. <br><br> Caisahuana Osores, Becker Junior <br> **AV1:** Expuso los User Stories, el Impact Mapping y el Product Backlog durante la presentación del Sprint 1, comunicando de forma clara las funcionalidades priorizadas para el producto. <br><br> Huaman Gallardo, Bruno Aldair <br> **AV1:** Presentó oralmente los resultados del proceso de Needfinding, incluyendo User Personas, User Task Matrix, Journey Maps y Empathy Maps, dirigiéndose tanto al equipo como al docente como audiencias. <br><br> Rioja Nuñez, Franco Diego <br> **AV1:** Lideró la presentación general del proyecto, exponiendo el Capítulo I (perfil de la startup, problemática, Lean UX Process y segmentos objetivo) y el Capítulo V (configuración de software y evidencias del Sprint 1). <br><br> Rocca Mariaca, Angel Mathias <br> **AV1:** Expuso el diseño UX/UI de la plataforma, presentando las decisiones de Style Guidelines, Information Architecture, wireframes, mockups y la Landing Page implementada ante el docente y compañeros. | El equipo demostró capacidad para comunicar oralmente los resultados del proyecto a diferentes audiencias, adaptando el nivel de detalle técnico según el contexto de la exposición. Cada integrante asumió la presentación de los artefactos que desarrolló, evidenciando dominio del contenido y coherencia en la comunicación del producto VITAL CARE. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | Bardales Tejada, Luis Alexis <br> **AV1:** Redactó la sección de Needfinding (User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping), documentando los hallazgos del análisis de usuarios de forma clara y estructurada en el informe. Adicionalmente elaboró los diagramas de arquitectura de software (Context, Container y Component Diagrams). <br><br> Caisahuana Osores, Becker Junior <br> **AV1:** Redactó los User Stories con criterios de aceptación en formato Gherkin, el Impact Mapping y el Product Backlog, asegurando que los requisitos del sistema quedaran documentados de forma precisa y comprensible para distintas audiencias. <br><br> Huaman Gallardo, Bruno Aldair <br> **AV1:** Documentó el proceso completo de Needfinding en el informe, redactando las fichas de User Persona, User Task Matrix, User Journey Maps y Empathy Maps con un lenguaje claro dirigido tanto a audiencias técnicas como no técnicas. <br><br> Rioja Nuñez, Franco Diego <br> **AV1:** Redactó el Capítulo I del informe (descripción de la startup ByteCore, antecedentes y problemática con técnica 5W+2H, Lean UX Process completo y segmentos objetivo) y el Capítulo V (Software Configuration Management y evidencias del Sprint 1), comunicando por escrito el proceso de ingeniería de forma estructurada. <br><br> Rocca Mariaca, Angel Mathias <br> **AV1:** Documentó el Capítulo IV del informe (Style Guidelines, Information Architecture, Landing Page UI Design y Web Applications UX/UI Design), redactando las decisiones de diseño de forma clara y sustentada para audiencias técnicas y no técnicas. Adicionalmente implementó y desplegó la Landing Page. | El equipo evidenció capacidad para comunicar por escrito los resultados y procesos de ingeniería de software de forma efectiva. La documentación del informe refleja un lenguaje técnico apropiado, una estructura coherente y una redacción orientada a distintas audiencias, desde el docente evaluador hasta potenciales usuarios del producto VITAL CARE. |
 ---
 
-# Capítulo I: Introducción
-
-## 1.1. Startup Profile
-
-### 1.1.1. Descripción de la Startup
-
-### 1.1.2. Perfiles de integrantes del equipo
-
----
-
-## 1.2. Solution Profile
-
-### 1.2.1. Antecedentes y problemática
-
-### 1.2.2. Lean UX Process
-
-#### 1.2.2.1. Lean UX Problem Statements
-
-#### 1.2.2.2. Lean UX Assumptions
-
-#### 1.2.2.3. Lean UX Hypothesis Statements
-
-#### 1.2.2.4. Lean UX Canvas
-
----
-
-## 1.3. Segmentos objetivo
-
----
-
-# Capítulo II: Requirements Elicitation & Analysis
-
-## 2.1. Competidores
-
-### 2.1.1. Análisis competitivo
-
-### 2.1.2. Estrategias y tácticas frente a competidores
-
----
-
-## 2.2. Entrevistas
-
-### 2.2.1. Diseño de entrevistas
-
-### 2.2.2. Registro de entrevistas
-
-### 2.2.3. Análisis de entrevistas
-
----
-
-## 2.3. Needfinding
-
-### 2.3.1. User Personas
-
-### 2.3.2. User Task Matrix
-
-### 2.3.3. User Journey Mapping
-
-### 2.3.4. Empathy Mapping
-
----
-
-## 2.4. Big Picture EventStorming
-
-## 2.5. Ubiquitous Language
-
----
-
-# Capítulo III: Requirements Specification
-
-## 3.1. User Stories
-
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|-----------------|--------|-------------|------------------------|--------------------------|
-| | | | | |
-
-## 3.2. Impact Mapping
-
-## 3.3. Product Backlog
-
-| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
-|---------|--------------|--------|-------------|----------------------------------|
-| | | | | |
-
----
-
-# Capítulo IV: Product Design
-
-## 4.1. Style Guidelines
-
-### 4.1.1. General Style Guidelines
-
-### 4.1.2. Web Style Guidelines
-
----
-
-## 4.2. Information Architecture
-
-### 4.2.1. Organization Systems
-
-### 4.2.2. Labeling Systems
-
-### 4.2.3. SEO Tags and Meta Tags
-
-### 4.2.4. Searching Systems
-
-### 4.2.5. Navigation Systems
-
----
-
-## 4.3. Landing Page UI Design
-
-### 4.3.1. Landing Page Wireframe
-
-### 4.3.2. Landing Page Mock-up
-
----
-
-## 4.4. Web Applications UX/UI Design
-
-### 4.4.1. Web Applications Wireframes
-
-### 4.4.2. Web Applications Wireflow Diagrams
-
-### 4.4.3. Web Applications Mock-ups
-
-### 4.4.4. Web Applications User Flow Diagrams
-
----
-
-## 4.5. Web Applications Prototyping
-
----
-
-## 4.6. Domain-Driven Software Architecture
-
-### 4.6.1. Design-Level EventStorming
-
-### 4.6.2. Software Architecture Context Diagram
-
-### 4.6.3. Software Architecture Container Diagrams
-
-### 4.6.4. Software Architecture Components Diagrams
-
----
-
-## 4.7. Software Object-Oriented Design
-
-### 4.7.1. Class Diagrams
-
----
-
-## 4.8. Database Design
-
-### 4.8.1. Database Diagrams
-
----
-
-# Capítulo V: Product Implementation, Validation & Deployment
-
-## 5.1. Software Configuration Management
-
-### 5.1.1. Software Development Environment Configuration
-
-### 5.1.2. Source Code Management
-
-### 5.1.3. Source Code Style Guide & Conventions
-
-### 5.1.4. Software Deployment Configuration
-
----
-
-## 5.2. Landing Page, Services & Applications Implementation
-
-### 5.2.1. Sprint 1
-
-#### 5.2.1.1. Sprint Planning 1
-
-#### 5.2.1.2. Aspect Leaders and Collaborators
-
-#### 5.2.1.3. Sprint Backlog 1
-
-#### 5.2.1.4. Development Evidence for Sprint Review
-
-#### 5.2.1.5. Execution Evidence for Sprint Review
-
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
-
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
-
-#### 5.2.1.8. Team Collaboration Insights during Sprint
-
----
-
-## 5.3. Validation Interviews
-
-### 5.3.1. Diseño de Entrevistas
-
-### 5.3.2. Registro de Entrevistas
-
-### 5.3.3. Evaluaciones según heurísticas
-
----
-
-## 5.4. Video About-the-Product
-
----
-
-# Conclusiones
-
-## Conclusiones y recomendaciones
-
-## Video About-the-Team
-
----
 
 # Bibliografía
 
 ---
 
 # Anexos
+Videos entrevistas:
+
+https://drive.google.com/drive/folders/1n5E5qsEPfzvnT6jPQUm_v1J_U5d-TlO7
+
+https://www.youtube.com/watch?v=8G71Ly59jJI
 
 ## Videos de Exposiciones
 
-| Entrega | Título | Enlace |
-|---------|--------|--------|
-| AV1 | | |
-| TB1 | | |
-| AV2 | | |
-| TB2 | | |
+| Entrega | Título           | Enlace |
+|---------|------------------|--------|
+| AV1 | Video expositivo |https://drive.google.com/drive/u/0/folders/1nZCNehZphhS1CCIH3H4GGSHjwF1umuln |
+| TB1 |                  | |
+| AV2 |                  | |
+| TB2 |                  | |
