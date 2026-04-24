@@ -193,7 +193,29 @@ A continuación, se presenta la captura del dashboard de GitHub que confirma el 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+Para el presente Sprint 1, el alcance se centró exclusivamente en la implementación y despliegue del Landing Page (sitio web estático). Por lo tanto, no se han desarrollado servicios RESTful API en esta etapa. La documentación detallada de los endpoints mediante OpenAPI (Swagger) se incluirá en los informes correspondientes a los siguientes Sprints, una vez iniciada la fase de implementación de los Web Services.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 1, se realizó el despliegue de la Landing Page de VITAL CARE
+utilizando GitHub Pages como plataforma de hosting. A continuación se describen
+las actividades realizadas para lograr la publicación exitosa del sitio.
+
+1. Se creó el repositorio `VitalCare-Landing-Page` bajo la organización
+   `1ASI0729-2610-10177-ByteCore-VitalCare` en GitHub.
+
+2. Se desarrolló la Landing Page en la rama `develop` siguiendo el flujo
+   GitFlow, integrando las secciones de hero, problemática, beneficios,
+   startup, planes y footer.
+
+3. Una vez validado el contenido, se realizó el merge de `develop` hacia
+   `main` mediante Pull Request, lo que activó automáticamente el despliegue
+   en GitHub Pages.
+
+4. Se verificó el despliegue exitoso accediendo a la URL pública:
+   [https://1asi0729-2610-10177-bytecore-vitalcare.github.io/VitalCare-Landing-Page/](https://1asi0729-2610-10177-bytecore-vitalcare.github.io/VitalCare-Landing-Page/)
+
+<img src="assets/Deploy Landing.png" />
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
