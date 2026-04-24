@@ -307,3 +307,61 @@ User Paciente
 ## 2.4. Big Picture EventStorming
 
 ## 2.5. Ubiquitous Language
+
+A continuación se presenta el glosario de términos y conceptos del dominio de negocio de VITAL CARE. Este glosario tiene como objetivo garantizar una comunicación clara y sin ambigüedad entre todos los miembros del equipo y los stakeholders del proyecto. Los términos se presentan en inglés, con su equivalente en español entre paréntesis cuando aplica, y su definición en español.
+
+---
+
+**Patient (Paciente)**
+Persona adulta mayor o con enfermedad crónica cuyo estado de salud es monitoreado de forma continua a través de la plataforma VITAL CARE mediante un dispositivo IoT (parche). Puede vivir solo o con supervisión parcial.
+
+**Caregiver (Familiar / Cuidador)**
+Persona adulta de entre 25 y 40 años que tiene a su cargo la supervisión remota del estado de salud de un Patient. Accede a la plataforma para visualizar signos vitales, recibir alertas y revisar el historial de datos de su familiar.
+
+**Patch (Parche)**
+Dispositivo IoT de uso corporal, de forma circular y adhesivo, que se coloca sobre la piel del Patient para capturar y transmitir datos de signos vitales en tiempo real hacia la plataforma VITAL CARE. Cada Patch se identifica mediante un código único (patch code).
+
+**Patch Code (Código de Parche)**
+Identificador único impreso en el Patch que el Caregiver ingresa en la plataforma para vincular el dispositivo al perfil del Patient y activar el monitoreo.
+
+**Vital Sign (Signo Vital)**
+Medición fisiológica capturada por el Patch en tiempo real. Incluye parámetros como nivel de glucosa, frecuencia cardíaca, temperatura, saturación de oxígeno, presión arterial, nivel de alcohol, cetonas, concentración de lactato, sodio y potasio, citocinas, células T, humedad, presión atmosférica y calidad del aire.
+
+**Real-Time Monitoring (Monitoreo en Tiempo Real)**
+Proceso continuo mediante el cual el Patch transmite los Vital Signs del Patient a la plataforma VITAL CARE, permitiendo que el Caregiver visualice el estado de salud actualizado en cualquier momento del día.
+
+**Alert (Alerta)**
+Notificación automática generada por el sistema cuando uno o más Vital Signs del Patient superan los rangos normales establecidos. Las Alerts se clasifican en básicas (Plan Básico) y avanzadas (Plan Premium), y pueden entregarse mediante notificaciones push o correo electrónico.
+
+**Irregular Metric (Métrica Irregular)**
+Valor de un Vital Sign que se encuentra fuera del rango fisiológico normal y que desencadena la generación de una Alert hacia el Caregiver.
+
+**Medical History (Historial Médico)**
+Registro acumulado de los Vital Signs del Patient a lo largo del tiempo, disponible para los usuarios del Plan Premium. Permite al Caregiver y al médico tratante realizar un seguimiento de la evolución del estado de salud.
+
+**Location (Ubicación)**
+Coordenadas geográficas del Patient transmitidas por el Patch en tiempo real, visualizadas en un mapa dentro de la plataforma para que el Caregiver pueda conocer su posición en caso de emergencia.
+
+**Basic Plan (Plan Básico)**
+Modalidad de suscripción gratuita que permite el registro de un Patient, la visualización de Vital Signs en tiempo real y la recepción de Alerts básicas con un historial limitado a los últimos 3 días.
+
+**Premium Plan (Plan Premium)**
+Modalidad de suscripción de pago ($9.99 mensuales) que habilita el registro de múltiples Patients, acceso al Medical History completo, Alerts avanzadas, notificaciones push y por correo electrónico, e integración con datos climáticos externos para generar alertas preventivas.
+
+**Subscription (Suscripción)**
+Relación contractual entre el usuario y la plataforma VITAL CARE que define el nivel de acceso a las funcionalidades del sistema, determinado por el plan elegido (Basic Plan o Premium Plan).
+
+**User Preferences (Preferencias de Usuario)**
+Configuración personalizada de la experiencia en la plataforma, que incluye idioma, tamaño de letra, color de fondo y tipo de notificaciones habilitadas (push o email).
+
+**Support Ticket (Ticket de Soporte)**
+Solicitud formal enviada por un usuario a través de la sección de soporte de la plataforma para reportar un problema técnico o realizar una consulta sobre el funcionamiento de VITAL CARE.
+
+**Preventive Alert (Alerta Preventiva)**
+Notificación generada por el sistema al combinar los Vital Signs del Patient con datos climáticos externos (temperatura ambiental, humedad, calidad del aire), disponible exclusivamente para usuarios del Premium Plan.
+
+**Patch Linking (Vinculación del Parche)**
+Proceso mediante el cual el Caregiver asocia un Patch al perfil de un Patient ingresando el Patch Code en la plataforma, activando así el monitoreo continuo de Vital Signs.
+
+**Emergency (Emergencia)**
+Situación crítica de salud del Patient caracterizada por la presencia de una o más Irregular Metrics que requieren atención médica inmediata. El sistema genera una Alert de alta prioridad ante una Emergency detectada.
