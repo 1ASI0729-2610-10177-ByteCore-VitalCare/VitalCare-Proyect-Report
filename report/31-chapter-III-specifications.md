@@ -55,7 +55,9 @@
 | EP06 | Reports & Export | Generation of exportable clinical reports (PDF). |
 | EP07 | Subscriptions & Payments | Management of plans, billing, and cancellations. |
 | EP08 | RESTful API Architecture | Backend services and endpoints for secure platform operations. |
+
 ## 3.2. Impact Mapping
+
 <img src="../assets/Impact_map.png" alt="lean_ux_canvas Picture" width="1890"/>
 
 ## 3.3. Product Backlog
