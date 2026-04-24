@@ -14,8 +14,12 @@ Nuestro producto principal, **VITAL CARE**, es una plataforma web de monitoreo r
 **Visión:** Ser la plataforma de referencia en monitoreo remoto de salud en Latinoamérica, contribuyendo a mejorar la calidad de vida de los adultos mayores y pacientes con enfermedades crónicas.
 
 ### 1.1.2. Perfiles de integrantes del equipo
- 
----
+
+| **Nombre y Apellido** | Angel Mathias Rocca Mariaca                                                                                                                                                                                                                                                                                                    |                                                                                                                                                                     
+|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descripcion**       | Soy estudiante de Ingeniería de Software y me caracterizo por mi disposición al aprendizaje continuo. Me gusta escuchar diferentes perspectivas, adaptarme a nuevos retos y trabajar con dedicación. Mi meta es aportar valor a los proyectos en los que participe y seguir creciendo como profesional en el área tecnológica. |
+| **Foto**              | <img src="../assets/Angel Rocca.png" alt="Angel Rocca Profile" height="120" width="100">                                                                                                                                                                                                                                       
+
 
 ## 1.2. Solution Profile
 
