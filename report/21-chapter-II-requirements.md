@@ -175,7 +175,7 @@ Segmento objetivo 2: Adultos mayores (60+) con enfermedades crónicas: El objeti
 | **Dificultades Principales** | Riesgo de reacción tardía ante anomalías en presión arterial y pulso. La falta de un registro constante impide detectar tendencias de salud preventivas, actuando solo cuando la emergencia ya ocurrió. |
 | **Necesidad Tecnológica** | Valida la necesidad de una plataforma de alertas y registro digital. Considera que un historial completo permitiría intervenciones médicas mucho más inmediatas y precisas. |
 | **Perfil Técnico** | Usuario de Android (Smartphone) y Windows (Laptop). Navegador principal: Google Chrome. |
-| **Evidencia visual** | **Imagen / [Link al Video](https://drive.google.com/file/d/1LmHdxIzJqAQxy8f5lF-z4ZjDAaRHQd_p/view?usp=sharing)** |
+| **Evidencia visual** |![etrevista briana.jpg](../../../Downloads/etrevista%20briana.jpg) / [Link al Video](https://drive.google.com/file/d/1LmHdxIzJqAQxy8f5lF-z4ZjDAaRHQd_p/view?usp=sharing)** |
 | **Pregunta 1: ¿Nivel de preocupación?** | Muy alto. Al no tener el familiar herramientas tecnológicas para comunicarse, la preocupación es constante cuando ella sale de casa. |
 | **Pregunta 2: ¿Cómo se entera de emergencias?** | Por llamadas directas del paciente o, frecuentemente, a través de los vecinos del condominio si ocurre algo grave como una caída. |
 | **Pregunta 3: ¿Signos más críticos?** | Presión arterial y pulso son su enfoque principal. También la temperatura si hay antecedentes recientes de fiebre. |
@@ -192,7 +192,7 @@ Segmento objetivo 2: Adultos mayores (60+) con enfermedades crónicas: El objeti
 | **Dificultades Principales** | Monitoreo manual e irregular (solo 2-3 veces por semana). La falta de registros precisos de presión arterial y frecuencia cardíaca dificulta que el médico brinde diagnósticos exactos en las consultas. |
 | **Necesidad Tecnológica** | Valida totalmente una plataforma web con alertas automáticas. Busca "paz mental" mediante un sistema que le avise de anomalías sin depender de una acción manual de su abuela. |
 | **Perfil Técnico** | Usuario avanzado (Soporte de sistemas). Maneja Android y Windows. Navegador principal: Google Chrome. |
-| **Evidencia visual** | **Imagen** |
+| **Evidencia visual** |![WhatsApp Image 2026-04-23 at 10.53.22 PM.jpeg](../../../Downloads/WhatsApp%20Image%202026-04-23%20at%2010.53.22%20PM.jpeg) |
 | **Pregunta 1: ¿Nivel de preocupación?** | Constante, especialmente en horas de trabajo. A veces le cuesta concentrarse pensando si su abuela tomó sus medicinas o si se siente bien. |
 | **Pregunta 2: ¿Cómo se entera de emergencias?** | Solo si ella lo llama. Reconoce que es un método arriesgado porque en una emergencia real ella podría no estar en condiciones de marcar. |
 | **Pregunta 3: ¿Cómo monitorea la salud?** | Manualmente durante sus visitas (2 o 3 veces por semana) usando un tensiómetro casero. |
@@ -211,7 +211,7 @@ Segmento objetivo 2: Adultos mayores (60+) con enfermedades crónicas: El objeti
 | **Dificultades Principales** | Dificultad física para pedir ayuda (temblor en las manos durante crisis). No lleva un registro ordenado de signos vitales entre las consultas mensuales con su médico. |
 | **Necesidad Tecnológica** | Aceptación de dispositivos IoT pasivos. Valora la autonomía y la paz mental que brindaría un sistema que avise automáticamente a su familia si detecta anomalías. |
 | **Perfil Técnico** | Usuario de Android (Gama media). Uso frecuente de WhatsApp y YouTube. Navegador: Chrome (uso esporádico). |
-| **Evidencia visual** | **Imagen** |
+| **Evidencia visual** | ![WhatsApp Image 2026-04-23 at 10.53.55 PM.jpeg](../../../Downloads/WhatsApp%20Image%202026-04-23%20at%2010.53.55%20PM.jpeg) |
 | **Pregunta 1: ¿Se siente segura sola?** | No siempre. Los mareos y taquicardias la hacen dudar si llamar a alguien, prefiriendo no alarmar a su hija pero reconociendo el riesgo. |
 | **Pregunta 2: ¿Olvida sus mediciones?** | Sí, frecuentemente olvida medirse la presión por estar ocupada con las tareas del hogar. |
 | **Pregunta 3: ¿Cómo monitorea su salud?** | Usa un tensiómetro de forma irregular y asiste a controles mensuales, pero no tiene un registro ordenado de sus signos. |
@@ -231,7 +231,7 @@ Segmento objetivo 2: Adultos mayores (60+) con enfermedades crónicas: El objeti
 | Necesidad Tecnológica      | Valida el uso de una plataforma web de monitoreo remoto como una herramienta de ayuda necesaria para mantener la vigilancia mientras se encuentra fuera del hogar.                                                                                                                                |  
 | Importancia del Historial  | Reconoce que el registro de antecedentes es vital para la precisión del diagnóstico médico, alineándose con la propuesta de valor de VitalCare sobre la gestión de datos históricos.                                                                                                                 |  
 | Introducción               | Buenas tardes. Estoy realizando una entrevista para el curso de desarrollo open source, con la finalidad de medir el nivel de ansiedad que genera la falta de supervisión de un familiar.                                                                                                   |  
-| Evidencia visual           | **Imagen**                                                                                                                                                                                                                                                                                       |  
+| Evidencia visual           | ![img.png](img.png)**Imagen**                                                                                                                                                                                                                                                                                       |  
 | Pregunta 1                 | Todo el tiempo, ya que estudio y trabajo, y eso no me permite estar muy pendiente de mi abuelo.                                                                                                                                                                                                |  
 | Pregunta 2                 | Él me lo hace saber por medio de WhatsApp o incluso puede llamarme.                                                                                                                                                                                                                               |  
 | Pregunta 3                 | El corazón, ya que no tengo instrumentos en casa.                                                                                                                                                                                                                                               |  
@@ -259,7 +259,7 @@ User persona: Paciente
 ![WhatsApp Image 2026-04-23 at 3.03.10 PM.jpeg](../../../Downloads/WhatsApp%20Image%202026-04-23%20at%203.03.10%20PM.jpeg)
 
 ### 2.3.2. User Task Matrix
-La User Task Matrix nos permite descomponer las actividades y tareas que nuestros usuarios llevan a cabo al utilizar VitalCare. Al clasificar estas tareas según su frecuencia e importancia para los usuarios, podemos priorizar nuestros recursos en desarrollo y diseño para optimizar su experiencia, enfocándonos en las funcionalidades que garantizan la seguridad del paciente y la tranquilidad del cuidador.
+La User Task Matrix nos permite descomponer las actividades y tareas que nuestros usuarios. Al clasificar estas tareas según su frecuencia e importancia para los usuarios, podemos priorizar nuestros recursos en desarrollo y diseño para optimizar su experiencia, enfocándonos en las funcionalidades que garantizan la seguridad del paciente y la tranquilidad del cuidador.
 
 | User Task | Jennedith (Frecuencia) | Jennedith (Importancia) | Nelsida (Frecuencia) | Nelsida (Importancia) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -280,6 +280,16 @@ Al clasificar las tareas según su recurrencia y valor, el equipo puede enfocar 
 
 
 ### 2.3.3. User Journey Mapping
+
+Esta sección detalla el ciclo completo de experiencia del usuario en la plataforma VitalCare, enfocada en sus públicos objetivo: cuidadores familiares y pacientes con enfermedades crónicas. El análisis del recorrido del usuario abarca desde el primer contacto con la solución tecnológica, continuando con el proceso de configuración del hardware IoT, el uso diario de la aplicación web, hasta la fidelización o los escenarios de posible deserción.
+
+1. User Journey: Jennedith Alaska (Cuidadora)
+
+![Customer journey map 2 (1).png](../../../Downloads/Customer%20journey%20map%202%20%281%29.png)
+
+2. User Journey: Nelsida Arnao (Paciente)
+
+![Customer journey map 2 (2).png](../../../Downloads/Customer%20journey%20map%202%20%282%29.png)
 
 
 ### 2.3.4. Empathy Mapping
