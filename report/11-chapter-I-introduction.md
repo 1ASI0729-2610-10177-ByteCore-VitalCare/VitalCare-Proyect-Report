@@ -15,12 +15,30 @@ Nuestro producto principal, **VITAL CARE**, es una plataforma web de monitoreo r
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| **Nombre y Apellido** | Angel Mathias Rocca Mariaca                                                                                                                                                                                                                                                                                                    |                                                                                                                                                                     
-|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Descripcion**       | Soy estudiante de Ingeniería de Software y me caracterizo por mi disposición al aprendizaje continuo. Me gusta escuchar diferentes perspectivas, adaptarme a nuevos retos y trabajar con dedicación. Mi meta es aportar valor a los proyectos en los que participe y seguir creciendo como profesional en el área tecnológica. |
-| **Foto**              | <img src="../assets/Angel Rocca.png" alt="Angel Rocca Profile" height="120" width="100">                                                                                                                                                                                                                                       
+| **Nombre y Apellido** | Angel Mathias Rocca Mariaca |
+|:----------------------|:----------------------------|
+| **Descripción**       | Soy estudiante de Ingeniería de Software y me caracterizo por mi disposición al aprendizaje continuo. Me gusta escuchar diferentes perspectivas, adaptarme a nuevos retos y trabajar con dedicación. Mi meta es aportar valor a los proyectos en los que participe y seguir creciendo como profesional en el área tecnológica. |
+| **Foto**              | <img src="../assets/Angel Rocca.png" alt="Angel Rocca Profile" height="120" width="100"> |
 
+| **Nombre y Apellido** | Franco Diego Rioja Nuñez |
+|:----------------------|:-------------------------|
+| **Descripción**       | Tengo 21 años y actualmente curso el séptimo ciclo de la carrera. Me considero una persona proactiva y comprometida en el desarrollo de proyectos, además de ser colaborativa y atenta a las necesidades y problemas de mis compañeros de equipo. En paralelo, me encuentro llevando cursos de especialización en Análisis de Datos, con el objetivo de ampliar mis conocimientos y fortalecer mis competencias profesionales. |
+| **Foto**              | <img src="../assets/Franco-Rioja.png" alt="Franco Rioja Profile" height="140" width="110"> |
 
+| **Nombre y Apellido** | Bruno Aldair Huaman Gallardo |
+|:----------------------|:-----------------------------|
+| **Descripción**       | Soy estudiante de Ingeniería de Software con interés en el desarrollo de soluciones tecnológicas orientadas al usuario. Me caracterizo por ser responsable, analítico y comprometido con la calidad del trabajo en equipo. Busco seguir desarrollando mis habilidades técnicas y contribuir de forma activa en cada proyecto en el que participo. |
+| **Foto**              | <img src="../assets/Bruno-Huaman.png" alt="Bruno Huaman Profile" height="120" width="100"> |
+
+| **Nombre y Apellido** | Becker Junior Caisahuana Osores |
+|:----------------------|:--------------------------------|
+| **Descripción**       | Soy estudiante de Ingeniería de Software con motivación por el diseño y la especificación de requisitos de software. Me considero una persona organizada, detallista y con capacidad para trabajar en entornos colaborativos. Mi objetivo es seguir creciendo en el área del desarrollo de software y aportar soluciones innovadoras a los proyectos del equipo. |
+| **Foto**              | <img src="../assets/Becker-Caisahuana.png" alt="Becker Caisahuana Profile" height="120" width="100"> |
+
+| **Nombre y Apellido** | Luis Alexis Bardales Tejada |
+|:----------------------|:----------------------------|
+| **Descripción**       | Soy estudiante de Ingeniería de Software con interés en el análisis de usuarios y la arquitectura de software. Me caracterizo por ser curioso, proactivo y orientado a la investigación. Disfruto entender las necesidades de los usuarios para traducirlas en soluciones tecnológicas efectivas, y me esfuerzo por contribuir con calidad en cada etapa del desarrollo de los proyectos. |
+| **Foto**              | <img src="../assets/Alexis-Bardales.png" alt="Alexis Bardales Profile" height="120" width="100"> |
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
