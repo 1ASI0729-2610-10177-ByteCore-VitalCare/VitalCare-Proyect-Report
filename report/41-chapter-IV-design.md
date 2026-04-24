@@ -237,6 +237,7 @@ elaborado en Figma:
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level EventStorming
+<img src="../assets/EventStorming.png" alt="Design-Level EventStorming"/>
 
 ### 4.6.2. Software Architecture Context Diagram
 <img src="../assets/ContextDiagram-dark.png" alt="VITALCARE Context Diagram"/>
