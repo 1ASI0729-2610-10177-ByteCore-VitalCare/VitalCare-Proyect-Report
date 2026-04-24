@@ -179,6 +179,18 @@ Durante el Sprint 1, el equipo utilizó GitHub como sistema de control de versio
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
+En esta sección se presenta la evidencia de la ejecución del Sprint 1, demostrando el cumplimiento de los objetivos establecidos y el despliegue del producto en un entorno de producción accesible.
+
+<img src="assets/Landing pAge EVIDENCE.png"/>
+
+**Enlace del Landing Page:** [https://vitalcare.github.io/](https://1asi0729-2610-10177-bytecore-vitalcare.github.io/VitalCare-Landing-Page/)
+
+**Evidencia de Despliegue (GitHub Pages):**
+
+A continuación, se presenta la captura del dashboard de GitHub que confirma el despliegue exitoso (Production Deployment) de la Landing Page desde el repositorio oficial de GitHub.
+
+<img src="assets/Deploy Landing.png"/>
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
