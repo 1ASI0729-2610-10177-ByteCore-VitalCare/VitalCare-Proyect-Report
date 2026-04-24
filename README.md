@@ -67,7 +67,14 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
 
 ## Desarrollo del reporte
 
-#### TB1:
+#### AV1:
+
+<img src="assets/collabReport.png" alt="Collab Landing Page"/>
+
+## Desarrollo de Landing Page
+#### AV1:
+
+<img src="assets/collabLanding.png" alt="Collab Landing Page"/>
 
 ---
 
