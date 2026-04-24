@@ -243,11 +243,44 @@ Segmento objetivo 2: Adultos mayores (60+) con enfermedades crónicas: El objeti
 
 ## 2.3. Needfinding
 
+En esta sección se presentarán los artefactos resultantes del proceso de análisis de la información recolectada de los segmentos objetivos. Aquí se incluyen secciones para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-is Scenario Mapping.
+
+
 ### 2.3.1. User Personas
 
+En esta sección se presentan los perfiles ficticios creados a partir de la síntesis de las entrevistas de validación. Estos perfiles representan los dos segmentos clave identificados: el cuidador que busca tranquilidad y el paciente que busca seguridad sin perder su autonomía. Los datos han sido estructurados para reflejar sus comportamientos, necesidades técnicas y desafíos reales frente al monitoreo de salud.
+
+User persona: Cuidadora
+
+![WhatsApp Image 2026-04-23 at 2.52.57 PM.jpeg](../../../Downloads/WhatsApp%20Image%202026-04-23%20at%202.52.57%20PM.jpeg)
+
+User persona: Paciente
+
+![WhatsApp Image 2026-04-23 at 3.03.10 PM.jpeg](../../../Downloads/WhatsApp%20Image%202026-04-23%20at%203.03.10%20PM.jpeg)
+
 ### 2.3.2. User Task Matrix
+La User Task Matrix nos permite descomponer las actividades y tareas que nuestros usuarios llevan a cabo al utilizar VitalCare. Al clasificar estas tareas según su frecuencia e importancia para los usuarios, podemos priorizar nuestros recursos en desarrollo y diseño para optimizar su experiencia, enfocándonos en las funcionalidades que garantizan la seguridad del paciente y la tranquilidad del cuidador.
+
+| User Task | Jennedith (Frecuencia) | Jennedith (Importancia) | Nelsida (Frecuencia) | Nelsida (Importancia) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Configurar parámetros de alerta (Rangos)** | Rarely | High | Rarely | Medium |
+| **Monitorear signos vitales en tiempo real** | Always | High | Rarely | Low |
+| **Recibir notificaciones de emergencia** | Sometimes | High | Rarely | High |
+| **Consultar historial de salud (Gráficos)** | Often | High | Sometimes | Medium |
+| **Vincular/Sincronizar nuevo dispositivo IoT** | Rarely | Medium | Rarely | Medium |
+| **Revisar estado de batería/conexión del sensor** | Often | Medium | Rarely | Low |
+| **Generar reporte PDF para el médico** | Sometimes | High | Rarely | High |
+| **Validar "Falsa Alarma" en la plataforma** | Sometimes | Medium | Sometimes | Medium |
+| **Acceder a consejos de salud preventiva** | Rarely | Low | Sometimes | Medium |
+| **Actualizar perfil médico (Alergias/Medicinas)** | Rarely | High | Rarely | High |
+
+La User Task Matrix revela que tanto Jennedith como Nelsida comparten tareas críticas de recepción de alertas automáticas y actualización del perfil médico con una importancia alta, aunque con frecuencias distintas debido a sus roles. Jennedith, en su día a día como cuidadora, prioriza el monitoreo de signos vitales en tiempo real y la revisión constante del estado del sensor para mitigar su ansiedad por ausencia. Por otro lado, Nelsida, al ser una usuaria pasiva, depende de la eficacia de las notificaciones de emergencia y el historial que genera el sistema sin necesidad de su intervención constante.
+
+Al clasificar las tareas según su recurrencia y valor, el equipo puede enfocar el MVP en las funciones de mayor impacto: el flujo de datos en tiempo real y la precisión del sistema de alertas automáticas. Esto permite dejar módulos secundarios, como los consejos de salud preventiva o la vinculación avanzada de nuevos dispositivos, para fases posteriores del desarrollo, asegurando que la tranquilidad de Jennedith y la seguridad de Nelsida sean la prioridad inmediata.
+
 
 ### 2.3.3. User Journey Mapping
+
 
 ### 2.3.4. Empathy Mapping
 
