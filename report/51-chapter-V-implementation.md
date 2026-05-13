@@ -189,7 +189,7 @@ En esta sección se presenta la evidencia de la ejecución del Sprint 1, demostr
 
 A continuación, se presenta la captura del dashboard de GitHub que confirma el despliegue exitoso (Production Deployment) de la Landing Page desde el repositorio oficial de GitHub.
 
-<img src="assets/Deploy Landing.png" height="500" width="1000">
+<img src="../assets/Deploy Landing.png" height="500" width="1000">
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
