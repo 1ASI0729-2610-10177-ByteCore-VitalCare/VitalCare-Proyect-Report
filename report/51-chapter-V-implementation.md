@@ -231,6 +231,21 @@ las actividades realizadas para lograr la publicación exitosa del sitio.
 <img src="assets/collabLanding.png" alt="Collab Landing Page"/>
 
 ---
+## 5.2.2. Sprint 2
+#### 5.2.2.1. Sprint Planning 2
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+#### 5.2.2.3. Sprint Backlog 2
+
+<img src="assets/SprintBacklog2.png" alt="SprintBacklog2"/>
+
+Enlace de Trello: https://trello.com/b/dNCMZ5xN/vitalcare-sprint-2
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+#### 5.2.2.5. Execution Evidence for Sprint Review
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+---
 
 ## 5.3. Validation Interviews
 
@@ -251,3 +266,5 @@ las actividades realizadas para lograr la publicación exitosa del sitio.
 ## Conclusiones y recomendaciones
 
 ## Video About-the-Team
+
+
