@@ -421,6 +421,254 @@ Segmento objetivo 2: Adultos mayores (60+) con enfermedades crónicas: El objeti
 | Pregunta 4                 | Sí, sería de mucha ayuda, ya que normalmente no estoy en casa y quisiera estar pendiente de mi abuelo.                                                                                                                                                          |  
 | Pregunta 5                 | Es importante conocer los antecedentes de la persona para tener un diagnóstico más preciso.       
 ### 5.3.3. Evaluaciones según heurísticas
+### 5.3.3. Evaluaciones según heurísticas
+
+#### Anexo D. Formato para Evaluación de User Experience según Heurísticas
+
+**UX Heuristics & Principles Evaluation**
+**Usability – Inclusive Design – Information Architecture**
+
+| Campo | Valor |
+| :--- | :--- |
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | Desarrollo de Aplicaciones Open Source |
+| **SECCIÓN** | 10177 |
+| **PROFESORES** | Mori Paiva, Hugo Allan |
+| **AUDITOR** | ByteCore — Bardales Tejada Luis Alexis, Caisahuana Osores Becker Junior, Huaman Gallardo Bruno Aldair, Rioja Nuñez Franco Diego, Rocca Mariaca Angel Mathias |
+| **CLIENTE(S)** | Usuarios pertenecientes a los segmentos objetivo del producto VITAL CARE (adultos mayores y familiares/cuidadores) |
+
+---
+
+#### SITE o APP A EVALUAR:
+
+**VITAL CARE** — Landing Page y Frontend Web Application
+
+URL Landing Page: [https://1asi0729-2610-10177-bytecore-vitalcare.github.io/VitalCare-Landing-Page/](https://1asi0729-2610-10177-bytecore-vitalcare.github.io/VitalCare-Landing-Page/)
+
+---
+
+#### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Navegar entre las secciones de la Landing Page mediante el menú superior.
+2. Visualizar la propuesta de valor del producto en la sección Hero.
+3. Conocer las funcionalidades de VITAL CARE en la sección de Beneficios/Features.
+4. Conocer a los integrantes del equipo ByteCore en la sección Startup.
+5. Visualizar los planes disponibles del producto.
+6. Cambiar el idioma de la interfaz (Español / Inglés).
+7. Registrar un nuevo usuario en el Frontend Web Application.
+8. Iniciar sesión con credenciales válidas.
+9. Navegar dentro del Dashboard principal de la aplicación.
+10. Cerrar sesión desde el Dashboard.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Visualizar el monitoreo de signos vitales en tiempo real desde el dispositivo IoT.
+2. Recibir y gestionar alertas inteligentes ante variaciones críticas de signos vitales.
+3. Agendar una cita con un profesional de la salud desde la aplicación.
+4. Consultar el historial clínico digital del paciente.
+5. Establecer comunicación directa entre el adulto mayor y su cuidador familiar.
+6. Generar reportes médicos exportables en PDF.
+
+---
+
+#### ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+| :---: | :--- |
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+#### TABLA RESUMEN:
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+| :---: | :--- | :---: | :--- |
+| 1 | Las acciones del usuario (envío de formularios y navegación entre rutas) no muestran indicadores de carga | 2 | Usability: Visibilidad del estado del sistema |
+| 2 | El formulario de contacto no muestra una confirmación clara al completar el envío del mensaje | 3 | Usability: Visibilidad del estado del sistema |
+| 3 | No existe una manera evidente de regresar al estado anterior tras navegar entre secciones del Dashboard | 2 | Usability: Libertad y control del usuario |
+| 4 | Los mensajes de error en los formularios de registro e inicio de sesión son genéricos y no orientan al usuario | 3 | Usability: Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores |
+| 5 | Algunas imágenes de la Landing Page no incluyen atributo `alt` descriptivo para lectores de pantalla | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 6 | El contraste de algunos textos sobre fondos claros es insuficiente para usuarios con baja visión | 2 | Inclusive Design: Proporciona experiencias comparables |
+| 7 | No existe una sección de Ayuda o Preguntas Frecuentes accesible desde la Landing Page o la aplicación | 2 | Usability: Ayuda y documentación |
+| 8 | El botón de Cerrar Sesión no es claramente identificable dentro del Dashboard principal | 2 | Usability: Libertad y control del usuario |
+| 9 | La aplicación no cuenta con un buscador global que permita encontrar funcionalidades rápidamente | 1 | Information Architecture: Is it findable? |
+| 10 | No queda totalmente claro qué planes y funcionalidades están disponibles para cada tipo de usuario | 2 | Information Architecture: Is it useful? |
+| 11 | No se valida en tiempo real el formato del correo electrónico ni la fortaleza de la contraseña en el formulario de registro | 3 | Usability: Prevención de errores |
+| 12 | La tipografía del cuerpo de texto en la Landing Page resulta pequeña para usuarios adultos mayores | 2 | Inclusive Design: Proporciona experiencias comparables |
+
+---
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+##### PROBLEMA #1: Falta de indicadores de carga durante acciones del usuario
+
+**Severidad:** 2
+**Heurística violada:** Usability — Visibilidad del estado del sistema
+
+**Problema:**
+Cuando el usuario envía el formulario de contacto en la Landing Page, o cuando inicia sesión y se realizan llamadas al Fake API desde el Frontend Web Application, no se muestra un indicador de carga (spinner, barra de progreso o skeleton loader). Esto puede generar incertidumbre en el usuario, quien no sabe si la aplicación está procesando su solicitud o si ocurrió un error.
+
+**Recomendación:**
+Implementar componentes de Angular Material como `MatProgressSpinner` o `MatProgressBar` que se muestren durante el tiempo en el que se ejecutan las peticiones HTTP. Adicionalmente, considerar el uso de Skeleton Loaders en los componentes de listado que consumen datos del backend.
+
+---
+
+##### PROBLEMA #2: Ausencia de confirmación al enviar el formulario de contacto
+
+**Severidad:** 3
+**Heurística violada:** Usability — Visibilidad del estado del sistema
+
+**Problema:**
+Al completar el formulario de contacto en la Landing Page y presionar el botón "Enviar", el sistema no muestra un mensaje de confirmación claro que indique al usuario que su mensaje ha sido recibido exitosamente. El usuario queda en duda sobre si la acción fue completada o si necesita repetirla.
+
+**Recomendación:**
+Mostrar un mensaje de confirmación visible (toast, snackbar o modal) tras el envío exitoso del formulario, con un texto claro como "Tu mensaje fue enviado exitosamente. Te responderemos en las próximas 24 horas." Adicionalmente, limpiar los campos del formulario y deshabilitar temporalmente el botón "Enviar" para prevenir envíos duplicados.
+
+---
+
+##### PROBLEMA #3: Imposibilidad de regresar al estado anterior tras navegar entre secciones del Dashboard
+
+**Severidad:** 2
+**Heurística violada:** Usability — Libertad y control del usuario
+
+**Problema:**
+Una vez que el usuario navega a una sección del Dashboard, no existe un botón explícito de "Atrás" dentro de la interfaz. Si bien el navegador permite usar el botón de retroceso, esto no resulta intuitivo para todos los usuarios, especialmente para adultos mayores con menor familiaridad con interfaces web.
+
+**Recomendación:**
+Incorporar un botón de navegación "Atrás" o un breadcrumb visible en la barra superior del Dashboard que permita al usuario regresar al estado anterior sin depender de los controles del navegador. Implementar la directiva `RouterLink` con `[routerLink]="['../']"` para facilitar la navegación contextual.
+
+---
+
+##### PROBLEMA #4: Mensajes de error genéricos en los formularios de autenticación
+
+**Severidad:** 3
+**Heurística violada:** Usability — Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores
+
+**Problema:**
+Cuando el usuario ingresa credenciales incorrectas en el formulario de inicio de sesión, o cuando completa el formulario de registro con información inválida, los mensajes de error que se muestran son genéricos (por ejemplo: "Error al iniciar sesión" o "Datos inválidos") y no orientan al usuario sobre cuál campo específico presenta el problema ni qué acción debe tomar para corregirlo.
+
+**Recomendación:**
+Personalizar los mensajes de error para que indiquen claramente:
+1. El campo específico que presenta el problema.
+2. La razón del error.
+3. La acción sugerida para corregirlo.
+
+Por ejemplo, en lugar de "Error al iniciar sesión", mostrar "El correo electrónico ingresado no está registrado en VitalCare. ¿Deseas crear una cuenta?". Utilizar los validadores reactivos de Angular y los componentes `MatError` de Angular Material.
+
+---
+
+##### PROBLEMA #5: Imágenes sin atributo `alt` descriptivo
+
+**Severidad:** 3
+**Heurística violada:** Inclusive Design — Proporciona experiencias comparables
+
+**Problema:**
+Algunas imágenes utilizadas en la Landing Page (ilustraciones del hero, fotografías del equipo, íconos decorativos) no incluyen el atributo `alt` con una descripción significativa. Esto impide que los usuarios con discapacidad visual que utilizan lectores de pantalla puedan acceder al contenido visual.
+
+**Recomendación:**
+Revisar todas las etiquetas `<img>` del proyecto y asegurar que cada una incluya un atributo `alt` descriptivo. Para imágenes decorativas que no aportan información, utilizar `alt=""` (vacío) para que los lectores de pantalla las ignoren correctamente. Ejemplo:
+
+```html
+<img src="hero-vitalcare.png" alt="Adulto mayor utilizando el parche de monitoreo de VitalCare junto a un familiar">
+```
+
+---
+
+##### PROBLEMA #6: Contraste insuficiente en textos sobre fondos claros
+
+**Severidad:** 2
+**Heurística violada:** Inclusive Design — Proporciona experiencias comparables
+
+**Problema:**
+Algunos textos secundarios de la Landing Page (subtítulos, descripciones de features, footer) utilizan colores grises claros sobre fondos blancos, lo que genera un contraste por debajo del mínimo recomendado por las pautas WCAG 2.1 nivel AA (ratio de contraste 4.5:1 para texto normal). Esto dificulta la lectura para usuarios con baja visión, particularmente adultos mayores que conforman uno de los segmentos objetivo.
+
+**Recomendación:**
+Auditar todos los pares color de texto / color de fondo utilizando herramientas como WebAIM Contrast Checker o las DevTools de Chrome. Ajustar los tonos de texto secundario a un gris más oscuro (por ejemplo, `#595959` en lugar de `#999999`) que cumpla con el ratio mínimo de 4.5:1.
+
+---
+
+##### PROBLEMA #7: Ausencia de sección de Ayuda o Preguntas Frecuentes
+
+**Severidad:** 2
+**Heurística violada:** Usability — Ayuda y documentación
+
+**Problema:**
+Ni la Landing Page ni el Frontend Web Application incluyen una sección de Ayuda, Preguntas Frecuentes (FAQ) o Centro de Soporte. Los usuarios que tengan dudas sobre el funcionamiento del producto, los planes disponibles o los pasos para registrarse no tienen un recurso donde consultarlas, lo que puede generar frustración y abandono.
+
+**Recomendación:**
+Incorporar una sección de Preguntas Frecuentes accesible desde el footer de la Landing Page y desde el menú principal del Dashboard. Agrupar las preguntas por categorías (Sobre el producto, Sobre los planes, Sobre la cuenta, Sobre el dispositivo). Considerar a futuro la integración de un chatbot o sistema de tickets de soporte.
+
+---
+
+##### PROBLEMA #8: Botón de Cerrar Sesión poco visible dentro del Dashboard
+
+**Severidad:** 2
+**Heurística violada:** Usability — Libertad y control del usuario
+
+**Problema:**
+El botón o enlace para cerrar sesión dentro del Dashboard se encuentra en una ubicación poco evidente para el usuario (por ejemplo, dentro de un menú desplegable del avatar), lo que dificulta su acceso. Para usuarios adultos mayores, encontrar esta opción puede resultar particularmente confuso, generando preocupación sobre cómo salir de la aplicación de forma segura.
+
+**Recomendación:**
+Reubicar el botón de "Cerrar Sesión" en una posición más visible y accesible, como la parte inferior del sidenav o en la barra superior junto al nombre del usuario, utilizando un ícono universalmente reconocible (`exit_to_app` de Material Icons) acompañado del texto descriptivo.
+
+---
+
+##### PROBLEMA #9: Ausencia de buscador global en la aplicación
+
+**Severidad:** 1
+**Heurística violada:** Information Architecture — Is it findable?
+
+**Problema:**
+El Frontend Web Application no incluye un buscador global que permita a los usuarios encontrar rápidamente funcionalidades, configuraciones o información dentro de la aplicación. Si bien el sidenav presenta las opciones principales, conforme el producto crezca en funcionalidades este podría volverse insuficiente.
+
+**Recomendación:**
+Implementar un componente de búsqueda global en la barra superior del Dashboard que permita encontrar funcionalidades por palabras clave. Considerar el uso del componente `MatAutocomplete` de Angular Material para sugerir resultados en tiempo real. Esta mejora se considera de baja prioridad para el TB1, dado que el alcance funcional actual es reducido.
+
+---
+
+##### PROBLEMA #10: Falta de claridad sobre planes y funcionalidades por tipo de usuario
+
+**Severidad:** 2
+**Heurística violada:** Information Architecture — Is it useful?
+
+**Problema:**
+La sección de Planes en la Landing Page muestra las opciones disponibles, pero no comunica con claridad qué funcionalidades específicas están incluidas en cada plan ni cuál es la diferencia entre el plan para adultos mayores y el plan para familiares/cuidadores. Esto puede generar dudas en el usuario al momento de decidir qué plan contratar.
+
+**Recomendación:**
+Rediseñar la sección de Planes utilizando una tabla comparativa que liste las funcionalidades disponibles fila por fila, con marcas de verificación (✓) o de exclusión (✗) según el plan. Adicionalmente, agregar tooltips o iconos de información (`info_outline`) que expliquen brevemente qué hace cada funcionalidad.
+
+---
+
+##### PROBLEMA #11: Validación reactiva insuficiente en el formulario de registro
+
+**Severidad:** 3
+**Heurística violada:** Usability — Prevención de errores
+
+**Problema:**
+En el formulario de registro del Frontend Web Application, la validación del correo electrónico y de la contraseña se realiza únicamente al momento de enviar el formulario, no durante el llenado. Esto significa que el usuario puede completar todos los campos solo para descubrir al final que el formato del correo es incorrecto o que la contraseña no cumple con los requisitos mínimos.
+
+**Recomendación:**
+Implementar validadores reactivos con `Validators.email`, `Validators.minLength(8)` y validadores personalizados para fortaleza de contraseña que muestren retroalimentación visual inmediata (con `MatError`) conforme el usuario va llenando los campos. Incluir un medidor visual de fortaleza de contraseña (débil / media / fuerte).
+
+---
+
+##### PROBLEMA #12: Tipografía pequeña para el segmento de adultos mayores
+
+**Severidad:** 2
+**Heurística violada:** Inclusive Design — Proporciona experiencias comparables
+
+**Problema:**
+El tamaño de la tipografía utilizada en el cuerpo de texto de la Landing Page (descripciones de funcionalidades, textos legales del footer, contenido de la sección Startup) es de aproximadamente 14-15px, lo cual resulta pequeño para uno de los principales segmentos objetivo del producto: los adultos mayores, quienes pueden presentar disminución natural de la visión.
+
+**Recomendación:**
+Aumentar el tamaño base de la tipografía del cuerpo de texto a al menos 16px (1rem) y los títulos secundarios a 18-20px. Considerar adicionalmente incorporar un control de accesibilidad en el menú superior que permita al usuario aumentar el tamaño de la fuente con un click, similar a lo que ofrecen muchos sitios gubernamentales orientados a adultos mayores.
 
 ---
 
