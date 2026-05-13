@@ -352,6 +352,12 @@ En esta sección se mostrará la evidencia de ejecución de la primera versión 
 Enlace: https://vitalcarefrontend.vercel.app/home
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+
+En esta sección se evidencia la colaboración del equipo durante el Sprint 2 en el desarrollo de la primera versión del frontend de Vital Care.
+
+**Repositorio de Frontend:** VitalCare-Frontend
+
+
 ---
 
 ## 5.3. Validation Interviews
