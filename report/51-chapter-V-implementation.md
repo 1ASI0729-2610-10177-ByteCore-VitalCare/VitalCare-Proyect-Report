@@ -157,7 +157,7 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 
 #### 5.2.1.3. Sprint Backlog 1
 
-<img src="assets/SprintBacklog.png" alt="SprintBacklog"/>
+<img src="../assets/SprintBacklog.png" alt="SprintBacklog" height="500" width="1000">
 
 Enlace de Trello: https://trello.com/invite/b/69eab993248a35acb106f3a5/ATTId84e5c54d692b66f96b0986e5aa280133194A223/vitalcare
 
@@ -181,7 +181,7 @@ Durante el Sprint 1, el equipo utilizó GitHub como sistema de control de versio
 
 En esta sección se presenta la evidencia de la ejecución del Sprint 1, demostrando el cumplimiento de los objetivos establecidos y el despliegue del producto en un entorno de producción accesible.
 
-<img src="assets/Landing pAge EVIDENCE.png"/>
+<img src="../assets/Landing pAge EVIDENCE.png" height="500" width="1000">
 
 **Enlace del Landing Page:** [https://vitalcare.github.io/](https://1asi0729-2610-10177-bytecore-vitalcare.github.io/VitalCare-Landing-Page/)
 
@@ -189,7 +189,7 @@ En esta sección se presenta la evidencia de la ejecución del Sprint 1, demostr
 
 A continuación, se presenta la captura del dashboard de GitHub que confirma el despliegue exitoso (Production Deployment) de la Landing Page desde el repositorio oficial de GitHub.
 
-<img src="assets/Deploy Landing.png"/>
+<img src="assets/Deploy Landing.png" height="500" width="1000">
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -215,7 +215,7 @@ las actividades realizadas para lograr la publicación exitosa del sitio.
 4. Se verificó el despliegue exitoso accediendo a la URL pública:
    [https://1asi0729-2610-10177-bytecore-vitalcare.github.io/VitalCare-Landing-Page/](https://1asi0729-2610-10177-bytecore-vitalcare.github.io/VitalCare-Landing-Page/)
 
-<img src="assets/Deploy Landing.png" />
+<img src="../assets/Deploy Landing.png" height="500" width="1000">
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -223,12 +223,12 @@ las actividades realizadas para lograr la publicación exitosa del sitio.
 
 #### AV1:
 
-<img src="assets/collabReport.png"/>
+<img src="../assets/collabReport.png" height="500" width="1000">
 
 ## Desarrollo de Landing Page
 #### AV1:
 
-<img src="assets/collabLanding.png" alt="Collab Landing Page"/>
+<img src="../assets/collabLanding.png" alt="Collab Landing Page" height="500" width="1000">
 
 ---
 ## 5.2.2. Sprint 2
@@ -257,7 +257,7 @@ realizado para el Sprint 2.
 
 #### 5.2.2.3. Sprint Backlog 2
 
-<img src="assets/SprintBacklog2.png" alt="SprintBacklog2"/>
+<img src="../assets/SprintBacklog2.png" alt="SprintBacklog2" height="500" width="1000">
 
 Enlace de Trello: https://trello.com/b/dNCMZ5xN/vitalcare-sprint-2
 
@@ -297,19 +297,19 @@ Aquí se muestran las funciones desarrolladas para esta entrega, algunas funcion
 
 ### Vista Home
 
-<img src="assets/home-app-web.png" alt="Home app web"/>
+<img src="../assets/home-app-web.png" alt="Home app web" height="500" width="1000">
 
 ### Vista Pacientes
 
-<img src="assets/patients.png" alt="Patients app web"/>
+<img src="../assets/patients.png" alt="Patients app web" height="500" width="1000">
 
 ### Vista planes de suscripción
 
-<img src="assets/plans.png" alt="Plans app web"/>
+<img src="../assets/plans.png" alt="Plans app web" height="500" width="1000">
 
 ### Vista notificaciones
 
-<img src="assets/notifications.png" alt="Notifications app web"/>
+<img src="../assets/notifications.png" alt="Notifications app web" height="500" width="1000">
 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
@@ -339,15 +339,15 @@ En esta sección se mostrará la evidencia de ejecución de la primera versión 
 
 ### En esta sección se muestra el ingreso del repositorio en la app de Vercel
 
-<img src="assets/evidence 1- sprint 2.png" alt="Deploy front 1"/>
+<img src="../assets/evidence 1- sprint 2.png" alt="Deploy front 1" height="500" width="1000">
 
 ### Aquí se muestra el proceso previo al despliegue de la aplicación web en Vercel
 
-<img src="assets/evidence 2- sprint 2.png" alt="Deploy front 1"/>
+<img src="../assets/evidence 2- sprint 2.png" alt="Deploy front 1" height="500" width="1000">
 
 ### Aquí se muestra la aplicación ya desplegada en Vercel, con la URL pública para su acceso
 
-<img src="assets/evidence 3- sprint 2.png" alt="Deploy front 1"/>
+<img src="../assets/evidence 3- sprint 2.png" alt="Deploy front 1" height="500" width="1000">
 
 Enlace: https://vitalcarefrontend.vercel.app/home
 
