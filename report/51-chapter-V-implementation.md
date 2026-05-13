@@ -250,6 +250,35 @@ Enlace de Trello: https://trello.com/b/dNCMZ5xN/vitalcare-sprint-2
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
+Estructura de Encuesta: VITAL CARE
+
+¿Cuál es su nombre, edad y distrito donde reside?
+
+¿A qué se dedica actualmente y a quién tiene a su cargo?
+
+¿Cuánto tiempo lleva encargándose del cuidado o supervisión de la salud de su familiar?
+
+¿Qué dispositivos utiliza habitualmente (Celular, PC, Tablet), qué sistema operativo tienen (Android, iOS, Windows) y qué navegador usa más (Chrome, Safari, Edge)?
+
+Segmento objetivo 1: Adultos entre 25 y 50 años que cuidan familiares: El objetivo es medir el nivel de ansiedad por la falta de supervisión y la disposición a pagar por un sistema de alertas automáticas.
+
+1.	¿Qué tan seguido se preocupa por el estado de salud de su familiar cuando no está con él/ella?
+2.	¿Cómo se entera actualmente si su familiar tiene una emergencia médica en casa?
+3. ¿Cómo monitorea actualmente el estado de salud y los signos vitales de su familiar o paciente?
+4. ¿Qué signos vitales (presión, temperatura, pulso) considera más críticos de monitorear?
+5. ¿Qué herramientas o equipos tecnológicos utiliza actualmente para el seguimiento de salud en casa?
+6. ¿Estaría dispuesto a utilizar una plataforma web para recibir alertas en su celular si algo anda mal?
+7.	¿Qué valor le da a tener un historial de salud completo para mostrarle al médico en las consultas?
+
+Segmento objetivo 2: Adultos mayores (60+) con enfermedades crónicas: El objetivo es evaluar la aceptación de la tecnología y la percepción de seguridad que les brinda el dispositivo.
+
+1.	¿Se siente seguro quedándose solo en casa durante el día?
+2.	¿Le resulta difícil recordar tomarse la temperatura o medirse la presión regularmente?
+3.  ¿Cómo monitorea actualmente el estado de salud y los signos vitales de su familiar o paciente?
+4.  ¿Cómo se siente con la idea de usar un pequeño dispositivo que envíe sus datos de salud a sus hijos o médicos?
+5.  ¿Qué es lo que más le asusta de tener una emergencia médica cuando no hay nadie cerca?
+6.  ¿Qué herramientas o equipos tecnológicos utiliza actualmente para el seguimiento de salud en casa?
+7.	Si tuviera un sistema que avisa automáticamente a su familia si se siente mal, ¿le daría más tranquilidad en su vida diaria?
 
 ### 5.3.2. Registro de Entrevistas
 
