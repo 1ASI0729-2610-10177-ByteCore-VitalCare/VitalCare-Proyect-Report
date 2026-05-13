@@ -273,6 +273,48 @@ Aquí se presentará el registro de commits de aplicación frontend durante el S
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
+Aquí se muestran las funciones desarrolladas para esta entrega, algunas funciones fueron descartadas como el IAM por ser un módulo que se hará para la siguiente sprint
+
+---
+
+### Vista Home
+
+<img src="assets/home-app-web.png" alt="Home app web"/>
+
+### Vista Pacientes
+
+<img src="assets/patients.png" alt="Patients app web"/>
+
+### Vista planes de suscripción
+
+<img src="assets/plans.png" alt="Plans app web"/>
+
+### Vista notificaciones
+
+<img src="assets/notifications.png" alt="Notifications app web"/>
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el desarrollo del frontend de la aplicación, se decidió emplear JSON Server como una API simulada, debido a que el backend aún no se encontraba implementado. Esta herramienta permitió recrear el comportamiento de un servidor real, atendiendo solicitudes HTTP como GET, POST, PUT y DELETE mediante el uso de un archivo db.json que actuaba como base de datos persistente. Gracias a ello, fue posible continuar con la construcción, validación y prueba de los componentes y servicios del frontend de forma eficiente, manteniendo además una arquitectura desacoplada y preparada para integrarse posteriormente con el backend definitivo.
+
+En este sprint, se documentaron y probaron distintos recursos utilizando JSON Server como fake API. Todos ellos soportan los métodos HTTP: GET, POST, PUT, PATCH, DELETE y OPTIONS.
+
+| Recurso           | Registros existentes en db.json | Métodos HTTP Disponibles               |
+|-------------------|---------------------------------|----------------------------------------|
+| /notifications    | 3                               | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+| /users            | 10                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+| /user_preferences | 10                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+| /subscriptions    | 10                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+| /patients         | 10                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+| /patches          | 10                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+| /vital_signs      | 10                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+| /alerts           | 10                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+| /support_tickets  | 10                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+| /locations        | 10                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
 En esta sección se mostrará la evidencia de ejecución de la primera versión de la aplicación web desplegada aen Vercel
 
 ---
@@ -289,27 +331,7 @@ En esta sección se mostrará la evidencia de ejecución de la primera versión 
 
 <img src="assets/evidence 3- sprint 2.png" alt="Deploy front 1"/>
 
-
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review
-
-Durante el desarrollo del frontend de la aplicación, se decidió emplear JSON Server como una API simulada, debido a que el backend aún no se encontraba implementado. Esta herramienta permitió recrear el comportamiento de un servidor real, atendiendo solicitudes HTTP como GET, POST, PUT y DELETE mediante el uso de un archivo db.json que actuaba como base de datos persistente. Gracias a ello, fue posible continuar con la construcción, validación y prueba de los componentes y servicios del frontend de forma eficiente, manteniendo además una arquitectura desacoplada y preparada para integrarse posteriormente con el backend definitivo.
-
-En este sprint, se documentaron y probaron distintos recursos utilizando JSON Server como fake API. Todos ellos soportan los métodos HTTP: GET, POST, PUT, PATCH, DELETE y OPTIONS.
-
-| Recurso           | Registros existentes en db.json | Métodos HTTP Disponibles               |
-|-------------------|--------------------------------|----------------------------------------|
-| /notifications    | 3                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
-| /users            | 10                             | GET, POST, PUT, PATCH, DELETE, OPTIONS |
-| /user_preferences | 10                             | GET, POST, PUT, PATCH, DELETE, OPTIONS |
-| /subscriptions    | 10                             | GET, POST, PUT, PATCH, DELETE, OPTIONS |
-| /patients         | 10                             | GET, POST, PUT, PATCH, DELETE, OPTIONS |
-| /patches          | 10                             | GET, POST, PUT, PATCH, DELETE, OPTIONS |
-| /vital_signs      | 10                             | GET, POST, PUT, PATCH, DELETE, OPTIONS |
-| /alerts           | 10                             | GET, POST, PUT, PATCH, DELETE, OPTIONS |
-| /support_tickets  | 10                             | GET, POST, PUT, PATCH, DELETE, OPTIONS |
-| /locations        | 10                             | GET, POST, PUT, PATCH, DELETE, OPTIONS |
-
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+Enlace: https://vitalcarefrontend.vercel.app/home
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 ---
