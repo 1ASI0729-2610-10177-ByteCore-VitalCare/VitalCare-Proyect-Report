@@ -385,6 +385,9 @@ realizado para el Sprint 3.
 #### 5.2.3.2. Aspect Leaders and Collaborators 
 
 #### 5.2.3.3. Sprint Backlog 3
+<img src="../assets/SprintBacklog3.png" alt="SprintBacklog" height="500" width="1000">
+
+Enlace de Trello: https://trello.com/b/y04JN7v0/vitalcare-sprint-3
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
