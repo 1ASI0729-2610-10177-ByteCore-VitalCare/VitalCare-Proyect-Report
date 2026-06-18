@@ -390,6 +390,20 @@ realizado para el Sprint 3.
 Enlace de Trello: https://trello.com/b/y04JN7v0/vitalcare-sprint-3
 
 #### 5.2.3.4. Development Evidence for Sprint Review
+Durante el Sprint 3, el equipo continuó el desarrollo de la aplicación web de VitalCare, incorporando funcionalidades relacionadas con IAM, autenticación, registro de usuarios, recuperación de contraseña, mejoras en el módulo de notificaciones y ajustes de navegación. Asimismo, se mantuvo el uso de GitHub como sistema de control de versiones, aplicando commits para evidenciar el avance incremental del producto.
+
+**Repository:** `1ASI0729-2610-10177-ByteCore-VitalCare/VitalCare-Frontend`
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `VitalCare-Frontend` | `master` | `83f9d04` | `redirect to login after registration` | Updated the registration flow so users return to the login page after creating an account instead of being automatically authenticated. | 13/06/2026 |
+| `VitalCare-Frontend` | `master` | `4d5e1d5` | `add registration page` | Added the user registration page with form validation and integration with the mock users API. | 13/06/2026 |
+| `VitalCare-Frontend` | `master` | `027c6dd` | `add login and password reset flow` | Implemented the IAM login flow, route protection, logout behavior and password reset page. | 08/06/2026 |
+| `VitalCare-Frontend` | `master` | `81f37b8` | `add login and password reset flow` | Added initial authentication components, services and route configuration for the IAM module. | 08/06/2026 |
+| `VitalCare-Frontend` | `master` | `f522df0` | `Update notification.service.ts` | Updated the notification service to support improvements in the notifications module. | 13/06/2026 |
+| `VitalCare-Frontend` | `master` | `cb4580c` | `Update notifications.css` | Updated the visual styling of the notifications view. | 13/06/2026 |
+| `VitalCare-Frontend` | `master` | `43edf18` | `Update notifications.html` | Updated the structure of the notifications interface. | 13/06/2026 |
+| `VitalCare-Frontend` | `master` | `d460379` | `Update notifications.ts` | Updated the TypeScript logic of the notifications view. | 13/06/2026 |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
