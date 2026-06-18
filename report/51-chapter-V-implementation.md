@@ -383,6 +383,19 @@ realizado para el Sprint 3.
 | Sum of Story Points | 52                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators 
+En esta sección se presenta la matriz de liderazgo y colaboración correspondiente al Sprint 3. Durante este sprint, el equipo enfocó sus esfuerzos en fortalecer la arquitectura de la solución, implementar funcionalidades pendientes del módulo IAM, avanzar en la documentación técnica y preparar evidencia de despliegue, validación y colaboración.
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend Web Services | IAM & Authentication | Frontend Integration | API Documentation | Deployment Evidence | Validation & Report |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Rioja Nuñez, Franco Diego | FrancoDiegoR | **L** | C | C | C | C | C |
+| Rocca Mariaca, Angel Mathias | MRMpro13 | C | C | C | **L** | C | C |
+| Huaman Gallardo, Bruno Aldair | BrunoHG10 | C | C | **L** | C | C | C |
+| Caisahuana Osores, Becker Junior | becker693 | C | C | C | C | **L** | C |
+| Bardales Tejada, Luis Alexis | AlexisBardales | C | **L** | C | C | C | **L** |
+
+**Leyenda:**  
+**L**: Líder del aspecto.  
+**C**: Colaborador del aspecto.
 
 #### 5.2.3.3. Sprint Backlog 3
 <img src="../assets/SprintBacklog3.png" alt="SprintBacklog" height="500" width="1000">
