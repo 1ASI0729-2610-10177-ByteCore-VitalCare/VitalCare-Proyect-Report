@@ -491,7 +491,44 @@ Bounded Context: Subscription
 Los planes de suscripción disponibles son: `FREE`, `SILVER` y `GOLD`, con estados posibles: `ACTIVE`, `EXPIRED`, `PENDING` y `CANCELED`.
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
-<img src="../assets/deployment.jpeg" alt="Deploy front 1" width="80%">
+
+Durante el Sprint 3, se realizó el despliegue completo del backend de VitalCare, incluyendo el Web Service desarrollado con Spring Boot y la base de datos MySQL en la nube. A continuación se describen las actividades y evidencias del proceso de despliegue.
+
+**1. Creación del Web Service en Render**
+
+Se configuró un nuevo Web Service en la plataforma **Render**, vinculando directamente el repositorio `1ASI0729-2610-10177-ByteCore-VitalCare/VitalCare-Backend` desde GitHub. La configuración incluyó:
+- **Nombre del servicio:** VitalCare-Backend
+- **Lenguaje/Runtime:** Docker (utilizando el Dockerfile del repositorio con build multi-stage)
+- **Branch de despliegue:** `master`
+- **Región:** Virginia (US East)
+- **Tipo de instancia:** Free (512 MB RAM, 0.1 CPU)
+- **Variables de entorno configuradas:** `SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, `SPRING_DATASOURCE_PASSWORD`, `SPRING_PROFILES_ACTIVE`, `AUTHORIZATION_JWT_EXPIRATION_DAYS` y `JWT_SECRET`
+
+<img src="../assets/Backend%20Deploy%20Render.jpg" alt="Configuración del Web Service en Render" width="80%">
+
+**2. Despliegue exitoso del Backend en Render**
+
+El servicio fue desplegado exitosamente el 19 de junio de 2026. Los logs de Render confirman que la aplicación Spring Boot inició correctamente con Tomcat en el puerto 10000, y que la plataforma VitalCare quedó disponible en la URL pública proporcionada por Render: `https://vitalcare-backend-7y66.onrender.com`.
+
+<img src="../assets/Backend%20Deploy%20Render%202.jpg" alt="Logs de despliegue exitoso del Backend en Render" width="80%">
+
+**3. Aprovisionamiento de la Base de Datos MySQL en Filess.io**
+
+Se provisionó una instancia de base de datos **MySQL v5.7.38** en la plataforma **Filess.io** bajo un plan compartido (Shared). La configuración de la base de datos es la siguiente:
+- **Región:** Mumbai (ind-1)
+- **Host:** `d9xqq3.h.filess.io`
+- **Puerto:** 3306
+- **Base de datos:** `vital_care_db_laborarehe`
+
+Esta base de datos es consumida por el Web Service desplegado en Render mediante las variables de entorno de conexión JDBC configuradas previamente.
+
+<img src="../assets/Database%20Deploy.jpg" alt="Configuración de la base de datos MySQL en Filess.io" width="80%">
+
+**4. Documentación Swagger UI del Web Service desplegado**
+
+Se verificó que la documentación interactiva de la API generada por **SpringDoc OpenAPI (Swagger UI)** se encuentra disponible y funcional. La interfaz muestra los tres controllers implementados: **Subscriptions** (3 endpoints), **authentication-controller** (2 endpoints) y **alerts-controller** (4 endpoints), junto con los schemas de los recursos (`CreateSubscriptionResource`, `SignUpResource`, `SignInResource`, `CreateAlertResource`, `SubscriptionResource`, `AlertResource`).
+
+<img src="../assets/deployment.jpeg" alt="Swagger UI de la API VitalCare desplegada" width="80%">
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
