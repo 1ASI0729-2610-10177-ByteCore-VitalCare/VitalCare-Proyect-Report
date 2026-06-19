@@ -445,6 +445,20 @@ Durante el Sprint 3, el equipo continuó el desarrollo de la aplicación web de 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 3, se logró la ejecución exitosa del backend de VitalCare, incluyendo el despliegue del Web Service con Spring Boot y la conexión con la base de datos MySQL en la nube. A continuación se presentan las evidencias de ejecución de los servicios desarrollados.
+
+**Configuración del Web Service en Render**
+
+Se configuró el servicio VitalCare-Backend en Render vinculando el repositorio de GitHub, seleccionando Docker como runtime, la rama `master` para el despliegue, la región Virginia (US East) y las variables de entorno necesarias para la conexión con la base de datos y la autenticación JWT.
+
+<img src="../assets/Backend%20Deploy%20Render.jpg" alt="Configuración del Web Service en Render" width="80%">
+
+**Base de datos MySQL en producción**
+
+Se evidencia la conexión exitosa del backend con la base de datos MySQL v5.7.38 alojada en Filess.io, la cual almacena los datos persistentes de los bounded contexts de IAM, Patients, Notifications y Subscription.
+
+<img src="../assets/Database%20Deploy.jpg" alt="Base de datos MySQL desplegada en Filess.io" width="80%">
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 3, se implementó el backend de VitalCare utilizando Spring Boot 3 con Java 21, siguiendo una arquitectura basada en Domain-Driven Design (DDD) con el patrón CQRS (Command Query Responsibility Segregation). El backend expone una API RESTful documentada mediante OpenAPI 3.0 (Swagger), integrada a través de la dependencia `springdoc-openapi-starter-webmvc-ui`. La documentación interactiva se encuentra disponible en la ruta `/swagger-ui/index.html` del servidor desplegado.
