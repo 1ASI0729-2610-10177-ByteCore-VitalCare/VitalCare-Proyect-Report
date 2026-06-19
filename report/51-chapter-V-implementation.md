@@ -558,6 +558,10 @@ En esta sección se evidencia la colaboración del equipo durante el Sprint 3 en
 
 ## 5.4. Video About-the-Product
 
+<img src="../assets/Video%20About-the-Product.jpeg" alt="Video About-the-Product" width="80%">
+
+https://drive.google.com/drive/folders/15zVA0dsw7pBi5k4IQ-m7jrKW1LOlW0Ao?usp=sharing
+
 ---
 
 # Conclusiones
