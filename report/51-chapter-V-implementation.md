@@ -422,8 +422,52 @@ Durante el Sprint 3, el equipo continuó el desarrollo de la aplicación web de 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 3, se implementó el backend de VitalCare utilizando Spring Boot 3 con Java 21, siguiendo una arquitectura basada en Domain-Driven Design (DDD) con el patrón CQRS (Command Query Responsibility Segregation). El backend expone una API RESTful documentada mediante OpenAPI 3.0 (Swagger), integrada a través de la dependencia `springdoc-openapi-starter-webmvc-ui`. La documentación interactiva se encuentra disponible en la ruta `/swagger-ui/index.html` del servidor desplegado.
+
+La API implementa autenticación basada en JWT (JSON Web Token) con esquema Bearer, y se organiza en cuatro bounded contexts principales: IAM (Identity and Access Management), Patients, Notifications y Subscription.
+
+A continuación se detallan los endpoints RESTful implementados y documentados:
+
+Bounded Context: IAM (Identity and Access Management)
+
+| Endpoint | Método HTTP | Descripción | Request Body | Response |
+| :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/authentication/sign-up` | `POST` | Registro de un nuevo usuario en la plataforma | `SignUpResource` (name, email, password) | `AuthenticatedUserResource` (id, name, email, token) |
+| `/api/v1/authentication/sign-in` | `POST` | Inicio de sesión con credenciales | `SignInResource` (email, password) | `AuthenticatedUserResource` (id, name, email, token) |
+
+Bounded Context: Patients
+
+El bounded context de Patients cuenta con la capa de dominio completamente implementada siguiendo DDD, incluyendo los aggregates, commands, queries, value objects y repositories. La capa de interfaces REST (controllers) se encuentra en desarrollo para los próximos sprints. A continuación se describen los modelos de dominio implementados:
+
+| Aggregate / Entity | Atributos principales | Commands | Queries |
+| :--- | :--- | :--- | :--- |
+| `Patient` | id, name, birthDate, gender (MALE/FEMALE/OTHER), photo, userId, patches | `CreatePatientCommand`, `UpdatePatientCommand`, `DeletePatientCommand` | `GetAllPatientsQuery`, `GetPatientByIdQuery`, `GetPatientsByUserIdQuery` |
+| `Patch` (Entity) | id, patchCode, linkedAt, status (ACTIVE/INACTIVE/LOW_BATTERY/ERROR) | `LinkPatchCommand`, `UpdatePatchCommand`, `UpdatePatchStatusCommand`, `DeletePatchCommand` | `GetAllPatchesQuery`, `GetPatchByIdQuery`, `GetPatchesByPatientIdQuery` |
+| `VitalSign` | id, recordedAt, glucoseLevel, lactateConcentration, alcoholLevel, ketones, bloodPressure, temperature, oxygenSaturation, sodiumPotassium, heartRate, cytokines, tCells, humidity, atmosphericPressure, airQuality, patchId | `RecordVitalSignCommand`, `UpdateVitalSignCommand`, `DeleteVitalSignCommand` | `GetAllVitalSignsQuery`, `GetVitalSignByIdQuery`, `GetVitalSignsByPatchIdQuery` |
+| `Location` | id, latitude, longitude, recordedAt, patchId | `RecordLocationCommand`, `UpdateLocationCommand`, `DeleteLocationCommand` | `GetAllLocationsQuery`, `GetLocationByIdQuery`, `GetLocationsByPatchIdQuery` |
+
+Bounded Context: Notifications
+
+| Endpoint | Método HTTP | Descripción | Request Body / Params | Response |
+| :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/alerts` | `GET` | Obtener todas las alertas (filtrable por `userId` o `patientId`) | Query params: `userId`, `patientId` (opcionales) | `List<AlertResource>` |
+| `/api/v1/alerts/{alertId}` | `GET` | Obtener una alerta por su ID | Path param: `alertId` | `AlertResource` (id, type, description, isRead, userId, patientId) |
+| `/api/v1/alerts` | `POST` | Crear una nueva alerta | `CreateAlertResource` (type: CRITICAL/WARNING/INFO, description, userId, patientId) | `AlertResource` |
+| `/api/v1/alerts/{alertId}/read` | `PATCH` | Marcar una alerta como leída | Path param: `alertId` | `AlertResource` |
+
+Bounded Context: Subscription
+
+| Endpoint | Método HTTP | Descripción | Request Body / Params | Response |
+| :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/subscriptions` | `POST` | Crear una nueva suscripción | `CreateSubscriptionResource` (userId, plan, price, startDate, endDate) | `SubscriptionResource` |
+| `/api/v1/subscriptions` | `GET` | Obtener todas las suscripciones | — | `List<SubscriptionResource>` (id, userId, plan, price, startDate, endDate, status) |
+| `/api/v1/subscriptions/user/{userId}` | `GET` | Obtener la suscripción activa de un usuario | Path param: `userId` | `SubscriptionResource` |
+
+Los planes de suscripción disponibles son: `FREE`, `SILVER` y `GOLD`, con estados posibles: `ACTIVE`, `EXPIRED`, `PENDING` y `CANCELED`.
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 <img src="../assets/deployment.jpeg" alt="Deploy front 1" width="80%">
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews
