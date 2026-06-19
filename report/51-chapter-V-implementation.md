@@ -403,7 +403,7 @@ En esta sección se presenta la matriz de liderazgo y colaboración correspondie
 Enlace de Trello: https://trello.com/b/y04JN7v0/vitalcare-sprint-3
 
 #### 5.2.3.4. Development Evidence for Sprint Review
-Durante el Sprint 3, el equipo continuó el desarrollo de la aplicación web de VitalCare, incorporando funcionalidades relacionadas con IAM, autenticación, registro de usuarios, recuperación de contraseña, mejoras en el módulo de notificaciones y ajustes de navegación. Asimismo, se mantuvo el uso de GitHub como sistema de control de versiones, aplicando commits para evidenciar el avance incremental del producto.
+Durante el Sprint 3, el equipo continuó el desarrollo de la aplicación web de VitalCare, incorporando funcionalidades relacionadas con IAM, autenticación, registro de usuarios, recuperación de contraseña, mejoras en el módulo de notificaciones y ajustes de navegación. Además, se implementó el backend del proyecto con Spring Boot, incluyendo los bounded contexts de IAM, Patients, Notifications y Subscription, junto con la configuración de seguridad JWT, despliegue con Docker y conexión a base de datos MySQL. Se mantuvo el uso de GitHub como sistema de control de versiones, aplicando commits para evidenciar el avance incremental del producto.
 
 **Repository:** `1ASI0729-2610-10177-ByteCore-VitalCare/VitalCare-Frontend`
 
@@ -417,6 +417,31 @@ Durante el Sprint 3, el equipo continuó el desarrollo de la aplicación web de 
 | `VitalCare-Frontend` | `master` | `cb4580c` | `Update notifications.css` | Updated the visual styling of the notifications view. | 13/06/2026 |
 | `VitalCare-Frontend` | `master` | `43edf18` | `Update notifications.html` | Updated the structure of the notifications interface. | 13/06/2026 |
 | `VitalCare-Frontend` | `master` | `d460379` | `Update notifications.ts` | Updated the TypeScript logic of the notifications view. | 13/06/2026 |
+
+**Repository:** `1ASI0729-2610-10177-ByteCore-VitalCare/VitalCare-Backend`
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `VitalCare-Backend` | `main` | `0f919e2` | `chore: initial commit` | Initial project setup with Spring Boot 3, Maven wrapper and base project structure. | 05/06/2026 |
+| `VitalCare-Backend` | `feature/iam` | `6090faf` | `feat(iam): add IAM bounded context domain layer` | Added User aggregate, SignIn/SignUp commands, queries and repository interfaces for the IAM bounded context. | 05/06/2026 |
+| `VitalCare-Backend` | `feature/patients` | `b98886b` | `feat(patients): add patients bounded context domain layer` | Added Patient aggregate, Patch entity, CreatePatient and LinkPatch commands, queries and repositories. | 05/06/2026 |
+| `VitalCare-Backend` | `feature/notifications` | `df3cda3` | `feat(notifications): add notifications bounded context domain layer` | Added Alert aggregate, CreateAlert and MarkAlertAsRead commands, queries and AlertRepository. | 05/06/2026 |
+| `VitalCare-Backend` | `feature/suscription` | `84a6c13` | `feat(suscription): add suscription bounded context domain layer` | Added Subscription aggregate, CreateSubscription command, queries and SubscriptionRepository. | 05/06/2026 |
+| `VitalCare-Backend` | `feature/patients` | `28f4d98` | `feat(patients): add vital signs and location to patients domain` | Added VitalSign and Location aggregates with their respective commands, queries and repositories. | 05/06/2026 |
+| `VitalCare-Backend` | `feature/patients` | `92e8e98` | `feat: add GetVitalSignByIdQuery and UpdateVitalSignCommand` | Implemented query and command for retrieving and updating individual vital sign records. | 13/06/2026 |
+| `VitalCare-Backend` | `feature/patients` | `8946b51` | `feat: add GetLocationByIdQuery and UpdateLocationCommand` | Implemented query and command for retrieving and updating individual location records. | 13/06/2026 |
+| `VitalCare-Backend` | `feature/patients` | `5f064ab` | `feat: add GetAllPatchesQuery and UpdatePatchCommand` | Added query to retrieve all patches and command to update patch information. | 13/06/2026 |
+| `VitalCare-Backend` | `feature/patients` | `f073f1f` | `feat: add deleteById() to all patient repositories` | Added delete operations to PatientRepository, PatchRepository, VitalSignRepository and LocationRepository. | 13/06/2026 |
+| `VitalCare-Backend` | `feature/notifications` | `b7c23f1` | `feat(notifications): add application, infrastructure and interfaces layers` | Implemented CQRS services, JPA persistence adapters and REST controller for the Notifications bounded context. | 13/06/2026 |
+| `VitalCare-Backend` | `main` | `4acf1f9` | `feat: add Dockerfile for Render deployment` | Added Dockerfile with multi-stage build for containerized deployment on Render platform. | 13/06/2026 |
+| `VitalCare-Backend` | `feature/iam` | `2fa6bd7` | `Add IAM authentication with JWT` | Implemented JWT-based authentication with Spring Security, BCrypt hashing and Bearer token service. | 15/06/2026 |
+| `VitalCare-Backend` | `feature/suscription` | `4d323e3` | `refactor(subscription): update domain aggregate mapping and repository signatures for JPA` | Refactored Subscription aggregate with JPA annotations and updated repository method signatures. | 17/06/2026 |
+| `VitalCare-Backend` | `feature/suscription` | `94b731b` | `feat(subscription): implement CQRS services and move interfaces to proper application packages` | Added SubscriptionCommandService and SubscriptionQueryService with their implementations. | 17/06/2026 |
+| `VitalCare-Backend` | `feature/suscription` | `e59cf3c` | `feat(subscription): expose REST controller endpoints and resources mapping for frontend integration` | Added SubscriptionsController with POST, GET all and GET by userId endpoints with Swagger annotations. | 17/06/2026 |
+| `VitalCare-Backend` | `main` | `705dec4` | `feat(iam): setup JPA entities and JWT authentication framework` | Configured JPA entities for User, SupportTicket and UserPreference, along with SecurityConfiguration and JWT filter. | 18/06/2026 |
+| `VitalCare-Backend` | `main` | `58fade3` | `config: enable CORS for frontend domains` | Configured CORS to allow requests from the Vercel-deployed frontend and localhost development environments. | 19/06/2026 |
+| `VitalCare-Backend` | `main` | `106776e` | `fix: consolidate CORS configuration into existing SecurityConfiguration with JWT filter` | Unified CORS and security configuration to resolve 403 Forbidden errors on cross-origin API requests. | 19/06/2026 |
+| `VitalCare-Backend` | `main` | `25d3466` | `fix: use single connection pool with no schema validation to stay under max_user_connections limit` | Optimized HikariCP connection pool settings for production MySQL database constraints. | 19/06/2026 |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
