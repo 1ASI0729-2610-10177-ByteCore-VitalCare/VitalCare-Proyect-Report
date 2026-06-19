@@ -76,6 +76,11 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
 
 <img src="assets/collabLanding.png" alt="Collab Landing Page"/>
 
+## Desarrollo de Frontend
+#### TB1:
+
+<img src="assets/collabFrontend.png"/>
+
 ---
 
 # Contenido
