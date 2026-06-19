@@ -691,7 +691,7 @@ Carlos es un profesional joven que vive con su madre adulta mayor quien ha sido 
 *"Es una herramienta muy útil. Si lograran que fuera más fácil entender qué hacer cuando aparece una alerta roja, sería perfecta. Mi mamá también debería poder ver sus datos para que sepa en qué anda"*
 
 **URL del Video de Entrevista:**
-- Microsoft Stream: `[ENLACE A INSERTAR - VIDEO ENTREVISTA SEGMENTO 1]`
+- Microsoft Stream: `https://drive.google.com/drive/folders/1cyaAT3_CKM-MST1pKgDv_ZHWaSb9po7d?usp=sharing`
 
 ---
 
@@ -784,7 +784,7 @@ Roberto es un adulto mayor que ha experimentado síntomas de riesgo en el pasado
 *"Es bueno para la salud. Pero enséñenme todo de nuevo con una persona hablando lentamente. Mi hijo no siempre va a estar aquí para ayudarme. Necesito poder hacerlo solo, pero más fácil"*
 
 **URL del Video de Entrevista:**
-- Microsoft Stream: `[ENLACE A INSERTAR - VIDEO ENTREVISTA SEGMENTO 2]`
+- Microsoft Stream: `https://drive.google.com/drive/folders/1yoXlMDlzRXFvT8SYbo94WLfpDHQtPZuJ?usp=sharing`
 
 ---
 
