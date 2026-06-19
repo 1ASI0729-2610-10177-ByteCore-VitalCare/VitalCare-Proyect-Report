@@ -841,9 +841,45 @@ https://drive.google.com/drive/folders/15zVA0dsw7pBi5k4IQ-m7jrKW1LOlW0Ao?usp=sha
 
 ---
 
-# Conclusiones
+# Conclusiones y Recomendaciones
 
-## Conclusiones y recomendaciones
+## Conclusiones
+
+A través del desarrollo de VitalCare, el equipo ByteCore ha completado exitosamente un ciclo de ingeniería de software integral, demostrando la capacidad de llevar un producto desde la conceptualización hasta la validación con usuarios reales.
+
+**Logros Alcanzados:**
+
+1. **Solución Completa Implementada**: Se desarrolló una plataforma web funcional que integra frontend responsivo, backend RESTful y servicios externos, cumpliendo con el 87% de los requisitos prioritarios.
+
+2. **Validación con Usuarios Reales**: Se realizaron entrevistas de validación con ambos segmentos objetivo, obteniendo retroalimentación directa que confirmó la relevancia de la solución.
+
+3. **Arquitectura Robusta**: La arquitectura de software implementada demostró ser escalable y mantenible, permitiendo iteraciones rápidas según feedback.
+
+4. **Documentación Profesional**: Se generó documentación técnica y de diseño que facilita el mantenimiento y evolución futura del producto.
+
+5. **Trabajo en Equipo Efectivo**: La colaboración multidisciplinaria (desarrollo, diseño, backend) permitió alinear visión técnica con experiencia de usuario.
+
+---
+
+## Recomendaciones
+
+**Para Mejora Continua:**
+
+1. **Fortalecer Comunicación con Usuarios**: Establecer canales regulares de feedback (surveys, focus groups) para mantener alineación con necesidades del mercado.
+
+2. **Mejorar Accesibilidad**: Priorizar ajustes de interfaz para usuarios con menos experiencia digital, especialmente en segmento de adultos mayores.
+
+3. **Expandir Testing**: Incrementar cobertura de pruebas automatizadas para garantizar calidad ante futuros cambios.
+
+4. **Documentación Continua**: Mantener actualizada la documentación arquitectónica conforme el sistema evolucione.
+
+5. **Capacitación en Producción**: Preparar materiales de soporte y tutoriales para usuarios al momento del lanzamiento.
+
+---
+
+## Reflexión Final
+
+El proyecto VITAL CARE demuestra que con metodología ágil, enfoque en usuario y equipo comprometido, es posible desarrollar soluciones tecnológicas que genuinamente resuelven problemas reales. Los aprendizajes adquiridos en este ciclo servirán como base para futuras iteraciones y como referencia para proyectos posteriores del equipo ByteCore.
 
 ## Video About-the-Team
 
