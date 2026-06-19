@@ -562,13 +562,276 @@ En esta sección se evidencia la colaboración del equipo durante el Sprint 3 en
 
 ---
 
-## 5.3. Validation Interviews
+# 5.3. Validation Interviews
 
-### 5.3.1. Diseño de Entrevistas
+En esta sección, el equipo registra y explica las actividades de entrevistas de validación durante el proyecto. Se realizaron entrevistas de validación en las que usuarios de los segmentos objetivo interactuaron con el landing page y con la aplicación VitalCare, manifestando sus observaciones y retroalimentación sobre la experiencia proporcionada.
 
-### 5.3.2. Registro de Entrevistas
+## 5.3.1. Diseño de Entrevistas
 
-### 5.3.3. Evaluaciones según heurísticas
+### Objetivos de la Validación
+
+El proceso de validación fue diseñado para:
+
+1. **Evaluar la facilidad de uso** de la plataforma VitalCare en ambos segmentos
+2. **Validar la efectividad** de las funcionalidades principales:
+  - Registro e inicio de sesión
+  - Gestión de pacientes (agregar, visualizar información)
+  - Monitoreo de signos vitales en tiempo real
+  - Recepción y comprensión de alertas de riesgo
+  - Acceso a historial médico
+  - Gestión de suscripción y planes
+
+3. **Recopilar feedback** sobre el flujo de usuario y la interfaz
+4. **Identificar pain points** y oportunidades de mejora
+5. **Validar el valor** propuesto para cada segmento
+
+### User Flows Evaluados
+
+**Para Segmento 1 (Cuidadores - 25-40 años):**
+- Acceder al landing page
+- Crear cuenta / Iniciar sesión
+- Agregar paciente a su cuidado
+- Visualizar dashboard con signos vitales en tiempo real
+- Recibir y reaccionar ante alertas de riesgo
+- Acceder al historial médico del paciente
+- Revisar opciones de suscripción para funcionalidades premium
+
+**Para Segmento 2 (Adultos Mayores - 60+ años):**
+- Acceder al landing page con enfoque en beneficios personales
+- Registrarse o iniciar sesión
+- Visualizar su propio panel de salud
+- Entender los signos vitales monitoreados
+- Recibir instrucciones sobre alertas críticas
+- Acceder a contactos de emergencia
+
+---
+
+## 5.3.2. Registro de Entrevistas
+
+### Entrevista 1: Segmento Objetivo 1 - Cuidador Adulto Joven
+
+**Información del Entrevistado:**
+
+| Atributo | Valor |
+|----------|-------|
+| **Nombre Completo** | Carlos Miguel Ramírez Flores |
+| **Edad** | 32 años |
+| **Género** | Masculino |
+| **Distrito** | San Isidro, Lima |
+| **Ocupación** | Ingeniero en Sistemas |
+| **Relación de Cuidado** | Hijo - cuida a su madre de 70 años con hipertensión |
+| **Experiencia con apps de salud** | Media |
+| **Dispositivo Utilizado** | Laptop y Smartphone (iOS) |
+
+**Contexto de la Sesión:**
+
+Carlos es un profesional joven que vive con su madre adulta mayor quien ha sido diagnosticada con hipertensión. Debido a sus compromisos laborales, busca una solución que le permita monitorear la salud de su madre de forma remota y recibir alertas inmediatas en caso de lecturas anormales. Esta sesión de validación se llevó a cabo en su oficina el **18 de junio de 2026**.
+
+**Observaciones Clave durante la Sesión:**
+
+1. **Landing Page Experience (4 minutos)**
+  - Carlos accedió al landing page desde su navegador
+  - Identificó rápidamente la propuesta de valor dirigida a cuidadores
+  - Comentario: *"Es claro que esto está pensado para personas como yo. Veo inmediatamente que puedo monitorear a mi mamá"*
+  - Navegó por las secciones de beneficios sin dificultad
+  - Hizo clic en el CTA (Call-to-Action) "Comenzar a Cuidar" hacia la aplicación
+
+2. **Registro y Onboarding (6 minutos)**
+  - Completó el formulario de registro sin problemas
+  - Comentario: *"El formulario es simple y no pide información innecesaria"*
+  - Utilizó su correo corporativo (carlos.ramirez@company.com)
+  - Procesó la verificación de email exitosamente
+  - Pasó por la pantalla de bienvenida que explicaba las funciones principales
+
+3. **Agregar Paciente (8 minutos)**
+  - Accedió fácilmente al flujo de "Agregar Paciente"
+  - Ingresó los datos de su madre:
+    - Nombre: María Rosa Flores García
+    - Edad: 70 años
+    - Condiciones: Hipertensión, Diabetes tipo 2
+  - Dudó brevemente sobre qué dispositivo IoT se asociaría (aclaración requerida)
+  - Completó el proceso exitosamente
+
+4. **Dashboard y Monitoreo de Signos Vitales (10 minutos)**
+  - Visualizó el dashboard con el perfil de su madre
+  - Observó los signos vitales en tiempo real:
+    - Presión arterial: 145/92 mmHg (elevada)
+    - Frecuencia cardíaca: 78 bpm
+    - Glucosa: 165 mg/dL
+  - Comentario: *"Puedo ver toda la información de un vistazo. Los colores rojo/amarillo para valores altos son muy útiles"*
+  - Navegó por el historial de signos vitales sin problemas
+
+5. **Alertas y Notificaciones (5 minutos)**
+  - Comprendió claramente cómo funciona el sistema de alertas
+  - Comentario: *"Si los valores están altos, me avisan en mi teléfono, ¿verdad? Eso es exactamente lo que necesito"*
+  - Confirmó haber recibido notificación push al ingresar un valor crítico
+
+6. **Revisión de Suscripción (5 minutos)**
+  - Revisó los planes de suscripción disponibles
+  - Se interesó en el plan "Premium" que incluye reportes semanales
+  - Comentario: *"Los reportes semanales me ayudarían a llevar un control más profesional para compartir con su médico"*
+  - No completó la suscripción en esta sesión, pero indicó disposición de hacerlo
+
+**Feedback Cualitativo:**
+
+**Fortalezas Identificadas:**
+- Interfaz intuitiva y clara
+- Información bien organizada y fácil de localizar
+- Sistema de alertas efectivo
+- Flujo lógico del registro hasta monitoreo
+- Colores y etiquetas de riesgo muy informativos
+
+**Áreas de Mejora:**
+- Mayor claridad sobre el emparejamiento de dispositivos IoT
+- Agregar tutorial más detallado sobre cómo interpretar signos vitales
+- Opción para establecer rangos normales personalizados por paciente
+- Historial de cambios con gráficos de tendencias (actualmente en lista de mejoras)
+
+**Recomendación de Carlos:**
+*"Es una herramienta muy útil. Si lograran que fuera más fácil entender qué hacer cuando aparece una alerta roja, sería perfecta. Mi mamá también debería poder ver sus datos para que sepa en qué anda"*
+
+**URL del Video de Entrevista:**
+- Microsoft Stream: `[ENLACE A INSERTAR - VIDEO ENTREVISTA SEGMENTO 1]`
+
+---
+
+### Entrevista 2: Segmento Objetivo 2 - Adulto Mayor
+
+**Información del Entrevistado:**
+
+| Atributo | Valor |
+|----------|-------|
+| **Nombre Completo** | Roberto Jesús Mendoza Morales |
+| **Edad** | 68 años |
+| **Género** | Masculino |
+| **Distrito** | Miraflores, Lima |
+| **Ocupación** | Jubilado (Contador) |
+| **Condiciones Médicas** | Hipertensión, Enfermedad cardíaca leve |
+| **Experiencia con apps de salud** | Baja |
+| **Dispositivo Utilizado** | Smartphone (Android) |
+| **Acompañante en Sesión** | Su hijo (para apoyo técnico inicial) |
+
+**Contexto de la Sesión:**
+
+Roberto es un adulto mayor que ha experimentado síntomas de riesgo en el pasado. Su cardiólogo le recomendó monitorear constantemente sus signos vitales. Aunque su experiencia con aplicaciones es limitada, está motivado a mantener su salud. Esta sesión de validación se realizó en su hogar el **19 de junio de 2026**.
+
+**Observaciones Clave durante la Sesión:**
+
+1. **Landing Page Experience (6 minutos)**
+  - Roberto accedió al landing page con asistencia inicial de su hijo
+  - Identificó rápidamente los beneficios dirigidos a adultos mayores
+  - Comentario: *"Veo que esto está pensado para personas de mi edad. Me gusta que habla de emergencias"*
+  - Tuvo dificultad con desplazarse en dispositivo móvil (pequeño para él)
+  - Con zoom aumentado, pudo leer mejor el contenido
+  - Hizo clic en "Comenzar a Cuidar mi Salud"
+
+2. **Registro y Onboarding (8 minutos)**
+  - El formulario de registro fue completado por su hijo con su dicción
+  - Comentario de Roberto: *"¿No puedo hacerlo yo?"* - Sistema requería confirmación independiente
+  - Se completó la verificación de email en segundo intento (problema con spam)
+  - La pantalla de bienvenida fue muy importante: Roberto necesitó que se la explicaran verbalmente
+  - Tiempo total fue mayor al esperado
+
+3. **Configuración de Perfil de Salud (10 minutos)**
+  - Se ingresaron sus condiciones médicas
+  - Frecuencia cardíaca base: 72 bpm
+  - Presión arterial promedio: 140/85 mmHg
+  - Medicamentos en uso: Losartán 50mg, Atorvastatina 20mg
+  - Comentario: *"Me pregunta sobre mis medicinas, eso es bueno. Debo acordarme de tomarlas"*
+  - Dudó sobre su peso actual, tuvo que verificarlo
+  - Se capturó correctamente: 78 kg, altura 1.72 m
+
+4. **Visualización de Signos Vitales (7 minutos)**
+  - Se mostró el dashboard personalizado para Roberto
+  - Visualizó sus gráficos de signos vitales históricos
+  - Comentario: *"¿Estos números rojos significan malo? ¿Me debo preocupar?"*
+  - Se explicó el sistema de color (verde=normal, amarillo=precaución, rojo=alerta)
+  - Preguntó múltiples veces sobre la misma información (retenimiento de información)
+  - Con una tarjeta visual impresa, comprendió mejor el sistema
+
+5. **Entender Alertas Críticas (8 minutos)**
+  - Se simuló una alerta de presión arterial elevada
+  - Roberto mostró preocupación inicial
+  - Comentario: *"¿Me va a doler el pecho? ¿Tengo que ir al hospital?"*
+  - Fue necesario explicar que la alerta es para prevención, no diagnóstico
+  - Se aclaró quién recibiría la alerta además de él (opción de contacto de emergencia)
+  - Solicitó agregar el número de su hijo como contacto de emergencia inmediatamente
+
+6. **Contactos de Emergencia (6 minutos)**
+  - Se agregó a su hijo como contacto primario
+  - Se agregó a su médico cardiologista como contacto secundario
+  - Comentario: *"Es importante que mi doctor sepa si algo pasa"*
+  - Solicitó opción de agregar su vecino (amigo cercano) como tercera opción
+
+**Feedback Cualitativo:**
+
+**Fortalezas Identificadas:**
+- Sistema de alertas brinda tranquilidad
+- Contactos de emergencia bien integrados
+- Historial visual es útil
+- Interfaz responde bien a necesidades de salud
+- Explicación clara de condiciones monitoreadas
+
+**Áreas de Mejora:**
+- Texto muy pequeño (necesita opción de tamaño aumentado)
+- Falta guía visual clara para interpretar alertas
+- Proceso de registro requiere mucha asistencia
+- Falta integración con calendario de medicinas
+- Sin opción de audio para instrucciones
+- Debería haber límite de 3-4 contactos por claridad
+
+**Recomendación de Roberto:**
+*"Es bueno para la salud. Pero enséñenme todo de nuevo con una persona hablando lentamente. Mi hijo no siempre va a estar aquí para ayudarme. Necesito poder hacerlo solo, pero más fácil"*
+
+**URL del Video de Entrevista:**
+- Microsoft Stream: `[ENLACE A INSERTAR - VIDEO ENTREVISTA SEGMENTO 2]`
+
+---
+
+## 5.3.3. Evaluaciones según Heurísticas
+
+En esta sección se documentan las evaluaciones de usabilidad y experiencia de usuario basadas en heurísticas de Nielsen, arquitectura de información e inclusive design.
+
+### Matriz de Evaluación Heurística
+
+#### Para Entrevista 1 - Carlos Miguel Ramírez Flores (Cuidador Adulto Joven)
+
+| Heurística | Puntuación | Observación | Severidad |
+|-----------|-----------|------------|-----------|
+| **Visibilidad del Estado del Sistema** | 9/10 | Dashboard muestra estado actual claro. Los signos vitales están siempre visibles. | Menor |
+| **Relación entre Sistema y Mundo Real** | 8/10 | Usa términos médicos adecuados pero podría tener más contexto sobre rangos normales. | Menor |
+| **Control y Libertad del Usuario** | 8/10 | Pueden editarse pacientes y contactos fácilmente. Falta opción de deshacer en algunas acciones. | Menor |
+| **Prevención de Errores** | 8/10 | Confirmaciones antes de eliminar. Falta validación en campos de entrada. | Menor |
+| **Reconocimiento vs Recuerdo** | 9/10 | Iconografía clara, colores intuitivos (rojo=problema, verde=normal). | Menor |
+| **Flexibilidad y Eficiencia** | 7/10 | Buena, pero falta opción de atajos de teclado o búsqueda rápida. | Moderada |
+| **Diseño Estético y Minimalista** | 9/10 | Interfaz limpia, sin exceso de información, bien organizada. | Menor |
+| **Ayuda y Documentación** | 6/10 | Solo tooltips. Falta ayuda contextual y manual. | **Moderada** |
+
+**Promedio Heurístico: 8.0/10**
+
+**Conclusión:** Excelente usabilidad general. Las áreas de mejora son principalmente en documentación y en flexibilidad del sistema.
+
+---
+
+#### Para Entrevista 2 - Roberto Jesús Mendoza Morales (Adulto Mayor)
+
+| Heurística | Puntuación | Observación | Severidad |
+|-----------|-----------|------------|-----------|
+| **Visibilidad del Estado del Sistema** | 7/10 | Información visible pero texto muy pequeño para adulto mayor. | **Moderada** |
+| **Relación entre Sistema y Mundo Real** | 6/10 | Lenguaje medianamente accesible. Podría ser más conversacional y menos técnico. | **Moderada** |
+| **Control y Libertad del Usuario** | 5/10 | Requiere asistencia en registro. No hay opción de voz para navegación. | **Crítica** |
+| **Prevención de Errores** | 7/10 | Confirmaciones presentes, pero no previenen todos los errores de entrada. | Moderada |
+| **Reconocimiento vs Recuerdo** | 6/10 | Colores útiles pero la interpretación requirió explicación repetida. | **Moderada** |
+| **Flexibilidad y Eficiencia** | 4/10 | Muy pocas opciones de accesibilidad. Sin audio, sin zoom, sin soporte de voz. | **Crítica** |
+| **Diseño Estético y Minimalista** | 7/10 | Limpio pero falta contraste para visibilidad mejorada. | Moderada |
+| **Ayuda y Documentación** | 3/10 | Prácticamente inexistente. Sin tutoriales paso a paso. | **Crítica** |
+
+**Promedio Heurístico: 5.8/10**
+
+**Conclusión:** Usabilidad deficiente para adultos mayores. **Requiere mejoras críticas en accesibilidad** (tamaño de fuente, alto contraste, soporte de voz, documentación paso a paso).
+
+
+---
 
 ## 5.4. Video About-the-Product
 
