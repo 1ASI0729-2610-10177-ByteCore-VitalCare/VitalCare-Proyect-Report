@@ -531,7 +531,23 @@ Se verificó que la documentación interactiva de la API generada por **SpringDo
 <img src="../assets/deployment.jpeg" alt="Swagger UI de la API VitalCare desplegada" width="80%">
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+Durante el Sprint 3, el equipo organizó el trabajo en torno a la implementación del backend, la integración con el frontend, la documentación de servicios y la preparación de evidencias para la entrega. La colaboración se realizó mediante GitHub, Trello y reuniones virtuales, manteniendo una división de responsabilidades por aspecto técnico.
 
+| Integrante | Rol principal durante el Sprint 3 | Aportes realizados | Evidencia |
+|---|---|---|---|
+| Rioja Nuñez, Franco Diego | Backend Web Services | Lideró la implementación de servicios backend, configuración de seguridad y despliegue. | Commits en `VitalCare-Backend` |
+| Rocca Mariaca, Angel Mathias | API Documentation | Apoyó la documentación de endpoints y revisión de Swagger/OpenAPI. | Capturas de Swagger y documentación |
+| Huaman Gallardo, Bruno Aldair | Frontend Integration | Apoyó la integración del frontend con los servicios backend y ajustes de navegación. | Commits en `VitalCare-Frontend` |
+| Caisahuana Osores, Becker Junior | Deployment Evidence | Preparó evidencias de despliegue, revisión de entorno y validación de acceso público. | Capturas de Render/Vercel |
+| Bardales Tejada, Luis Alexis | Validation & Report | Coordinó la documentación de validación, entrevistas y hallazgos del sprint. | Registro de entrevistas y reporte |
+
+**Insights del Sprint**
+
+- El uso de GitHub permitió registrar el avance incremental del backend y frontend mediante commits asociados a funcionalidades específicas.
+- La integración con JWT representó uno de los principales retos técnicos, especialmente por la configuración de CORS y la conexión entre frontend desplegado y backend.
+- La documentación con Swagger facilitó la revisión de servicios y permitió validar endpoints sin depender únicamente del frontend.
+- El equipo identificó que para los próximos sprints se debe reforzar la integración completa de Patients, Vital Signs y Locations mediante controllers REST.
+- La distribución por aspectos permitió que cada integrante asumiera liderazgo en una parte crítica del producto, manteniendo colaboración transversal.
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
