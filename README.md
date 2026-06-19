@@ -81,6 +81,16 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
 
 <img src="assets/collabFrontend.png"/>
 
+
+#### AV2:
+## Desarrollo de Backend
+
+<img src="assets/Desarrollo%20de%20Backend%20.jpeg"/>
+
+## Desarrollo de Frontend
+
+<img src="assets/Desarrollo%20de%20Frontend.jpeg">
+
 ---
 
 # Contenido
@@ -217,6 +227,6 @@ https://www.youtube.com/watch?v=8G71Ly59jJI
 | Entrega | Título           | Enlace |
 |---------|------------------|--------|
 | AV1 | Video expositivo |https://drive.google.com/drive/u/0/folders/1nZCNehZphhS1CCIH3H4GGSHjwF1umuln |
-| TB1 |                  | |
-| AV2 |                  | |
-| TB2 |                  | |
+| TB1 | Video expositivo                 |https://drive.google.com/drive/folders/12FXN3sjbLm0tETEGi1krfNRxIMchk2en |
+| AV2 |    Video expositivo              | |
+| TB2 |            Video expositivo      | |
