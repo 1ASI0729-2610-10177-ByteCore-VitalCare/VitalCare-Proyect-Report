@@ -532,6 +532,22 @@ Se verificó que la documentación interactiva de la API generada por **SpringDo
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
+En esta sección se evidencia la colaboración del equipo durante el Sprint 3 en el desarrollo del frontend, backend y reporte del proyecto VitalCare. Se presentan las contribuciones de cada miembro del equipo registradas en los repositorios de GitHub.
+
+### Repositorio: VitalCare-Proyect-Report
+
+<img src="../assets/Report%20Insight%20Sprint%203.png" alt="Contribuciones en el repositorio del reporte durante Sprint 3" width="80%">
+
+### Repositorio: VitalCare-Frontend
+
+<img src="../assets/Frontend%20Insight%20Sprint%203.png" alt="Contribuciones en el repositorio del frontend durante Sprint 3" width="80%">
+
+### Repositorio: VitalCare-Backend
+
+<img src="../assets/Backend%20Insight%20Sprint%203.png" alt="Contribuciones en el repositorio del backend durante Sprint 3" width="80%">
+
+---
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
