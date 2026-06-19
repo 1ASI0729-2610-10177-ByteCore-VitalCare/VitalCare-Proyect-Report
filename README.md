@@ -54,6 +54,20 @@
 | 1.07 | 22/04/2026 | Bardales Tejada, Luis Alexis | Redacción de entrevistas del Needfinding y sección de diseño móvil. |
 | 1.08 | 23/04/2026 | Rioja Nuñez, Franco Diego | Redacción del Capítulo V: Software Configuration Management y evidencias del Sprint 1. |
 | 1.09 | 23/04/2026 | Rioja Nuñez, Franco Diego | Revisión general del informe y cierre del AV1. |
+| 2.00 | 07/05/2026 | Rioja Nuñez, Franco Diego | Creación del Capítulo V: Evidencias del Sprint 2, development evidence, execution evidence y deployment evidence. |
+| 2.01 | 08/05/2026 | Bardales Tejada, Luis Alexis | Actualización de Service Documentation y Cloud Deployment Configuration para TB1. |
+| 2.02 | 09/05/2026 | Huaman Gallardo, Bruno Aldair | Redacción de Team Collaboration Insights durante Sprint 2 con evidencias de commits y analíticos de GitHub. |
+| 2.03 | 10/05/2026 | Caisahuana Osores, Becker Junior | Implementación y documentación de mejoras en API documentation y especificación de endpoints REST. |
+| 2.04 | 11/05/2026 | Rocca Mariaca, Angel Mathias | Actualización de UX/UI design según feedback de TB1, refinamiento de wireframes y prototipos. |
+| 2.05 | 12/05/2026 | Rioja Nuñez, Franco Diego | Revisión general del informe y cierre del TB1. Actualización de Project Report Collaboration Insights. |
+| 3.00 | 28/05/2026 | Rioja Nuñez, Franco Diego | Creación del Capítulo V: Evidencias del Sprint 3, Sprint 4 y versión final del ciclo de vida del proyecto. |
+| 3.01 | 29/05/2026 | Bardales Tejada, Luis Alexis | Incorporación de mejoras en arquitectura de software basadas en feedback de validación. Actualización de Component Diagrams. |
+| 3.02 | 30/05/2026 | Huaman Gallardo, Bruno Aldair | Redacción de Validation Interviews con diseño y registro de entrevistas de ambos segmentos objetivo. |
+| 3.03 | 31/05/2026 | Caisahuana Osores, Becker Junior | Documentación final de evaluaciones heurísticas y conclusiones de validación de requisitos funcionales. |
+| 3.04 | 01/06/2026 | Rocca Mariaca, Angel Mathias | Finalización de mockups y wireflows, documentación de decisiones de diseño final. Despliegue de versión productiva. |
+| 3.05 | 02/06/2026 | Rioja Nuñez, Franco Diego | Redacción de Conclusiones y Recomendaciones, integración de todos los capítulos y anexos finales. |
+| 3.06 | 03/06/2026 | Todos los integrantes | Grabación y edición de Video About-the-Team con testimonios de cada miembro del equipo. |
+| 3.07 | 04/06/2026 | Rioja Nuñez, Franco Diego | Revisión final integral del informe, validación de índices, enlaces y referencias. Actualización de Bibliography y Annexes. |
 
 ---
 
@@ -208,10 +222,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 |---------------------|---------------------|--------------|
 | Comunica oralmente con efectividad a diferentes rangos de audiencia. | Bardales Tejada, Luis Alexis <br> **AV1:** Participó en la exposición del proyecto explicando los artefactos de arquitectura de software (Context, Container y Component Diagrams) y los hallazgos del proceso de Needfinding ante el equipo y el docente. <br><br> Caisahuana Osores, Becker Junior <br> **AV1:** Expuso los User Stories, el Impact Mapping y el Product Backlog durante la presentación del Sprint 1, comunicando de forma clara las funcionalidades priorizadas para el producto. <br><br> Huaman Gallardo, Bruno Aldair <br> **AV1:** Presentó oralmente los resultados del proceso de Needfinding, incluyendo User Personas, User Task Matrix, Journey Maps y Empathy Maps, dirigiéndose tanto al equipo como al docente como audiencias. <br><br> Rioja Nuñez, Franco Diego <br> **AV1:** Lideró la presentación general del proyecto, exponiendo el Capítulo I (perfil de la startup, problemática, Lean UX Process y segmentos objetivo) y el Capítulo V (configuración de software y evidencias del Sprint 1). <br><br> Rocca Mariaca, Angel Mathias <br> **AV1:** Expuso el diseño UX/UI de la plataforma, presentando las decisiones de Style Guidelines, Information Architecture, wireframes, mockups y la Landing Page implementada ante el docente y compañeros. | El equipo demostró capacidad para comunicar oralmente los resultados del proyecto a diferentes audiencias, adaptando el nivel de detalle técnico según el contexto de la exposición. Cada integrante asumió la presentación de los artefactos que desarrolló, evidenciando dominio del contenido y coherencia en la comunicación del producto VITAL CARE. |
 | Comunica por escrito con efectividad a diferentes rangos de audiencia. | Bardales Tejada, Luis Alexis <br> **AV1:** Redactó la sección de Needfinding (User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping), documentando los hallazgos del análisis de usuarios de forma clara y estructurada en el informe. Adicionalmente elaboró los diagramas de arquitectura de software (Context, Container y Component Diagrams). <br><br> Caisahuana Osores, Becker Junior <br> **AV1:** Redactó los User Stories con criterios de aceptación en formato Gherkin, el Impact Mapping y el Product Backlog, asegurando que los requisitos del sistema quedaran documentados de forma precisa y comprensible para distintas audiencias. <br><br> Huaman Gallardo, Bruno Aldair <br> **AV1:** Documentó el proceso completo de Needfinding en el informe, redactando las fichas de User Persona, User Task Matrix, User Journey Maps y Empathy Maps con un lenguaje claro dirigido tanto a audiencias técnicas como no técnicas. <br><br> Rioja Nuñez, Franco Diego <br> **AV1:** Redactó el Capítulo I del informe (descripción de la startup ByteCore, antecedentes y problemática con técnica 5W+2H, Lean UX Process completo y segmentos objetivo) y el Capítulo V (Software Configuration Management y evidencias del Sprint 1), comunicando por escrito el proceso de ingeniería de forma estructurada. <br><br> Rocca Mariaca, Angel Mathias <br> **AV1:** Documentó el Capítulo IV del informe (Style Guidelines, Information Architecture, Landing Page UI Design y Web Applications UX/UI Design), redactando las decisiones de diseño de forma clara y sustentada para audiencias técnicas y no técnicas. Adicionalmente implementó y desplegó la Landing Page. | El equipo evidenció capacidad para comunicar por escrito los resultados y procesos de ingeniería de software de forma efectiva. La documentación del informe refleja un lenguaje técnico apropiado, una estructura coherente y una redacción orientada a distintas audiencias, desde el docente evaluador hasta potenciales usuarios del producto VITAL CARE. |
----
-
-
-# Bibliografía
 
 ---
 
@@ -228,5 +238,5 @@ https://www.youtube.com/watch?v=8G71Ly59jJI
 |---------|------------------|--------|
 | AV1 | Video expositivo |https://drive.google.com/drive/u/0/folders/1nZCNehZphhS1CCIH3H4GGSHjwF1umuln |
 | TB1 | Video expositivo                 |https://drive.google.com/drive/folders/12FXN3sjbLm0tETEGi1krfNRxIMchk2en |
-| AV2 |    Video expositivo              | |
+| AV2 |    Video expositivo              | https://drive.google.com/drive/folders/12L7r2QUOTuU8LNGT29PDVgPHP1RaQXQx?usp=sharing|
 | TB2 |            Video expositivo      | |
