@@ -562,6 +562,154 @@ En esta sección se evidencia la colaboración del equipo durante el Sprint 3 en
 
 ---
 
+## 5.2.4. Sprint 4
+Durante el Sprint 4 se consolidó la versión final de VitalCare para la entrega TB2. El trabajo se enfocó en completar la integración entre frontend y backend, ampliar la cobertura de endpoints REST, estabilizar la configuración de despliegue, mejorar la experiencia de usuario y cerrar las evidencias finales del proyecto.
+
+#### 5.2.4.1. Sprint Planning 4
+A continuación se presenta el resumen del Sprint Planning Meeting realizado para el Sprint 4.
+Sprint #	Sprint 4
+Sprint Planning Background	
+Date	2026-07-01
+Time	04:30 PM
+Location	Reunión virtual vía Google Meet
+Prepared By	Rioja Nuñez, Franco Diego
+Attendees	Bardales Tejada, Luis Alexis / Caisahuana Osores, Becker Junior / Huaman Gallardo, Bruno Aldair / Rioja Nuñez, Franco Diego / Rocca Mariaca, Angel Mathias
+Sprint 4 - 3 Review Summary	Sprint 3 permitió disponer de una primera versión funcional del backend, con autenticación, alertas, suscripciones y despliegue inicial. Sin embargo, aún era necesario completar endpoints de pacientes, preferencias, soporte y fortalecer la integración final con el frontend.
+Sprint 4 - 3 Retrospective Summary	El equipo identificó como principales oportunidades de mejora la estabilidad del despliegue, la documentación completa de servicios, la corrección de problemas de CORS, la persistencia de datos y la experiencia final de usuario.
+Sprint Goal & User Stories	
+Sprint 4 Goal	Our focus is on completing the final release of VitalCare by integrating the frontend with the backend RESTful API, stabilizing cloud deployment, expanding the API coverage for patients, alerts, subscriptions, preferences and support tickets, and preparing final validation and documentation evidence for TB2.
+Sprint 4 Velocity	55
+Sum of Story Points	55
+#### 5.2.4.2. Aspect Leaders and Collaborators
+En esta sección se presenta la matriz de liderazgo y colaboración correspondiente al Sprint 4. Cada integrante asumió responsabilidad sobre un aspecto final de la solución, manteniendo colaboración transversal para cerrar la versión final del proyecto.
+Team Member (Last Name, First Name)	GitHub Username	Backend Stabilization	Frontend Final Integration	API Documentation	Deployment & Cloud Evidence	Validation & Final Report
+Rioja Nuñez, Franco Diego	FrancoDiegoR	L	C	C	C	L
+Bardales Tejada, Luis Alexis	AlexisBardales	L	C	C	C	C
+Caisahuana Osores, Becker Junior	becker693	C	C	L	L	C
+Huaman Gallardo, Bruno Aldair	BrunoHG10	C	L	C	C	C
+Rocca Mariaca, Angel Mathias	MRMpro13	C	C	C	C	L
+
+Leyenda:
+L: Líder del aspecto.
+C: Colaborador del aspecto.
+#### 5.2.4.3. Sprint Backlog 4
+El Sprint Backlog 4 se organizó alrededor de historias de usuario y tareas técnicas necesarias para entregar una versión final integrada de VitalCare.
+Item	User Story / Task	Descripción	Responsable principal	Story Points	Estado
+1	US31 - User registration service	Completar registro de usuarios y respuesta de autenticación con datos requeridos por frontend.	Bardales Tejada, Luis Alexis	5	Done
+2	US32 - Authentication service	Estabilizar login, token JWT, permisos públicos y configuración de seguridad.	Bardales Tejada, Luis Alexis	5	Done
+3	US33 - Metrics service	Implementar endpoints de signos vitales para registro, consulta, actualización y eliminación.	Rioja Nuñez, Franco Diego	8	Done
+4	US34 - Metrics retrieval service	Exponer endpoints de historial de signos vitales, ubicaciones y parches.	Rioja Nuñez, Franco Diego	5	Done
+5	US36 - Patient listing service	Completar CRUD de pacientes y consumo desde frontend.	Rocca Mariaca, Angel Mathias	5	Done
+6	US37 - Alert service	Implementar endpoints de notificaciones, alertas y marcado de lectura.	Huaman Gallardo, Bruno Aldair	8	Done
+7	US38 - Profile update service	Agregar preferencias de usuario, perfil y soporte técnico.	Bardales Tejada, Luis Alexis	5	Done
+8	US39 - Subscription service	Permitir consulta, creación y actualización de planes de suscripción.	Caisahuana Osores, Becker Junior	5	Done
+9	Deployment task	Ajustar CORS, variables de entorno y despliegue final del backend y frontend.	Caisahuana Osores, Becker Junior	5	Done
+10	Documentation task	Actualizar reporte final TB2, conclusiones, bibliografía, anexos y evidencias.	Rioja Nuñez, Franco Diego	4	Done
+#### 5.2.4.4. Development Evidence for Sprint Review
+Durante el Sprint 4, el equipo cerró la implementación final del backend y realizó ajustes de integración para que la aplicación web consumiera los recursos requeridos por VitalCare. A continuación se presentan los commits más relevantes asociados al cierre del proyecto.
+Repository: 1ASI0729-2610-10177-ByteCore-VitalCare/VitalCare-Backend
+Repository	Branch	Commit Id	Commit Message	Commit Message Body	Committed on (Date)
+VitalCare-Backend	master	3cb1de9	feat(iam): add users and support tickets endpoints	Added REST endpoints for user lookup and support ticket registration.	2026-06
+VitalCare-Backend	master	bcb01f4	feat(iam): add user preferences endpoints	Added endpoints for managing accessibility and notification preferences.	2026-06
+VitalCare-Backend	master	b397c37	feat(patients): add patients, patches, vital signs and locations endpoints	Exposed CRUD endpoints for the Patients bounded context.	2026-06
+VitalCare-Backend	master	895d3ef	feat(notifications): add notifications endpoints	Added REST endpoints for notification listing, creation and deletion.	2026-06
+VitalCare-Backend	master	4be6726	fix(subscription): add user filter, plan update endpoint and auto-activate on creation	Improved subscription filtering and update behavior for frontend integration.	2026-06
+VitalCare-Backend	master	71cb577	fix(cors): allow all Vercel deployment origins including preview URLs	Updated CORS configuration to support deployed frontend environments.	2026-06
+VitalCare-Backend	master	147ef94	fix(patients): remove broken Patient-Patch mapping, enable ddl-auto update and permit /error	Stabilized persistence mappings and deployment behavior.	2026-06
+VitalCare-Backend	master	c15e92a	fix(subscription): add BASIC to SubscriptionPlan enum to allow downgrade to basic plan	Completed subscription plan compatibility for final flow.	2026-06
+VitalCare-Backend	master	ecd54c1	fix(iam): add DEFAULT, GREEN, YELLOW to BackgroundColor enum for preferences	Completed preference values required by frontend accessibility settings.	2026-06
+
+Repository: 1ASI0729-2610-10177-ByteCore-VitalCare/VitalCare-Frontend
+Repository	Branch	Commit Id	Commit Message	Commit Message Body	Committed on (Date)
+VitalCare-Frontend	master	103f50d	Final frontend update for TB2	Integrated profile, support, register, accessibility, notifications, patients, plans and final dashboard improvements.	2026-07
+VitalCare-Frontend	master	83f9d04	redirect to login after registration	Updated the registration flow so users return to login after account creation.	2026-06
+VitalCare-Frontend	master	4d5e1d5	add registration page	Added registration page with form validation and mock/API integration.	2026-06
+VitalCare-Frontend	master	027c6dd	add login and password reset flow	Implemented IAM login, route protection and password reset flow.	2026-06
+#### 5.2.4.5. Execution Evidence for Sprint Review
+En esta sección se resume la ejecución de la versión final de VitalCare. La aplicación web permite al usuario acceder mediante autenticación, visualizar el dashboard, gestionar pacientes, revisar signos vitales, consultar alertas, configurar preferencias, administrar planes de suscripción y enviar tickets de soporte.
+Flujo ejecutado	Evidencia funcional	Resultado
+Login y registro	Validación de credenciales, creación de cuenta y redirección al login.	Completado
+Dashboard principal	Visualización de KPIs, pacientes, suscripciones, alertas y estado general.	Completado
+Gestión de pacientes	Consulta, creación y actualización de pacientes asociados al usuario.	Completado
+Signos vitales y ubicación	Consulta de registros de signos vitales, parches y ubicaciones.	Completado
+Notificaciones y alertas	Listado de notificaciones, alertas críticas y actualización de lectura.	Completado
+Perfil y preferencias	Configuración de idioma, accesibilidad y preferencias visuales.	Completado
+Suscripciones	Consulta y actualización de planes de suscripción.	Completado
+Soporte	Registro de tickets de soporte desde la aplicación web.	Completado
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+Durante el Sprint 4 se completó y documentó una cobertura más amplia de endpoints RESTful en el backend de VitalCare. La documentación de servicios se mantiene mediante Swagger/OpenAPI y permite probar los recursos disponibles con datos de muestra.
+Repository: 1ASI0729-2610-10177-ByteCore-VitalCare/VitalCare-Backend
+Bounded Context	Endpoint	Método HTTP	Acción implementada	Parámetros / Body	Response esperado
+IAM	/api/v1/authentication/sign-up	POST	Registrar usuario	SignUpResource	AuthenticatedUserResource con token
+IAM	/api/v1/authentication/sign-in	POST	Iniciar sesión	SignInResource	AuthenticatedUserResource con token
+IAM	/api/v1/users/{userId}	GET	Obtener usuario por ID	Path param userId	UserResource
+IAM	/api/v1/user_preferences	GET	Listar preferencias de usuario	Query params opcionales	List<UserPreferenceResource>
+IAM	/api/v1/user_preferences	POST	Crear preferencias	CreateUserPreferenceResource	UserPreferenceResource
+IAM	/api/v1/support_tickets	GET	Listar tickets de soporte	Query params opcionales	List<SupportTicketResource>
+IAM	/api/v1/support_tickets	POST	Registrar ticket de soporte	CreateSupportTicketResource	SupportTicketResource
+Patients	/api/v1/patients	GET	Listar pacientes	Query params opcionales	List<PatientResource>
+Patients	/api/v1/patients/{id}	GET	Obtener paciente por ID	Path param id	PatientResource
+Patients	/api/v1/patients	POST	Crear paciente	CreatePatientResource	PatientResource
+Patients	/api/v1/patients/{id}	PUT	Actualizar paciente	Path param id, body de actualización	PatientResource
+Patients	/api/v1/patients/{id}	DELETE	Eliminar paciente	Path param id	HTTP status de eliminación
+Patients	/api/v1/patches	GET/POST	Consultar o registrar parches	Query params o body según acción	PatchResource
+Patients	/api/v1/vital_signs	GET/POST	Consultar o registrar signos vitales	Query params o body según acción	VitalSignResource
+Patients	/api/v1/locations	GET/POST	Consultar o registrar ubicaciones	Query params o body según acción	LocationResource
+Notifications	/api/v1/alerts	GET	Obtener alertas	Query params userId, patientId	List<AlertResource>
+Notifications	/api/v1/alerts/{alertId}	GET	Obtener alerta por ID	Path param alertId	AlertResource
+Notifications	/api/v1/alerts	POST	Crear alerta	CreateAlertResource	AlertResource
+Notifications	/api/v1/alerts/{alertId}/read	PATCH	Marcar alerta como leída	Path param alertId	AlertResource
+Notifications	/api/v1/notifications	GET	Listar notificaciones	Query params opcionales	List<NotificationResource>
+Notifications	/api/v1/notifications	POST	Crear notificación	CreateNotificationResource	NotificationResource
+Notifications	/api/v1/notifications/{id}	DELETE	Eliminar notificación	Path param id	HTTP status de eliminación
+Subscription	/api/v1/subscriptions	POST	Crear suscripción	CreateSubscriptionResource	SubscriptionResource
+Subscription	/api/v1/subscriptions	GET	Obtener suscripciones	Query param opcional userId	List<SubscriptionResource>
+Subscription	/api/v1/subscriptions/{id}	PATCH	Actualizar plan o estado	Path param id, body de actualización	SubscriptionResource
+
+Ejemplo de interacción documentada
+Acción	Ejemplo de llamada	Resultado esperado
+Registro	POST /api/v1/authentication/sign-up	Creación del usuario y retorno de token JWT.
+Consulta de pacientes	GET /api/v1/patients	Lista de pacientes registrados.
+Registro de signo vital	POST /api/v1/vital_signs	Persistencia de medición asociada a un parche.
+Actualización de suscripción	PATCH /api/v1/subscriptions/{id}	Cambio de plan o estado de suscripción.
+
+<img src="../assets/deployment.jpeg" alt="Swagger UI de VitalCare" width="80%">
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+Durante el Sprint 4 se estabilizó el despliegue final de los productos digitales de VitalCare. El frontend se mantiene desplegado en Vercel, mientras que el backend se ejecuta como Web Service en Render con conexión a una base de datos MySQL en la nube. La configuración final permitió validar la comunicación entre aplicación web, API RESTful y persistencia.
+Producto	Plataforma	URL / Recurso	Estado
+Landing Page	GitHub Pages	https://1asi0729-2610-10177-bytecore-vitalcare.github.io/VitalCare-Landing-Page/	Desplegado
+Frontend Web Application	Vercel	https://vitalcarefrontend.vercel.app/home	Desplegado
+Backend RESTful API	Render	https://vitalcare-backend-7y66.onrender.com	Desplegado
+API Documentation	Swagger UI	https://vitalcare-backend-7y66.onrender.com/swagger-ui/index.html	Disponible
+Database	Filess.io MySQL	vital_care_db_laborarehe	Aprovisionada
+
+Configuración de despliegue final
+El backend utiliza Spring Boot 3, Java 21 y Docker para facilitar el despliegue.
+Se configuraron variables de entorno para la conexión MySQL, JWT y perfil de ejecución.
+Se ajustó CORS para permitir el consumo desde dominios de Vercel.
+Se corrigieron restricciones de conexión para operar dentro de límites del proveedor de base de datos.
+Se validó Swagger UI como evidencia de documentación y disponibilidad de endpoints.
+<img src="../assets/Backend%20Deploy%20Render.jpg" alt="Configuración final del backend en Render" width="80%">
+
+<img src="../assets/Backend%20Deploy%20Render%202.jpg" alt="Logs de despliegue final del backend" width="80%">
+
+<img src="../assets/Database%20Deploy.jpg" alt="Base de datos MySQL en Filess.io" width="80%">
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+Durante el Sprint 4, la colaboración del equipo se concentró en el cierre de la versión final, corrección de errores, integración frontend-backend, despliegue y documentación TB2. Cada integrante participó en tareas de implementación o documentación, manteniendo trazabilidad mediante GitHub y comunicación continua en reuniones virtuales.
+Integrante	Contribución principal en Sprint 4	Evidencia
+Rioja Nuñez, Franco Diego	Coordinación del cierre TB2, documentación final y soporte en estabilización de backend.	Commits y actualizaciones en Project Report / Backend
+Bardales Tejada, Luis Alexis	Ajustes IAM, preferencias de usuario, soporte tickets y autenticación.	Commits 3cb1de9, bcb01f4, ecd54c1
+Caisahuana Osores, Becker Junior	Estabilización de suscripciones, despliegue y configuración cloud.	Commits 4be6726, c15e92a, evidencias de Render
+Huaman Gallardo, Bruno Aldair	Implementación y ajustes de notificaciones y alertas.	Commits 895d3ef, ajustes en frontend notifications
+Rocca Mariaca, Angel Mathias	Ajustes de Patients bounded context, vistas finales y evidencias visuales.	Commits b397c37, mejoras de vistas pacientes
+
+Insights del Sprint
+El equipo logró cerrar el ciclo completo de producto al integrar frontend, backend y servicios desplegados.
+La estabilización de CORS y variables de entorno fue clave para permitir la comunicación entre Vercel y Render.
+La ampliación de endpoints en Patients, Notifications, IAM y Subscription permitió reemplazar gradualmente el uso de datos simulados.
+La documentación final ayudó a dejar trazabilidad de decisiones técnicas, limitaciones y recomendaciones de mejora.
+Como aprendizaje, el equipo reconoce la necesidad de preparar despliegues cloud con mayor anticipación para reducir riesgos cercanos a la entrega final.
 # 5.3. Validation Interviews
 
 En esta sección, el equipo registra y explica las actividades de entrevistas de validación durante el proyecto. Se realizaron entrevistas de validación en las que usuarios de los segmentos objetivo interactuaron con el landing page y con la aplicación VitalCare, manifestando sus observaciones y retroalimentación sobre la experiencia proporcionada.
