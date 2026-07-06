@@ -614,6 +614,8 @@ El Sprint Backlog 4 se organizó alrededor de historias de usuario y tareas téc
 | 9 | Deployment task | Ajustar CORS, variables de entorno y despliegue final del backend y frontend. | Caisahuana Osores, Becker Junior | 5 | Done |
 | 10 | Documentation task | Actualizar reporte final TB2, conclusiones, bibliografía, anexos y evidencias. | Rioja Nuñez, Franco Diego | 4 | Done |
 
+Enlace de Trello: https://trello.com/b/QlITZUNa/vitalcare-sprint-4
+
 #### 5.2.4.4. Development Evidence for Sprint Review
 
 Durante el Sprint 4, el equipo cerró la implementación final del backend y realizó ajustes de integración para que la aplicación web consumiera los recursos requeridos por VitalCare. A continuación se presentan los commits más relevantes asociados al cierre del proyecto.
