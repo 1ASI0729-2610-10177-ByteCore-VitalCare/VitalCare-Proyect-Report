@@ -642,7 +642,6 @@ Durante el Sprint 4, el equipo cerró la implementación final del backend y rea
 | `VitalCare-Frontend` | `master` | `027c6dd` | `add login and password reset flow` | Implemented IAM login, route protection and password reset flow. | 2026-06 |
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
-#### 5.2.4.5. Execution Evidence for Sprint Review
 
 En esta sección se resume la ejecución de la versión final de VitalCare. La aplicación web permite al usuario acceder mediante autenticación, visualizar el dashboard, gestionar pacientes, revisar signos vitales, consultar alertas, configurar preferencias, administrar planes de suscripción y enviar tickets de soporte.
 
@@ -659,10 +658,19 @@ En esta sección se resume la ejecución de la versión final de VitalCare. La a
 
 **Evidencia de pantallas implementadas en la aplicación web**
 
-++++++++
+**Frontend**
+
+Se evidencia el despliegue exitoso del frontend en Vercel, mostrando la pantalla de inicio de sesión de VitalCare correctamente renderizada en el dominio de producción `vital-care-frontend.vercel.app`.
+
+<img src="../assets/deply_front_sprint4.jpeg" alt="Ejecución del frontend de VitalCare desplegado en Vercel" width="80%">
+
+**Backend**
+
+Se evidencia la ejecución exitosa del Web Service VitalCare-Backend en Render, con el despliegue en estado activo correspondiente al commit `ecd54c1`, disponible en la URL `https://vitalcare-backend-7y66.onrender.com`.
+
+<img src="../assets/deploy_back_sprint4.jpg" alt="Ejecución del backend de VitalCare desplegado en Render" width="80%">
 
 
-#### 5.2.4.6. Services Documentation Evidence for Sprint Review
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 4 se completó y documentó una cobertura más amplia de endpoints RESTful en el backend de VitalCare. La documentación de servicios se mantiene mediante Swagger/OpenAPI y permite probar los recursos disponibles con datos de muestra.
