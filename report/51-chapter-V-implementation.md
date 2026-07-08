@@ -762,6 +762,22 @@ Durante el Sprint 4, la colaboración del equipo se concentró en el cierre de l
 | Huaman Gallardo, Bruno Aldair | Implementación y ajustes de notificaciones y alertas. | Commits `895d3ef`, ajustes en frontend notifications |
 | Rocca Mariaca, Angel Mathias | Ajustes de Patients bounded context, vistas finales y evidencias visuales. | Commits `b397c37`, mejoras de vistas pacientes |
 
+## Desarrollo de Report
+
+<img src="assets/Colaboración%20Tb2%20Report.jpeg">
+
+## Desarrollo de Landing Page
+
+<img src="assets/Colaboración%20Tb2%20Landing.jpeg">
+
+## Desarrollo de Frontend
+
+<img src="assets/Colaboración%20Tb2%20Frontend.jpeg">
+
+## Desarrollo de Backend
+
+<img src="assets/Colaboración%20Tb2%20Backend.jpeg">
+
 **Insights del Sprint**
 
 - El equipo logró cerrar el ciclo completo de producto al integrar frontend, backend y servicios desplegados.

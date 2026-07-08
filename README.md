@@ -98,17 +98,20 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
 <img src="assets/collabReport.png"/>
 
 ## Desarrollo de Landing Page
+
 #### AV1:
 
 <img src="assets/collabLanding.png" alt="Collab Landing Page"/>
 
 ## Desarrollo de Frontend
+
 #### TB1:
 
 <img src="assets/collabFrontend.png"/>
 
 
 #### AV2:
+
 ## Desarrollo de Backend
 
 <img src="assets/Desarrollo%20de%20Backend%20.jpeg"/>
@@ -116,6 +119,25 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
 ## Desarrollo de Frontend
 
 <img src="assets/Desarrollo%20de%20Frontend.jpeg">
+
+#### TB2:
+
+## Desarrollo de Report
+
+<img src="assets/Colaboración%20Tb2%20Report.jpeg">
+
+## Desarrollo de Landing Page
+
+<img src="assets/Colaboración%20Tb2%20Landing.jpeg">
+
+## Desarrollo de Frontend
+
+<img src="assets/Colaboración%20Tb2%20Frontend.jpeg">
+
+## Desarrollo de Backend
+
+<img src="assets/Colaboración%20Tb2%20Backend.jpeg">
+
 
 ---
 
