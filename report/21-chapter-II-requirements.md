@@ -192,7 +192,7 @@ Segmento objetivo 2: Adultos mayores (60+) con enfermedades crónicas: El objeti
 | **Dificultades Principales** | Monitoreo manual e irregular (solo 2-3 veces por semana). La falta de registros precisos de presión arterial y frecuencia cardíaca dificulta que el médico brinde diagnósticos exactos en las consultas.                                 |
 | **Necesidad Tecnológica** | Valida totalmente una plataforma web con alertas automáticas. Busca "paz mental" mediante un sistema que le avise de anomalías sin depender de una acción manual de su abuela.                                                           |
 | **Perfil Técnico** | Usuario avanzado (Soporte de sistemas). Maneja Android y Windows. Navegador principal: Google Chrome.                                                                                                                                    |
-| **Evidencia visual** | <img src="../assets/Entrevista 3.jpeg" />                                                                                                                                                                                                   |
+| **Evidencia visual** | <img src="../assets/Entrevista Kevin.jpeg" />                                                                                                                                                                                                   |
 | **Pregunta 1: ¿Nivel de preocupación?** | Constante, especialmente en horas de trabajo. A veces le cuesta concentrarse pensando si su abuela tomó sus medicinas o si se siente bien.                                                                                               |
 | **Pregunta 2: ¿Cómo se entera de emergencias?** | Solo si ella lo llama. Reconoce que es un método arriesgado porque en una emergencia real ella podría no estar en condiciones de marcar.                                                                                                 |
 | **Pregunta 3: ¿Cómo monitorea la salud?** | Manualmente durante sus visitas (2 o 3 veces por semana) usando un tensiómetro casero.                                                                                                                                                   |
@@ -211,7 +211,7 @@ Segmento objetivo 2: Adultos mayores (60+) con enfermedades crónicas: El objeti
 | **Dificultades Principales** | Dificultad física para pedir ayuda (temblor en las manos durante crisis). No lleva un registro ordenado de signos vitales entre las consultas mensuales con su médico.                                           |
 | **Necesidad Tecnológica** | Aceptación de dispositivos IoT pasivos. Valora la autonomía y la paz mental que brindaría un sistema que avise automáticamente a su familia si detecta anomalías.                                                |
 | **Perfil Técnico** | Usuario de Android (Gama media). Uso frecuente de WhatsApp y YouTube. Navegador: Chrome (uso esporádico).                                                                                                        |
-| **Evidencia visual** | <img src="../assets/Entrevista4.jpeg" />                                                                                                                                                                            |
+| **Evidencia visual** | <img src="../assets/Entrevista Nelsida.jpeg" />                                                                                                                                                                            |
 | **Pregunta 1: ¿Se siente segura sola?** | No siempre. Los mareos y taquicardias la hacen dudar si llamar a alguien, prefiriendo no alarmar a su hija pero reconociendo el riesgo.                                                                          |
 | **Pregunta 2: ¿Olvida sus mediciones?** | Sí, frecuentemente olvida medirse la presión por estar ocupada con las tareas del hogar.                                                                                                                         |
 | **Pregunta 3: ¿Cómo monitorea su salud?** | Usa un tensiómetro de forma irregular y asiste a controles mensuales, pero no tiene un registro ordenado de sus signos.                                                                                          |
@@ -285,22 +285,22 @@ Esta sección detalla el ciclo completo de experiencia del usuario en la platafo
 
 1. User Journey: Jennedith Alaska (Cuidadora)
 
-<img src="../assets/User Journey Mapping.png" />
+<img src="../assets/Jennedith Alaska journey map.png" />
 
 2. User Journey: Nelsida Arnao (Paciente)
 
-<img src="../assets/User Journey Mapping2.png" />
+<img src="../assets/Nelsida Arnao journey map.png" />
 
 
 ### 2.3.4. Empathy Mapping
 
 User Cuidador
 
-<img src="../assets/Empathy map.png" />
+<img src="../assets/Jennedith Alaska Empathy map.png" />
 
 User Paciente
 
-<img src="../assets/Empathy map segmento 2.png" />
+<img src="../assets/Nelsida Arnao Empathy map.png" />
 
 ---
 
