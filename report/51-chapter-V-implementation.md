@@ -601,20 +601,29 @@ En esta sección se presenta la matriz de liderazgo y colaboración correspondie
 #### 5.2.4.3. Sprint Backlog 4
 El Sprint Backlog 4 se organizó alrededor de historias de usuario y tareas técnicas necesarias para entregar una versión final integrada de VitalCare.
 
-| Item | User Story / Task | Descripción | Responsable principal | Story Points | Estado |
-|---:|---|---|---|---:|---|
-| 1 | US31 - User registration service | Completar registro de usuarios y respuesta de autenticación con datos requeridos por frontend. | Bardales Tejada, Luis Alexis | 5 | Done |
-| 2 | US32 - Authentication service | Estabilizar login, token JWT, permisos públicos y configuración de seguridad. | Bardales Tejada, Luis Alexis | 5 | Done |
-| 3 | US33 - Metrics service | Implementar endpoints de signos vitales para registro, consulta, actualización y eliminación. | Rioja Nuñez, Franco Diego | 8 | Done |
-| 4 | US34 - Metrics retrieval service | Exponer endpoints de historial de signos vitales, ubicaciones y parches. | Rioja Nuñez, Franco Diego | 5 | Done |
-| 5 | US36 - Patient listing service | Completar CRUD de pacientes y consumo desde frontend. | Rocca Mariaca, Angel Mathias | 5 | Done |
-| 6 | US37 - Alert service | Implementar endpoints de notificaciones, alertas y marcado de lectura. | Huaman Gallardo, Bruno Aldair | 8 | Done |
-| 7 | US38 - Profile update service | Agregar preferencias de usuario, perfil y soporte técnico. | Bardales Tejada, Luis Alexis | 5 | Done |
-| 8 | US39 - Subscription service | Permitir consulta, creación y actualización de planes de suscripción. | Caisahuana Osores, Becker Junior | 5 | Done |
-| 9 | Deployment task | Ajustar CORS, variables de entorno y despliegue final del backend y frontend. | Caisahuana Osores, Becker Junior | 5 | Done |
-| 10 | Documentation task | Actualizar reporte final TB2, conclusiones, bibliografía, anexos y evidencias. | Rioja Nuñez, Franco Diego | 4 | Done |
+| Sprint # | Sprint 4 | | | | | | |
+|----------|----------|---|---|---|---|---|---|
+| **User Story / Objetivo** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US31 | User registration service | TS-EP23-001 | Implementar endpoint POST SignUp | Registro de nuevo usuario en el sistema | 3 | Angel Rocca | Done |
+| US31 | User registration service | TS-EP02-001 | Implementar endpoint POST Admins | Crear cuenta de administrador | 3 | Luis Bardales | Done |
+| US31 | User registration service | TS-EP11-001 | Implementar endpoint POST Operators | Crear cuenta de operador | 3 | Becker Caisahuana | Done |
+| US36 | Patient listing service | TS-EP01-001 | Implementar endpoint GET Admins | Listar administradores del sistema | 2 | Luis Bardales | Done |
+| US36 | Patient listing service | TS-EP22-001 | Implementar endpoint GET Users | Listar usuarios registrados | 2 | Bruno Huaman | Done |
+| US36 | Patient listing service | TS-EP07-001 | Implementar endpoint GET Establishments | Listar entidades/establecimientos | 3 | Luis Bardales | Done |
+| US38 | Profile update service | TS-EP25-001 | Implementar endpoint DELETE Users | Eliminar cuenta de usuario | 2 | Bruno Huaman | Done |
+| US38 | Profile update service | TS-EP13-001 | Implementar endpoint DELETE Operators | Eliminar cuenta de operador | 2 | Becker Caisahuana | Done |
+| US12 | View IoT synced metrics | TS-EP03-001 | Implementar endpoint GET Devices | Consultar estado de dispositivos IoT | 3 | Bruno Huaman | Done |
+| US35 | Linking service | TS-EP06-001 | Implementar endpoint DELETE Devices | Desvincular dispositivo | 2 | Bruno Huaman | Done |
+| US33 | Metrics service | TS-EP20-001 | Implementar endpoint PUT Transport Sensor Data | Actualizar datos de sensores en transporte | 4 | Franco Rioja | Done |
+| US13 | View patient location | TS-EP18-001 | Implementar endpoint GET Transports | Listar transportes monitoreados | 3 | Franco Rioja | Done |
+| US13 | View patient location | TS-EP19-001 | Implementar endpoint POST Transports | Registrar nuevo transporte | 3 | Franco Rioja | Done |
+| US13 | View patient location | TS-EP21-001 | Implementar endpoint DELETE Transports | Eliminar registro de transporte | 2 | Franco Rioja | Done |
+| US25 | Mark notifications read | TS-EP14-001 | Implementar endpoint PUT Alert Answered | Marcar alerta como atendida | 3 | Becker Caisahuana | Done |
+| US39 | Subscription service | TS-EP15-001 | Implementar endpoint GET Subscriptions | Listar suscripciones/planes | 2 | Angel Rocca | Done |
+| US30 | Cancel subscription | TS-EP17-001 | Implementar endpoint DELETE Subscriptions | Cancelar suscripción | 2 | Angel Rocca | Done |
 
-Enlace de Trello: https://trello.com/b/QlITZUNa/vitalcare-sprint-4
+Enlace de Trello: https://trello.com/invite/b/6a4aec825530c3b6ab9db1b7/ATTI2034d17571ccf6acbefeae2e9ecfb71e4BAC22E5/sprint-4
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
