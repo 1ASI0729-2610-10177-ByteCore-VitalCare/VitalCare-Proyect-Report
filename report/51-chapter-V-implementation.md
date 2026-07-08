@@ -1062,7 +1062,13 @@ En esta sección se documentan las evaluaciones de usabilidad y experiencia de u
 
 <img src="../assets/Video%20About-the-Product.jpeg" alt="Video About-the-Product" width="80%">
 
-https://drive.google.com/drive/folders/15zVA0dsw7pBi5k4IQ-m7jrKW1LOlW0Ao?usp=sharing
+https://youtu.be/cSYQo-_DKpY
+
+## Video About-the-Team
+
+<img src="../assets/aBOUT%20THE%20TEAM.jpeg" alt="Video About-the-Team" width="80%">
+
+https://www.youtube.com/watch?v=8unkTfZPr3k
 
 ---
 
@@ -1112,6 +1118,6 @@ A lo largo del desarrollo de VitalCare, el equipo ByteCore logró construir una 
 
 El proyecto VITAL CARE demuestra que con metodología ágil, enfoque en usuario y equipo comprometido, es posible desarrollar soluciones tecnológicas que genuinamente resuelven problemas reales. Los aprendizajes adquiridos en este ciclo servirán como base para futuras iteraciones y como referencia para proyectos posteriores del equipo ByteCore.
 
-## Video About-the-Team
+
 
 
