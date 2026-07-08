@@ -183,7 +183,7 @@ En esta sección se presenta la evidencia de la ejecución del Sprint 1, demostr
 
 <img src="../assets/Landing pAge EVIDENCE.png" height="500" width="1000">
 
-**Enlace del Landing Page:** [https://vitalcare.github.io/](https://1asi0729-2610-10177-bytecore-vitalcare.github.io/VitalCare-Landing-Page/)
+**Enlace del Landing Page:** [https://github.com/1ASI0729-2610-10177-ByteCore-VitalCare](https://1asi0729-2610-10177-bytecore-vitalcare.github.io/VitalCare-Landing-Page/)
 
 **Evidencia de Despliegue (GitHub Pages):**
 
@@ -349,7 +349,7 @@ En esta sección se mostrará la evidencia de ejecución de la primera versión 
 
 <img src="../assets/evidence 3- sprint 2.png" alt="Deploy front 1" height="500" width="1000">
 
-Enlace: https://vitalcarefrontend.vercel.app/home
+Enlace: https://vital-care-frontend.vercel.app/login
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -739,7 +739,7 @@ Durante el Sprint 4 se estabilizó el despliegue final de los productos digitale
 | Producto | Plataforma | URL / Recurso | Estado |
 |---|---|---|---|
 | Landing Page | GitHub Pages | `https://1asi0729-2610-10177-bytecore-vitalcare.github.io/VitalCare-Landing-Page/` | Desplegado |
-| Frontend Web Application | Vercel | `https://vitalcarefrontend.vercel.app/home` | Desplegado |
+| Frontend Web Application | Vercel | `https://vital-care-frontend.vercel.app/login` | Desplegado |
 | Backend RESTful API | Render | `https://vitalcare-backend-7y66.onrender.com` | Desplegado |
 | API Documentation | Swagger UI | `https://vitalcare-backend-7y66.onrender.com/swagger-ui/index.html` | Disponible |
 | Database | Filess.io MySQL | `vital_care_db_laborarehe` | Aprovisionada |
