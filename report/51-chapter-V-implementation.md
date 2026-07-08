@@ -601,6 +601,9 @@ En esta sección se presenta la matriz de liderazgo y colaboración correspondie
 #### 5.2.4.3. Sprint Backlog 4
 El Sprint Backlog 4 se organizó alrededor de historias de usuario y tareas técnicas necesarias para entregar una versión final integrada de VitalCare.
 
+<img src="../assets/Sprint%204%20Trello.png" alt="Trello del cuarto Sprint" width="80%">
+
+
 | Sprint # | Sprint 4 | | | | | | |
 |----------|----------|---|---|---|---|---|---|
 | **User Story / Objetivo** | | **Work-Item / Task** | | | | | |
@@ -622,6 +625,8 @@ El Sprint Backlog 4 se organizó alrededor de historias de usuario y tareas téc
 | US25 | Mark notifications read | TS-EP14-001 | Implementar endpoint PUT Alert Answered | Marcar alerta como atendida | 3 | Becker Caisahuana | Done |
 | US39 | Subscription service | TS-EP15-001 | Implementar endpoint GET Subscriptions | Listar suscripciones/planes | 2 | Angel Rocca | Done |
 | US30 | Cancel subscription | TS-EP17-001 | Implementar endpoint DELETE Subscriptions | Cancelar suscripción | 2 | Angel Rocca | Done |
+
+
 
 Enlace de Trello: https://trello.com/invite/b/6a4aec825530c3b6ab9db1b7/ATTI2034d17571ccf6acbefeae2e9ecfb71e4BAC22E5/sprint-4
 
