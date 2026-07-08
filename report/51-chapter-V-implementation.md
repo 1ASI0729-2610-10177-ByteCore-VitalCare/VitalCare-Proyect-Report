@@ -183,7 +183,7 @@ En esta sección se presenta la evidencia de la ejecución del Sprint 1, demostr
 
 <img src="../assets/Landing pAge EVIDENCE.png" height="500" width="1000">
 
-**Enlace del Landing Page:** [https://github.com/1ASI0729-2610-10177-ByteCore-VitalCare](https://1asi0729-2610-10177-bytecore-vitalcare.github.io/VitalCare-Landing-Page/)
+**Enlace del Landing Page:** [https://1asi0729-2610-10177-bytecore-vitalcare.github.io/VitalCare-Landing-Page/](https://1asi0729-2610-10177-bytecore-vitalcare.github.io/VitalCare-Landing-Page/)
 
 **Evidencia de Despliegue (GitHub Pages):**
 
