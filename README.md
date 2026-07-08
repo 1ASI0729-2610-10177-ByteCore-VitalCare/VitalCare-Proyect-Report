@@ -1,45 +1,50 @@
 <div align="center">
 
-<img src="assets/upc_logo.png" alt="UPC Logo" width="300"/>
+<img src="assets/upc_logo.png" alt="UPC Logo" width="120"/>
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+Universidad Peruana de Ciencias Aplicadas
 
-### Carrera: Ingeniería de Software
+Carrera de Ingeniería de Software
 
-### Periodo: 2026-10
+<strong>1ASI0729</strong>
 
-### Nombre del curso: Desarrollo de Aplicaciones Open Source (1ASI0729)
+<strong>Desarrollo de Aplicaciones Open Source</strong>
 
-### NRC: 10177
+NRC
 
-### Nombre del profesor: Mori Paiva, Hugo Allan
+<strong>10177</strong>
 
-## Informe de Trabajo Final
+<strong>Informe del Trabajo Final</strong>
 
-## Nombre del startup: ByteCore
+Docente
 
-## Nombre del producto: VITAL CARE
+<strong>Mori Paiva, Hugo Allan</strong>
 
-### Relación de integrantes:
+Equipo
 
-<div style="text-align: center;">
+<strong>ByteCore</strong>
 
-| Apellidos y Nombres | Código de Alumno |
-|:-------------------:|:----------------:|
-| Bardales Tejada, Luis Alexis |    u201819276    |
-| Caisahuana Osores, Becker Junior |    U202419462    |
-| Huaman Gallardo, Bruno Aldair |         U202117762         |
-| Rioja Nuñez, Franco Diego |    U202221597    |
-| Rocca Mariaca, Angel Mathias |    u20231e515    |
+Proyecto
+
+<strong>VITAL CARE</strong>
+
+<strong>Integrantes</strong>
+
+| Código | Apellidos y Nombres |
+|:------:|:-------------------:|
+| u201819276 | Bardales Tejada, Luis Alexis |
+| U202419462 | Caisahuana Osores, Becker Junior |
+| U202117762 | Huaman Gallardo, Bruno Aldair |
+| U202221597 | Rioja Nuñez, Franco Diego |
+| u20231e515 | Rocca Mariaca, Angel Mathias |
+
+<strong>Período 202610</strong>
+
+<strong>Julio 2026</strong>
+
+<div style="page-break-after: always;"></div>
 
 </div>
-
-### Abril, 2026
-
----
-
-</div>
-
 # Registro de Versiones del Informe
 
 | Versión | Fecha | Autor(es) | Descripción de cambios |
