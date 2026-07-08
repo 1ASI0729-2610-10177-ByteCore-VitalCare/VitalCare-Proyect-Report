@@ -1040,19 +1040,25 @@ https://drive.google.com/drive/folders/15zVA0dsw7pBi5k4IQ-m7jrKW1LOlW0Ao?usp=sha
 
 ## Conclusiones
 
-A través del desarrollo de VitalCare, el equipo ByteCore ha completado exitosamente un ciclo de ingeniería de software integral, demostrando la capacidad de llevar un producto desde la conceptualización hasta la validación con usuarios reales.
+A lo largo del desarrollo de VitalCare, el equipo ByteCore logró construir una solución web integral orientada al monitoreo remoto de salud para adultos mayores y personas bajo cuidado familiar. El proyecto permitió recorrer todas las etapas del ciclo de vida del software: análisis del problema, investigación de usuarios, definición de requisitos, diseño UX/UI, arquitectura, implementación, validación y despliegue final.
 
 **Logros Alcanzados:**
 
-1. **Solución Completa Implementada**: Se desarrolló una plataforma web funcional que integra frontend responsivo, backend RESTful y servicios externos, cumpliendo con el 87% de los requisitos prioritarios.
+1. **Comprensión del problema y usuarios objetivo:** Mediante el proceso de investigación, entrevistas, User Personas, Journey Maps y Empathy Maps, se identificaron necesidades reales relacionadas con la preocupación de los cuidadores, la falta de monitoreo constante y la necesidad de alertas oportunas ante situaciones de riesgo.
 
-2. **Validación con Usuarios Reales**: Se realizaron entrevistas de validación con ambos segmentos objetivo, obteniendo retroalimentación directa que confirmó la relevancia de la solución.
+2. **Diseño de una solución alineada al usuario:** Se diseñó una experiencia web coherente entre landing page y aplicación, considerando la claridad visual, navegación simple, presentación de beneficios, flujos de autenticación, gestión de pacientes, monitoreo de signos vitales, notificaciones y planes de suscripción.
 
-3. **Arquitectura Robusta**: La arquitectura de software implementada demostró ser escalable y mantenible, permitiendo iteraciones rápidas según feedback.
+3. **Implementación progresiva del producto:** A través de los sprints, el equipo desarrolló primero la landing page, luego la aplicación frontend y finalmente el backend RESTful. Esta evolución permitió pasar de una propuesta visual e informativa a una plataforma funcional con integración entre frontend, backend y base de datos.
 
-4. **Documentación Profesional**: Se generó documentación técnica y de diseño que facilita el mantenimiento y evolución futura del producto.
+4. **Backend y servicios propios:** Se implementó un backend con Spring Boot, aplicando principios de arquitectura por bounded contexts, DDD y CQRS. Los servicios desarrollados cubren autenticación, usuarios, pacientes, parches, signos vitales, ubicaciones, alertas, notificaciones, preferencias, soporte y suscripciones.
 
-5. **Trabajo en Equipo Efectivo**: La colaboración multidisciplinaria (desarrollo, diseño, backend) permitió alinear visión técnica con experiencia de usuario.
+5. **Despliegue y disponibilidad de la solución:** Se logró desplegar los productos digitales principales en entornos cloud, incluyendo landing page, frontend web, backend y base de datos. Esto permitió validar la solución fuera del entorno local y demostrar su disponibilidad para usuarios y evaluadores.
+
+6. **Validación del valor de VitalCare:** Las entrevistas de validación y evaluaciones heurísticas confirmaron que la propuesta aporta valor a cuidadores y adultos mayores, especialmente al brindar mayor tranquilidad, acceso a información de salud y alertas preventivas. Asimismo, permitieron identificar mejoras necesarias en accesibilidad, claridad de alertas y soporte para usuarios con menor experiencia digital.
+
+7. **Trabajo colaborativo y aprendizaje técnico:** El proyecto fortaleció las competencias del equipo en gestión ágil, control de versiones, documentación técnica, diseño centrado en el usuario, integración frontend-backend, despliegue cloud y comunicación efectiva de resultados. Cada integrante asumió responsabilidades en distintas etapas del desarrollo, contribuyendo al cierre completo del producto.
+
+8. **Resultado final del proyecto:** VitalCare representa una solución viable y escalable para apoyar el cuidado remoto de la salud. Aunque todavía existen oportunidades de mejora, el trabajo final demuestra que el equipo logró transformar una problemática real en un producto digital funcional, documentado, validado y desplegado.
 
 ---
 
