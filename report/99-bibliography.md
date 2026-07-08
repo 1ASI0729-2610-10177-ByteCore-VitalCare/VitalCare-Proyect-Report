@@ -28,5 +28,5 @@ Recopilación de entrevistas:
 | AV1 | Video expositivo | https://drive.google.com/drive/folders/1nZCNehZphhS1CCIH3H4GGSHjwF1umuln?usp=sharing |
 | TB1 | Video expositivo | https://drive.google.com/drive/folders/12FXN3sjbLm0tETEGi1krfNRxIMchk2en             |
 | AV2 | Video expositivo | https://drive.google.com/drive/folders/12L7r2QUOTuU8LNGT29PDVgPHP1RaQXQx?usp=sharing |
-| TB2 | Video expositivo | https://drive.google.com/file/d/1PmksUhQTwBAGvimFEcFlsvhBY16MiHeq/view?usp=sharing   |
+| TB2 | Video expositivo | https://drive.google.com/file/d/18f_2ZA4tae-UpJ0DfP8ou0VCYJLzj339/view?usp=sharing   |
 
