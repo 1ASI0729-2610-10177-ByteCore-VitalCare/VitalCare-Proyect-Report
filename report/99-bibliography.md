@@ -1,6 +1,6 @@
 # Bibliografía
 
-## Referencias bibliográficas (APA 7)
+## Referencias bibliográficas
 
 Instituto Nacional de Estadística e Informática. (2025). *Situación de la población adulta mayor: II trimestre 2025*. https://www.gob.pe/institucion/inei/informes-publicaciones/7225980-situacion-de-la-poblacion-adulta-mayor-ii-trimestre-2025
 
