@@ -659,6 +659,8 @@ Durante el Sprint 4, el equipo cerró la implementación final del backend y rea
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
+Link Organización de GitHub: https://github.com/1ASI0729-2610-10177-ByteCore-VitalCare
+
 En esta sección se resume la ejecución de la versión final de VitalCare. La aplicación web permite al usuario acceder mediante autenticación, visualizar el dashboard, gestionar pacientes, revisar signos vitales, consultar alertas, configurar preferencias, administrar planes de suscripción y enviar tickets de soporte.
 
 | Flujo ejecutado | Evidencia funcional | Resultado |
