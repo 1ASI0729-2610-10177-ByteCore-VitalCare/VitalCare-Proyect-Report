@@ -766,19 +766,19 @@ Durante el Sprint 4, la colaboración del equipo se concentró en el cierre de l
 
 ## Desarrollo de Report
 
-<img src="assets/Colaboración%20Tb2%20Report.jpeg">
+<img src="../assets/Colaboración%20Tb2%20Report.jpeg">
 
 ## Desarrollo de Landing Page
 
-<img src="assets/Colaboración%20Tb2%20Landing.jpeg">
+<img src="../assets/Colaboración%20Tb2%20Landing.jpeg">
 
 ## Desarrollo de Frontend
 
-<img src="assets/Colaboración%20Tb2%20Frontend.jpeg">
+<img src="../assets/Colaboración%20Tb2%20Frontend.jpeg">
 
 ## Desarrollo de Backend
 
-<img src="assets/Colaboración%20Tb2%20Backend.jpeg">
+<img src="../assets/Colaboración%20Tb2%20Backend.jpeg">
 
 **Insights del Sprint**
 
