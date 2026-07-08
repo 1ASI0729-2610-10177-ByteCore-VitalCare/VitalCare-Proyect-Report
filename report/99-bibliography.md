@@ -11,7 +11,10 @@ Recopilación de entrevistas:
 
 ## Videos de Exposiciones
 
-| Entrega | Título          | Enlace                                                                                |
-|---------|-----------------|---------------------------------------------------------------------------------------|
-| AV1 | Exposisción Av1 | https://drive.google.com/drive/folders/1nZCNehZphhS1CCIH3H4GGSHjwF1umuln?usp=sharing  |
+| Entrega | Título | Enlace |
+|---------|--------|--------|
+| AV1 | Video expositivo | https://drive.google.com/drive/folders/1nZCNehZphhS1CCIH3H4GGSHjwF1umuln?usp=sharing |
+| TB1 | Video expositivo | https://drive.google.com/drive/folders/12FXN3sjbLm0tETEGi1krfNRxIMchk2en |
+| AV2 | Video expositivo | https://drive.google.com/drive/folders/12L7r2QUOTuU8LNGT29PDVgPHP1RaQXQx?usp=sharing |
+| TB2 | Video expositivo | |
 

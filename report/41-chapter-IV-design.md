@@ -34,7 +34,7 @@ Para la tipografía de VITALCARE se ha elegido fuentes que transmiten profesiona
 ### 4.1.2. Web Style Guidelines
 Se han establecido las siguientes pautas de estilo para el diseño web de VITALCARE, con el objetivo de garantizar una experiencia de usuario coherente, accesible y atractiva:
 
-<img src="../assets/componentes.png alt="VITALCARE components">
+<img src="../assets/Componentes.png" alt="VITALCARE components">
 
 Además, contará con un diseño web responsivo, en la cual se podrá adaptar sin problemas a cualquier dispositivo, desde dispositivos moviles hasta monitores de escritorio. Enfocandose en ofrecer una experiencia de usuario intuitiva y consistente, permitiendo a los usuarios desplazarse facilmente por la plataforma.
 
@@ -230,7 +230,7 @@ elaborado en Figma:
 
 **Enlace al prototipo en Figma:** https://www.figma.com/proto/BM5fD06xKLQX4tDp0Ugjmf/WEB-APPLICATION?node-id=41-354&p=f&t=Wytqjk5UsGVr6Ht2-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=41%3A354&show-proto-sidebar=1
 
-**Video de navegación del prototipo:** [2026-04-23 22-12-20.mp4](../../../../Videos/2026-04-23%2022-12-20.mp4)
+**Video de navegación del prototipo:** [Ver video](https://drive.google.com/file/d/13iRAu9tn4Two-_69KS40m4bla4ehSvoh/view?usp=sharing)
 
 ---
 
